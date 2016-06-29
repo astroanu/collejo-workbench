@@ -15,7 +15,9 @@
             "database"
         ],
         "psr-4": {
-            "Collejo\\Modules\\": "modules"
+            "Collejo\\Modules\\": "modules",
+            "Collejo\\App\\": "workbench/collejo/app/src",
+            "Collejo\\Core\\": "workbench/collejo/core/src"
         }
     },
     "scripts": {
