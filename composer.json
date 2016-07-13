@@ -6,7 +6,20 @@
     "license": "MIT",
     "type": "project",
     "require": {
-        "php": ">=5.5.9"
+        "php": ">=5.5.9",
+        "laravel/framework": "5.2.*",
+        "prettus/l5-repository": "^2.5",
+        "webpatser/laravel-uuid": "^2.0",
+        "hieu-le/active": "^3.1",
+        "codebreez/collejo-core": "dev-master"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~4.0",
+        "symfony/css-selector": "2.8.*|3.0.*",
+        "symfony/dom-crawler": "2.8.*|3.0.*",
+        "itsgoingd/clockwork": "^1.12"
     },
     "minimum-stability": "dev",
     "autoload": {
