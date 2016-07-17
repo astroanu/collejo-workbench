@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c0bbb1ee9b4805607c9aa36b9f9b245d",
-    "content-hash": "aa2b513c70ea3fdf8625d02570802f7e",
+    "hash": "4e66d1d34574a7392b1629e9606f15e1",
+    "content-hash": "17154ccdfaac2e0b5f228fa1cd69ed3b",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -60,38 +60,6 @@
                 "preload"
             ],
             "time": "2016-01-24 12:28:38"
-        },
-        {
-            "name": "codebreez/collejo-core",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/codebreez/collejo-core.git",
-                "reference": "a8958627d3122351c4cc8932eb89341dc0de41f1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/codebreez/collejo-core/zipball/a8958627d3122351c4cc8932eb89341dc0de41f1",
-                "reference": "a8958627d3122351c4cc8932eb89341dc0de41f1",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.5.9"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Collejo\\Core\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "Anuradha Jayathilaka",
-                    "email": "astroanu2004@gmail.com"
-                }
-            ],
-            "time": "2016-06-29 14:47:21"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -448,12 +416,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "9ce5d36d36e0ab68a7f079a3c249cbfad63cf6c8"
+                "reference": "9b1dd69f99b03d3c6b598b22ccaaa1520fbb4af3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/9ce5d36d36e0ab68a7f079a3c249cbfad63cf6c8",
-                "reference": "9ce5d36d36e0ab68a7f079a3c249cbfad63cf6c8",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/9b1dd69f99b03d3c6b598b22ccaaa1520fbb4af3",
+                "reference": "9b1dd69f99b03d3c6b598b22ccaaa1520fbb4af3",
                 "shasum": ""
             },
             "require": {
@@ -570,7 +538,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-07-13 12:50:14"
+            "time": "2016-07-15 11:44:51"
         },
         {
             "name": "league/flysystem",
@@ -2310,12 +2278,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/itsgoingd/clockwork.git",
-                "reference": "76488226d8fdeab29c1782a5a6c154403ad9cdcf"
+                "reference": "8a8ae7dc353b16a8d3fb6ad37e66f4e72470aee2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itsgoingd/clockwork/zipball/76488226d8fdeab29c1782a5a6c154403ad9cdcf",
-                "reference": "76488226d8fdeab29c1782a5a6c154403ad9cdcf",
+                "url": "https://api.github.com/repos/itsgoingd/clockwork/zipball/8a8ae7dc353b16a8d3fb6ad37e66f4e72470aee2",
+                "reference": "8a8ae7dc353b16a8d3fb6ad37e66f4e72470aee2",
                 "shasum": ""
             },
             "require": {
@@ -2347,14 +2315,12 @@
                 "logging",
                 "profiling"
             ],
-            "time": "2016-06-18 18:17:25"
+            "time": "2016-07-15 09:03:25"
         }
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "codebreez/collejo-core": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
