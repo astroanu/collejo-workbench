@@ -29,7 +29,8 @@
         "psr-4": {
             "Collejo\\Modules\\": "modules",
             "Collejo\\App\\": "workbench/collejo/app/src",
-            "Collejo\\Core\\": "workbench/collejo/core/src"
+            "Collejo\\Core\\": "workbench/collejo/core/src",
+            "Astroanu\\JsValidation\\": "workbench/astroanu/js-validation-php/src"
         },
         "files": [
             "workbench/collejo/app/src/helpers/helpers.php"
