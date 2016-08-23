@@ -13,6 +13,8 @@ class StudentDataSeeder extends Seeder
      */
     public function run()
     {
+        factory(Media::class)->create();
+        
     	factory(User::class, 1)->create()->each(function($user){
     		$user->student()->save(factory(Student::class)->make());
     	});

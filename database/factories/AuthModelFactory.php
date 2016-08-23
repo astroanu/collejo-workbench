@@ -23,8 +23,9 @@ $factory->define(Collejo\App\Models\User::class, function (Faker\Generator $fake
 $factory->define(Collejo\App\Models\Student::class, function (Faker\Generator $faker) {
     return [
         'admission_number' => $faker->name,
-        'admitted_on' => $faker->safeEmail,
-        'student_category_id' => $faker->randomElement(Collejo\App\Models\StudentCategory::all()->lists('id')),
+        'admitted_on' => $faker->date,
+        'student_category_id' => $faker->randomElement(Collejo\App\Models\StudentCategory::all()->lists('id')->all()),
+        'image_id' => $faker->randomElement(Collejo\App\Models\Media::all()->lists('id')->all())
     ];
 });
 
@@ -32,8 +33,8 @@ $factory->define(Collejo\App\Models\Employee::class, function (Faker\Generator $
     return [
         'employee_number' => $faker->name,
         'joined_on' => $faker->date,
-        'employee_position_id' => $faker->randomElement(Collejo\App\Models\EmployeePosition::all()->lists('id')),
-        'employee_department_id' => $faker->randomElement(Collejo\App\Models\EmployeeDepartment::all()->lists('id')),
-        'employee_grade_id' => $faker->randomElement(Collejo\App\Models\EmployeeGrade::all()->lists('id'))
+        'employee_position_id' => $faker->randomElement(Collejo\App\Models\EmployeePosition::all()->lists('id')->all()),
+        'employee_department_id' => $faker->randomElement(Collejo\App\Models\EmployeeDepartment::all()->lists('id')->all()),
+        'employee_grade_id' => $faker->randomElement(Collejo\App\Models\EmployeeGrade::all()->lists('id')->all())
     ];
 });

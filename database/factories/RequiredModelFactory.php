@@ -1,5 +1,13 @@
 <?php
 
+$factory->define(Collejo\App\Models\Media::class, function (Faker\Generator $faker) {
+    return [
+        'mime' => 'image/jpeg',
+        'ext' => 'jpg',
+        'bucket' => 'student_images'
+    ];
+});
+
 $factory->define(Collejo\App\Models\Grade::class, function (Faker\Generator $faker) {
     return [
         'name' => $faker->name
