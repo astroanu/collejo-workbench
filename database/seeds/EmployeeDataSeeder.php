@@ -1,11 +1,11 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use Collejo\App\Models\User;
 use Collejo\App\Models\Media;
-use Collejo\App\Models\Student;
+use Collejo\App\Models\User;
+use Collejo\App\Models\Employee;
 
-class StudentDataSeeder extends Seeder
+class EmployeeDataSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -14,10 +14,10 @@ class StudentDataSeeder extends Seeder
      */
     public function run()
     {
-        factory(Media::class)->create(['bucket' => 'student_images']);
+        factory(Media::class)->create(['bucket' => 'employee_images']);
         
     	factory(User::class, 1)->create()->each(function($user){
-    		$user->student()->save(factory(Student::class)->make());
+    		$user->employee()->save(factory(Employee::class)->make());
     	});
     }
 }

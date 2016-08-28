@@ -4,6 +4,6 @@ return [
 
 	// global pagination configuration
 	'pagination' => [
-		'perpage' => 5
+		'perpage' => 10
 	]
 ];

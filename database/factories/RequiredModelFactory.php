@@ -3,8 +3,7 @@
 $factory->define(Collejo\App\Models\Media::class, function (Faker\Generator $faker) {
     return [
         'mime' => 'image/jpeg',
-        'ext' => 'jpg',
-        'bucket' => 'student_images'
+        'ext' => 'jpg'
     ];
 });
 
