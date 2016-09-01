@@ -14,9 +14,7 @@ class EmployeeDataSeeder extends Seeder
      */
     public function run()
     {
-        factory(Media::class)->create(['bucket' => 'employee_images']);
-        
-    	factory(User::class, 1)->create()->each(function($user){
+    	factory(User::class, 20)->create()->each(function($user){
     		$user->employee()->save(factory(Employee::class)->make());
     	});
     }

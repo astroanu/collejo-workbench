@@ -22,15 +22,15 @@ $factory->define(Collejo\App\Models\Clasis::class, function (Faker\Generator $fa
 
 $factory->define(Collejo\App\Models\Batch::class, function (Faker\Generator $faker) {
     return [
-        'name' => $faker->name
+        'name' => $faker->dateTimeThisYear
     ];
 });
 
 $factory->define(Collejo\App\Models\Term::class, function (Faker\Generator $faker) {
     return [
         'name' => $faker->name,
-        'start_date' => $faker->date,
-        'end_date' => $faker->date,
+        'start_date' => $faker->dateTimeThisYear,
+        'end_date' => $faker->dateTimeThisYear,
     ];
 });
 
