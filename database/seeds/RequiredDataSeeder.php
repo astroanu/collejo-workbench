@@ -39,7 +39,7 @@ class RequiredDataSeeder extends Seeder
                 $batch->grades()->sync($this->createPrivotIds($this->faker->randomElements(Grade::all()->lists('id')->all(), 5)));
 
                 $batch->terms()->save(factory(Term::class)->make([
-                        'name' => $this->faker->randomElement(['Winter', 'Summer', 'Fall']);
+                        'name' => $this->faker->randomElement(['Winter', 'Summer', 'Fall'])
                     ]));
             });
         }
