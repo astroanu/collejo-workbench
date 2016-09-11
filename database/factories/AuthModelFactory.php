@@ -14,7 +14,7 @@ $factory->define(Collejo\App\Models\Address::class, function (Faker\Generator $f
 $factory->define(Collejo\App\Models\User::class, function (Faker\Generator $faker) {
     return [
         'email' => $faker->safeEmail,
-        'password' => bcrypt(123),
+        'password' => Hash::make(123),
         'remember_token' => null,
         'date_of_birth' => $faker->dateTimeThisDecade,
         'first_name' => $faker->firstName,

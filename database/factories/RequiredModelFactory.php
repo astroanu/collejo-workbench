@@ -22,7 +22,7 @@ $factory->define(Collejo\App\Models\Clasis::class, function (Faker\Generator $fa
 
 $factory->define(Collejo\App\Models\Batch::class, function (Faker\Generator $faker) {
     return [
-        'name' => $faker->dateTimeThisYear
+        'name' => 'batch ' . $faker->date
     ];
 });
 
