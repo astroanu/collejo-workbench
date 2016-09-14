@@ -4,7 +4,7 @@ return [
 
 	// global pagination configuration
 	'pagination' => [
-		'perpage' => 1
+		'perpage' => 10
 	],
 
 	// app caching

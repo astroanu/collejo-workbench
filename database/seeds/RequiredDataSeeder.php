@@ -1,6 +1,6 @@
 <?php
 
-use Illuminate\Database\Seeder;
+use Collejo\Core\Database\Seeder;
 use Collejo\App\Models\Grade;
 use Collejo\App\Models\Clasis;
 use Collejo\App\Models\Batch;
@@ -10,7 +10,6 @@ use Collejo\App\Models\EmployeePosition;
 use Collejo\App\Models\EmployeeDepartment;
 use Collejo\App\Models\EmployeeGrade;
 use Collejo\App\Models\StudentCategory;
-use Illuminate\Database\Eloquent\Collection;
 
 class RequiredDataSeeder extends Seeder
 {
@@ -137,24 +136,6 @@ class RequiredDataSeeder extends Seeder
                     'code' => substr(strtoupper($grade), 0, 3)
                 ]);
         }
-    }
-
-    public function createPrivotIds($collection)
-	{
-        if (!$collection instanceOf Collection) {
-            $collection = collect($collection);
-        }
-
-		$ids = $collection->map(function(){
-			return ['id' => (string) Uuid::generate(4)];
-		});
-
-		return array_combine(array_values($collection->toArray()), $ids->all());
-	}
-
-    public function __construct(\Faker\Generator $faker)
-    {
-        $this->faker = $faker;
     }
 
     private function course()

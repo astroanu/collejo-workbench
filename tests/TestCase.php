@@ -25,7 +25,7 @@ abstract class TestCase extends IlluminateTestCase
      */
     public function createApplication()
     {
-        require __DIR__ . '/../bootstrap/autoload.php';
+        $this->baseUrl = env('APP_URL');
         
         $app = require __DIR__.'/../bootstrap/app.php';
 
