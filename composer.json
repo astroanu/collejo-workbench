@@ -10,7 +10,8 @@
         "laravel/framework": "5.2.*",
         "webpatser/laravel-uuid": "^2.0",
         "hieu-le/active": "^3.1",
-        "intervention/image": "^2.3"
+        "intervention/image": "^2.3",
+        "predis/predis": "^1.1"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
