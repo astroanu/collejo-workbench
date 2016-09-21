@@ -32,6 +32,6 @@ return [
 
 	'modules' => [
 		// check module permissions in database on every request
-		'check_permissions' => false
+		'check_permissions' => true
 	]
 ];
