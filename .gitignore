@@ -9,5 +9,6 @@ public/js
 public/images
 public/build
 workbench/*
+database/*
 vendor/*
 tests/*
