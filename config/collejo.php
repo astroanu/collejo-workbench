@@ -17,11 +17,6 @@ return [
 		'perpage' => 10
 	],
 
-	// assets
-	'assets' => [
-		'minified' => true
-	],
-
 	// app caching
 	'caching' => [
 		// cache each user's permissions
@@ -31,7 +26,16 @@ return [
 	],
 
 	'modules' => [
-		// check module permissions in database on every request
-		'check_permissions' => false
-	]
+
+	],
+
+	// assets
+	'assets' => [
+		// load minified version of css and js
+		'minified' => true,
+
+		// load additional styles from
+		'theme' => 'silver'
+	],
+
 ];
