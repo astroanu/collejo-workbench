@@ -2,6 +2,12 @@
 
 return [
 
+	// authentication settings
+	'auth' => [
+		// living time of a re-authentication grant
+		'reauth_ttl' => 3600
+	],
+
 	// send emails on
 	'emails' => [
 		'new_user_password_create_request' => [
@@ -25,17 +31,13 @@ return [
 		'search_criteria' => 30
 	],
 
-	'modules' => [
-
-	],
-
 	// assets
 	'assets' => [
 		// load minified version of css and js
 		'minified' => true,
 
 		// load additional styles from
-		'theme' => 'silver'
+		'theme' => null
 	],
 
 ];
