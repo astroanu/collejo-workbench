@@ -8,7 +8,7 @@ public/css
 public/js
 public/images
 public/build
-public/theme
+public/themes
 workbench/*
 database/*
 vendor/*
