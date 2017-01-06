@@ -37,7 +37,7 @@ return [
 		'minified' => true,
 
 		// load additional styles from
-		'theme' => 'ocean'
+		'theme' => null
 	],
 
 ];
