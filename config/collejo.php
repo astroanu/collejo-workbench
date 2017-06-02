@@ -26,7 +26,7 @@ return [
 	// app caching
 	'caching' => [
 		// cache each user's permissions
-		'user_permissions' => 30,
+		'user_permissions' => 0,
 		// cache repository search criteria results. relationship are not cached
 		'search_criteria' => 30
 	],
