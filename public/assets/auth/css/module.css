@@ -1,0 +1,12 @@
+.auth-row {
+  min-height: 100%;
+  height: auto !important;
+  margin-bottom: 50px;
+}
+
+.form-auth {
+  margin-top: 20%;
+  background: #fff;
+  padding: 30px;
+}
+
