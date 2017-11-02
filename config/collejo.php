@@ -2,13 +2,27 @@
 
 return [
 
-	// authentication settings
+    /*
+	|--------------------------------------------------------------------------
+	| Authentication Settings
+	|--------------------------------------------------------------------------
+	|
+	| reauth_ttl : living time of a re-authentication grant
+	|
+	*/
 	'auth' => [
-		// living time of a re-authentication grant
 		'reauth_ttl' => 3600
 	],
 
-	// send emails on
+    /*
+	|--------------------------------------------------------------------------
+	| Email Setting
+	|--------------------------------------------------------------------------
+	|
+	| new_user_password_create_request : sends an email to the given user asking
+    | to create a password
+	|
+	*/
 	'emails' => [
 		'new_user_password_create_request' => [
 			'student' => true,
@@ -18,25 +32,43 @@ return [
 		]
 	],
 
-	// global pagination configuration
+    /*
+    |--------------------------------------------------------------------------
+    | Global Pagination Configuration
+    |--------------------------------------------------------------------------
+    |
+    | perpage : the number of items shown per page
+    |
+    */
 	'pagination' => [
 		'perpage' => 10
 	],
 
-	// app caching
+    /*
+    |--------------------------------------------------------------------------
+    | Application Caching
+    |--------------------------------------------------------------------------
+    |
+    | user_permissions : TTL for caching user permissions
+    | search_criteria : TTL for caching search criteria
+    |
+    */
 	'caching' => [
-		// cache each user's permissions
-		'user_permissions' => 0,
-		// cache repository search criteria results. relationship are not cached
+		'user_permissions' => 30,
 		'search_criteria' => 30
 	],
 
-	// assets
+    /*
+    |--------------------------------------------------------------------------
+    | Application Caching
+    |--------------------------------------------------------------------------
+    |
+    | minified : load minified version of css and js
+    | theme : define which theme to use for the application
+    |
+    */
 	'assets' => [
-		// load minified version of css and js
 		'minified' => true,
-
-		// load additional styles from
 		'theme' => null
 	],
 
