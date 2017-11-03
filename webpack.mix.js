@@ -3,8 +3,19 @@ const fs = require('fs');
 const path = require('path');
 const StringReplacePlugin = require("string-replace-webpack-plugin");
 
-const dirs = p => fs.readdirSync(p).filter(f => fs.statSync(path.join(p, f)).isDirectory());
-const files = p => fs.readdirSync(p).filter(f => !fs.statSync(path.join(p, f)).isDirectory() && f.charAt(0) !== '_');
+const dirs = (p) => {
+	if(!fs.existsSync(p)){
+		return [];
+	}
+	return fs.readdirSync(p).filter(f => fs.statSync(path.join(p, f)).isDirectory());
+};
+
+const files = (p) => {
+    if(!fs.existsSync(p)){
+        return [];
+    }
+    return fs.readdirSync(p).filter(f => !fs.statSync(path.join(p, f)).isDirectory() && f.charAt(0) !== '_')
+};
 
 /*
  |--------------------------------------------------------------------------

@@ -97,13 +97,34 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-    mixins: [C.mixins.Routes, C.mixins.Trans],
-    mounted: function mounted() {
-        console.log('Component mounted.');
-    }
+	mixins: [C.mixins.Routes, C.mixins.Trans],
+	data: function data() {
+		return {
+			loginForm: {
+				email: '',
+				password: '',
+				remember_me: false
+			}
+		};
+	},
+
+	methods: {
+		onSubmit: function onSubmit() {
+			axios.post(this.route('auth.login'), this.loginForm).then(function (response) {
+				return console.log(response);
+			}).catch(function (errors) {
+				return console.log(errors);
+			});
+		}
+	}
 });
 
 /***/ }),
@@ -218,7 +239,7 @@ module.exports = function normalizeComponent (
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-5f54ffa0\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0&bustCache!./workbench/Collejo/App/Modules/Auth/resources/assets/js/components/Login.vue":
+/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-71f1e016\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0&bustCache!./workbench/Collejo/App/Modules/Auth/resources/assets/js/components/Login.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -230,8 +251,15 @@ var render = function() {
     { staticClass: "form-auth" },
     [
       _c(
-        "vf-form",
-        { attrs: { action: _vm.route("home"), method: "POST" } },
+        "b-form",
+        {
+          on: {
+            submit: function($event) {
+              $event.preventDefault()
+              _vm.onSubmit($event)
+            }
+          }
+        },
         [
           _c("div", { staticClass: "text-center" }, [
             _c("div", { staticClass: "auth-logo" })
@@ -241,37 +269,84 @@ var render = function() {
             _vm._v("Collejo")
           ]),
           _vm._v(" "),
-          _c("vf-text", {
-            ref: "email",
-            attrs: {
-              label: _vm.trans("auth::auth.email"),
-              required: "",
-              name: "email"
-            }
-          }),
+          _c(
+            "b-form-group",
+            {
+              attrs: {
+                label: _vm.trans("auth::auth.email"),
+                "label-for": "emailInput"
+              }
+            },
+            [
+              _c("b-form-input", {
+                attrs: { id: "emailInput", type: "email", required: "" },
+                model: {
+                  value: _vm.loginForm.email,
+                  callback: function($$v) {
+                    _vm.$set(_vm.loginForm, "email", $$v)
+                  },
+                  expression: "loginForm.email"
+                }
+              })
+            ],
+            1
+          ),
           _vm._v(" "),
-          _c("vf-password", {
-            ref: "password",
-            attrs: {
-              label: _vm.trans("auth::auth.password"),
-              required: "",
-              name: "password"
-            }
-          }),
+          _c(
+            "b-form-group",
+            {
+              attrs: {
+                label: _vm.trans("auth::auth.password"),
+                "label-for": "passwordInput"
+              }
+            },
+            [
+              _c("b-form-input", {
+                attrs: { id: "passwordInput", type: "password", required: "" },
+                model: {
+                  value: _vm.loginForm.password,
+                  callback: function($$v) {
+                    _vm.$set(_vm.loginForm, "password", $$v)
+                  },
+                  expression: "loginForm.password"
+                }
+              })
+            ],
+            1
+          ),
           _vm._v(" "),
-          _c("div", { staticClass: "checkbox-row" }, [
-            _c("input", {
-              attrs: { type: "checkbox", name: "remember", id: "remember-me" }
-            }),
-            _vm._v(" "),
-            _c("label", { attrs: { for: "remember-me" } }, [
-              _c("span", [_vm._v(_vm._s(_vm.trans("auth::auth.remember_me")))])
-            ])
-          ]),
+          _c(
+            "div",
+            { staticClass: "checkbox-row" },
+            [
+              _c(
+                "b-form-checkbox",
+                {
+                  model: {
+                    value: _vm.loginForm.remember_me,
+                    callback: function($$v) {
+                      _vm.$set(_vm.loginForm, "remember_me", $$v)
+                    },
+                    expression: "loginForm.remember_me"
+                  }
+                },
+                [
+                  _vm._v(
+                    "\n                " +
+                      _vm._s(_vm.trans("auth::auth.remember_me")) +
+                      "\n            "
+                  )
+                ]
+              )
+            ],
+            1
+          ),
           _vm._v(" "),
-          _c("vf-submit", { staticClass: "btn-block" }, [
-            _vm._v(_vm._s(_vm.trans("auth::auth.login")))
-          ])
+          _c(
+            "b-button",
+            { attrs: { type: "submit", variant: "primary", block: "" } },
+            [_vm._v(_vm._s(_vm.trans("auth::auth.login")))]
+          )
         ],
         1
       )
@@ -285,7 +360,7 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-5f54ffa0", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-71f1e016", module.exports)
   }
 }
 
@@ -299,7 +374,7 @@ var normalizeComponent = __webpack_require__("./node_modules/vue-loader/lib/comp
 /* script */
 var __vue_script__ = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\"]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0&bustCache!./workbench/Collejo/App/Modules/Auth/resources/assets/js/components/Login.vue")
 /* template */
-var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-5f54ffa0\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0&bustCache!./workbench/Collejo/App/Modules/Auth/resources/assets/js/components/Login.vue")
+var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-71f1e016\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0&bustCache!./workbench/Collejo/App/Modules/Auth/resources/assets/js/components/Login.vue")
 /* template functional */
   var __vue_template_functional__ = false
 /* styles */
@@ -326,9 +401,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-5f54ffa0", Component.options)
+    hotAPI.createRecord("data-v-71f1e016", Component.options)
   } else {
-    hotAPI.reload("data-v-5f54ffa0", Component.options)
+    hotAPI.reload("data-v-71f1e016", Component.options)
 ' + '  }
   module.hot.dispose(function (data) {
     disposed = true
@@ -371,12 +446,20 @@ var app = new Vue({
 
 /***/ }),
 
+/***/ "./workbench/Collejo/App/Modules/Dashboard/resources/assets/sass/module.scss":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ 0:
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__("./workbench/Collejo/App/Modules/Auth/resources/assets/js/login.js");
 __webpack_require__("./workbench/Collejo/App/Modules/Auth/resources/assets/sass/module.scss");
-module.exports = __webpack_require__("./workbench/Collejo/App/Modules/Base/resources/assets/sass/app.scss");
+__webpack_require__("./workbench/Collejo/App/Modules/Base/resources/assets/sass/app.scss");
+module.exports = __webpack_require__("./workbench/Collejo/App/Modules/Dashboard/resources/assets/sass/module.scss");
 
 
 /***/ })

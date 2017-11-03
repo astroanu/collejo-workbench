@@ -82,7 +82,7 @@ var Routes = {
 
 			if (routes.length === 1) {
 
-				return routes[0].uri;
+				return '/' + routes[0].uri;
 			} else {
 
 				console.warn('Route ' + name + ' is not found');

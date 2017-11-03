@@ -1,8 +1,9 @@
 {
-    "/assets/base/js/bootstrap.js": "/assets/base/js/bootstrap.js?id=3a3a70ac1f37232bef9a",
-    "/assets/auth/js/login.js": "/assets/auth/js/login.js?id=addb12fd97a2477d6a28",
+    "/assets/base/js/bootstrap.js": "/assets/base/js/bootstrap.js?id=7cb88d8112103d47458e",
+    "/assets/auth/js/login.js": "/assets/auth/js/login.js?id=fa92a7618619aa7976f4",
     "/assets/auth/css/module.css": "/assets/auth/css/module.css?id=91579cbbc5e4b4f41cc7",
-    "/assets/base/css/app.css": "/assets/base/css/app.css?id=8f7f1b9b82e46602f5dd",
+    "/assets/base/css/app.css": "/assets/base/css/app.css?id=3dd5b04bc7e1b8a90053",
     "/assets/base/js/trans.js": "/assets/base/js/trans.js?id=13a75afb90adb1f701f0",
-    "/assets/base/js/routes.js": "/assets/base/js/routes.js?id=93da1954e216862b80cc"
+    "/assets/base/js/routes.js": "/assets/base/js/routes.js?id=1820c6b23d074b114206",
+    "/assets/dashboard/css/module.css": "/assets/dashboard/css/module.css?id=75adc51579c12053fe24"
 }
