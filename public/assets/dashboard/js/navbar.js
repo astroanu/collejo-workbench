@@ -60,12 +60,12 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\"]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0&bustCache!./workbench/Collejo/App/Modules/Auth/resources/assets/js/components/Login.vue":
+/***/ "./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\"]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0&bustCache!./workbench/Collejo/App/Modules/Dashboard/resources/assets/js/components/Navbar.vue":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -102,29 +102,21 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-	mixins: [C.mixins.Routes, C.mixins.Trans],
-	data: function data() {
-		return {
-			loginForm: {
-				email: '',
-				password: '',
-				remember_me: false
-			}
-		};
-	},
-
-	methods: {
-		onSubmit: function onSubmit() {
-			axios.post(this.route('auth.login'), this.loginForm).then(function (response) {
-				return console.log(response);
-			}).catch(function (errors) {
-				return console.log(errors);
-			});
-		}
-	}
+	mixins: [C.mixins.Routes, C.mixins.Trans]
 });
 
 /***/ }),
@@ -239,7 +231,7 @@ module.exports = function normalizeComponent (
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-71f1e016\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0&bustCache!./workbench/Collejo/App/Modules/Auth/resources/assets/js/components/Login.vue":
+/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-2df3a724\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0&bustCache!./workbench/Collejo/App/Modules/Dashboard/resources/assets/js/components/Navbar.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -247,105 +239,102 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c(
-    "div",
-    { staticClass: "form-auth" },
+    "b-navbar",
+    { attrs: { toggleable: "sm", type: "light", variant: "light" } },
     [
+      _c("b-nav-toggle", { attrs: { target: "nav_collapse" } }),
+      _vm._v(" "),
+      _c("b-navbar-brand", { attrs: { href: "/" } }, [_vm._v(" Collejo")]),
+      _vm._v(" "),
       _c(
-        "b-form",
-        {
-          on: {
-            submit: function($event) {
-              $event.preventDefault()
-              _vm.onSubmit($event)
-            }
-          }
-        },
+        "b-collapse",
+        { attrs: { "is-nav": "", id: "nav_collapse" } },
         [
-          _c("div", { staticClass: "text-center" }, [
-            _c("div", { staticClass: "auth-logo" })
-          ]),
-          _vm._v(" "),
-          _c("h2", { staticClass: "text-center brand-text" }, [
-            _vm._v("Collejo")
-          ]),
-          _vm._v(" "),
           _c(
-            "b-form-group",
-            {
-              attrs: {
-                label: _vm.trans("auth::auth.email"),
-                "label-for": "emailInput"
-              }
-            },
+            "b-nav",
+            { attrs: { "is-nav-bar": "" } },
             [
-              _c("b-form-input", {
-                attrs: { id: "emailInput", type: "email", required: "" },
-                model: {
-                  value: _vm.loginForm.email,
-                  callback: function($$v) {
-                    _vm.$set(_vm.loginForm, "email", $$v)
-                  },
-                  expression: "loginForm.email"
-                }
-              })
+              _c("b-nav-item", { attrs: { href: "#" } }, [_vm._v("Link")]),
+              _vm._v(" "),
+              _c("b-nav-item", { attrs: { href: "#", disabled: "" } }, [
+                _vm._v("Disabled")
+              ])
             ],
             1
           ),
           _vm._v(" "),
           _c(
-            "b-form-group",
-            {
-              attrs: {
-                label: _vm.trans("auth::auth.password"),
-                "label-for": "passwordInput"
-              }
-            },
-            [
-              _c("b-form-input", {
-                attrs: { id: "passwordInput", type: "password", required: "" },
-                model: {
-                  value: _vm.loginForm.password,
-                  callback: function($$v) {
-                    _vm.$set(_vm.loginForm, "password", $$v)
-                  },
-                  expression: "loginForm.password"
-                }
-              })
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "checkbox-row" },
+            "b-nav",
+            { staticClass: "ml-auto", attrs: { "is-nav-bar": "" } },
             [
               _c(
-                "b-form-checkbox",
-                {
-                  model: {
-                    value: _vm.loginForm.remember_me,
-                    callback: function($$v) {
-                      _vm.$set(_vm.loginForm, "remember_me", $$v)
-                    },
-                    expression: "loginForm.remember_me"
-                  }
-                },
+                "b-nav-form",
                 [
-                  _vm._v(
-                    "\n                " +
-                      _vm._s(_vm.trans("auth::auth.remember_me")) +
-                      "\n            "
+                  _c("b-form-input", {
+                    staticClass: "mr-sm-2",
+                    attrs: { size: "sm", type: "text", placeholder: "Search" }
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "b-button",
+                    {
+                      staticClass: "my-2 my-sm-0",
+                      attrs: { size: "sm", type: "submit" }
+                    },
+                    [_vm._v("Search")]
                   )
-                ]
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-nav-item-dropdown",
+                { attrs: { text: "Lang", right: "" } },
+                [
+                  _c("b-dropdown-item", { attrs: { href: "#" } }, [
+                    _vm._v("EN")
+                  ]),
+                  _vm._v(" "),
+                  _c("b-dropdown-item", { attrs: { href: "#" } }, [
+                    _vm._v("ES")
+                  ]),
+                  _vm._v(" "),
+                  _c("b-dropdown-item", { attrs: { href: "#" } }, [
+                    _vm._v("RU")
+                  ]),
+                  _vm._v(" "),
+                  _c("b-dropdown-item", { attrs: { href: "#" } }, [
+                    _vm._v("FA")
+                  ])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-nav-item-dropdown",
+                { attrs: { right: "" } },
+                [
+                  _c(
+                    "template",
+                    {
+                      attrs: { slot: "button-content" },
+                      slot: "button-content"
+                    },
+                    [_c("em", [_vm._v("User")])]
+                  ),
+                  _vm._v(" "),
+                  _c("b-dropdown-item", { attrs: { href: "#" } }, [
+                    _vm._v("Profile")
+                  ]),
+                  _vm._v(" "),
+                  _c("b-dropdown-item", { attrs: { href: "#" } }, [
+                    _vm._v("Signout")
+                  ])
+                ],
+                2
               )
             ],
             1
-          ),
-          _vm._v(" "),
-          _c(
-            "b-button",
-            { attrs: { type: "submit", variant: "primary", block: "" } },
-            [_vm._v(_vm._s(_vm.trans("auth::auth.login")))]
           )
         ],
         1
@@ -360,21 +349,21 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-71f1e016", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-2df3a724", module.exports)
   }
 }
 
 /***/ }),
 
-/***/ "./workbench/Collejo/App/Modules/Auth/resources/assets/js/components/Login.vue":
+/***/ "./workbench/Collejo/App/Modules/Dashboard/resources/assets/js/components/Navbar.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var normalizeComponent = __webpack_require__("./node_modules/vue-loader/lib/component-normalizer.js")
 /* script */
-var __vue_script__ = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\"]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0&bustCache!./workbench/Collejo/App/Modules/Auth/resources/assets/js/components/Login.vue")
+var __vue_script__ = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\"]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0&bustCache!./workbench/Collejo/App/Modules/Dashboard/resources/assets/js/components/Navbar.vue")
 /* template */
-var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-71f1e016\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0&bustCache!./workbench/Collejo/App/Modules/Auth/resources/assets/js/components/Login.vue")
+var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-2df3a724\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0&bustCache!./workbench/Collejo/App/Modules/Dashboard/resources/assets/js/components/Navbar.vue")
 /* template functional */
   var __vue_template_functional__ = false
 /* styles */
@@ -391,7 +380,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "workbench\\Collejo\\App\\Modules\\Auth\\resources\\assets\\js\\components\\Login.vue"
+Component.options.__file = "workbench\\Collejo\\App\\Modules\\Dashboard\\resources\\assets\\js\\components\\Navbar.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {  return key !== "default" && key.substr(0, 2) !== "__"})) {  console.error("named exports are not supported in *.vue files.")}
 
 /* hot reload */
@@ -401,9 +390,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-71f1e016", Component.options)
+    hotAPI.createRecord("data-v-2df3a724", Component.options)
   } else {
-    hotAPI.reload("data-v-71f1e016", Component.options)
+    hotAPI.reload("data-v-2df3a724", Component.options)
 ' + '  }
   module.hot.dispose(function (data) {
     disposed = true
@@ -415,45 +404,21 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ "./workbench/Collejo/App/Modules/Auth/resources/assets/js/login.js":
+/***/ "./workbench/Collejo/App/Modules/Dashboard/resources/assets/js/navbar.js":
 /***/ (function(module, exports, __webpack_require__) {
 
-Vue.component('login', __webpack_require__("./workbench/Collejo/App/Modules/Auth/resources/assets/js/components/Login.vue"));
+Vue.component('navbar', __webpack_require__("./workbench/Collejo/App/Modules/Dashboard/resources/assets/js/components/Navbar.vue"));
 
-var app = new Vue({
-	el: '#app'
+var navbar = new Vue({
+	el: '#navbar'
 });
 
 /***/ }),
 
-/***/ "./workbench/Collejo/App/Modules/Auth/resources/assets/sass/module.scss":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "./workbench/Collejo/App/Modules/Base/resources/assets/sass/app.scss":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "./workbench/Collejo/App/Modules/Dashboard/resources/assets/sass/module.scss":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ 0:
+/***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__("./workbench/Collejo/App/Modules/Auth/resources/assets/js/login.js");
-__webpack_require__("./workbench/Collejo/App/Modules/Auth/resources/assets/sass/module.scss");
-__webpack_require__("./workbench/Collejo/App/Modules/Base/resources/assets/sass/app.scss");
-module.exports = __webpack_require__("./workbench/Collejo/App/Modules/Dashboard/resources/assets/sass/module.scss");
+module.exports = __webpack_require__("./workbench/Collejo/App/Modules/Dashboard/resources/assets/js/navbar.js");
 
 
 /***/ })
