@@ -27,5 +27,7 @@ return [
 
 	'languages' => [
 		'en'
-	]
+	],
+
+	'perpage' => 20
 ];
