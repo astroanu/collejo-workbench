@@ -9,12 +9,12 @@
          processIsolation="false"
          stopOnFailure="false">
     <testsuites>
-        <testsuite name="Feature">
-            <directory suffix="Test.php">./tests/Feature</directory>
+        <testsuite name="Foundation">
+            <directory suffix="Test.php">./workbench/Collejo/Foundation</directory>
         </testsuite>
 
-        <testsuite name="Unit">
-            <directory suffix="Test.php">./tests/Unit</directory>
+        <testsuite name="App">
+            <directory suffix="Test.php">./workbench/Collejo/App</directory>
         </testsuite>
     </testsuites>
     <filter>
