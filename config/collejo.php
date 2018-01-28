@@ -37,5 +37,25 @@ return [
     | Configuration for pagination
     |
     */
-	'perpage' => 20
+
+    'pagination' => [
+        'perpage' => 20
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Themes
+    |--------------------------------------------------------------------------
+    |
+    | Configuration for themes
+    | Paths are relative to base path
+    |
+    */
+    'themes' => [
+        'theme_paths' => [
+            'themes'
+        ],
+        'active_theme' => null
+
+    ]
 ];

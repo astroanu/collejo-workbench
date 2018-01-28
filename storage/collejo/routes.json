@@ -1,1 +1,26 @@
-[{"name":"home","uri":"\/"},{"name":"auth.login","uri":"auth\/login"},{"name":"auth.logout","uri":"auth\/logout"},{"name":"password.email","uri":"password\/email"},{"name":"user.profile","uri":"dash\/profile"},{"name":"dash","uri":"dashboard"}]
+[
+  {
+    "name": "home",
+    "uri": "\/"
+  },
+  {
+    "name": "login",
+    "uri": "auth\/login"
+  },
+  {
+    "name": "auth.logout",
+    "uri": "auth\/logout"
+  },
+  {
+    "name": "password.email",
+    "uri": "password\/email"
+  },
+  {
+    "name": "user.profile",
+    "uri": "dash\/profile"
+  },
+  {
+    "name": "dash",
+    "uri": "dashboard"
+  }
+]
