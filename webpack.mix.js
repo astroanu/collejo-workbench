@@ -3,13 +3,25 @@ const fs = require('fs');
 const path = require('path');
 const StringReplacePlugin = require("string-replace-webpack-plugin");
 
+/**
+ * Returns a list of directories from the given path
+ *
+ * @param p
+ * @returns {*}
+ */
 const dirs = (p) => {
-	if(!fs.existsSync(p)){
-		return [];
-	}
-	return fs.readdirSync(p).filter(f => fs.statSync(path.join(p, f)).isDirectory());
+    if (!fs.existsSync(p)) {
+        return [];
+    }
+    return fs.readdirSync(p).filter(f => fs.statSync(path.join(p, f)).isDirectory());
 };
 
+/**
+ * Returns a list of files from the given path
+ *
+ * @param p
+ * @returns {*}
+ */
 const files = (p) => {
     if(!fs.existsSync(p)){
         return [];
@@ -17,48 +29,29 @@ const files = (p) => {
     return fs.readdirSync(p).filter(f => !fs.statSync(path.join(p, f)).isDirectory() && f.charAt(0) !== '_')
 };
 
-/*
- |--------------------------------------------------------------------------
- | Mix Asset Management
- |--------------------------------------------------------------------------
- |
- | Mix provides a clean, fluent API for defining some Webpack build steps
- | for your Laravel application. By default, we are compiling the Sass
- | file for the application as well as bundling up all the JS files.
- |
+/**
+ * Paths to module directories
+ *
+ * @type {[string,string]}
  */
-
 const module_directories = [
 	'modules',
 	'workbench/Collejo/App/Modules',
-	//'vendor/CodeBreez/collejo-app/modules'
+    'vendor/CodeBreez/collejo-app/modules'
 ];
 
-const webpackConfig = {
-	module: {
-		rules: [
-			{
-				test:/\.js$/,
-				loader: StringReplacePlugin.replace({
-					replacements: [
-						{
-							pattern: /<<ROUTES_OBJECT>>/ig,
-							replacement:  (match, p1, offset, string) => {
-								return fs.readFileSync('storage/collejo/routes.json', 'utf8');
-							}
-						}
-					]})
-			}
-		]
-	},
-	plugins: [
-		new StringReplacePlugin()
-	]
-};
-
+/**
+ * Filter and map the modules paths in to watchable objects
+ *
+ * @type {Array}
+ */
 const fileMap = module_directories.map(directory => {
 
-	return dirs(directory).map(module => {
+    return dirs(directory).filter(module => {
+
+        return fs.lstatSync(`${directory}/${module}`).isDirectory();
+
+    }).map(module => {
 
 		const modulePath = `${directory}/${module}`;
 
@@ -85,20 +78,54 @@ const fileMap = module_directories.map(directory => {
 	})
 });
 
+/**
+ * Webpack configuration
+ *
+ * @type {{module: {rules: [null]}, plugins: [null,null]}}
+ */
+const webpackConfig = {
+    module: {
+        rules: [
+            {
+                test: /\.js$/,
+                loader: StringReplacePlugin.replace({
+                    replacements: [
+                        {
+                            pattern: /<<ROUTES_OBJECT>>/ig,
+                            replacement: (match, p1, offset, string) => {
+                                return fs.readFileSync('storage/collejo/routes.json', 'utf8');
+                            }
+                        }
+                    ]
+                })
+            }
+        ]
+    },
+    plugins: [
+        new StringReplacePlugin()
+    ]
+};
+
+/**
+ * Copy language files
+ */
 mix.webpackConfig(webpackConfig).copy('storage/collejo/trans', 'public/js/trans').version();
 
+/**
+ * Laravel Mix
+ */
 fileMap.forEach(dir => {
 
-	dir.forEach(module => {
+    dir.forEach(module => {
 
-		module.js.forEach(file => {
+        module.js.forEach(file => {
 
-			mix.webpackConfig(webpackConfig).js(file.src, file.dest).version();
-		});
+            mix.webpackConfig(webpackConfig).js(file.src, file.dest).version();
+        });
 
-		module.scss.forEach(file => {
+        module.scss.forEach(file => {
 
-			mix.webpackConfig(webpackConfig).sass(file.src, file.dest).version();
-		})
-	})
+            mix.webpackConfig(webpackConfig).sass(file.src, file.dest).version();
+        })
+    })
 });
