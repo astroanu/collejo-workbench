@@ -57,5 +57,9 @@ return [
         ],
         'active_theme' => null
 
+    ],
+
+    'tweaks' => [
+        'check_module_permissions_on_module_init' => true
     ]
 ];
