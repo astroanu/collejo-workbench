@@ -48,7 +48,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | Configuration for themes
-    | Paths are relative to base path
+    | Paths are relative to the base path
     |
     */
     'themes' => [
@@ -69,7 +69,7 @@ return [
     */
     'tweaks' => [
         /*
-         * Collejo can check module permissions are initialized
+         * Collejo can check if module permissions are initialized
          * properly by checking the database during module init.
          * Setting this to false will load Collejo faster,
          * however permissions for newly installed modules must be
@@ -81,7 +81,8 @@ return [
          * Every time a search query for a list of items is run in the database
          * Collejo caches the search results. Setting the TTL to 0 will turn
          * off caching while setting the TTL to a higher number will result
-         * in faster loading of list views.
+         * in faster loading of list views, but will cause inaccurate data to
+         * be displayed.
          */
         'criteria_cache_ttl' => 0
     ]

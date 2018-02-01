@@ -228,8 +228,14 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        /*
+         * Package aliases
+         */
         'Active' => HieuLe\Active\Facades\Active::class,
 
+        /*
+         * Collejo aliases
+         */
 	    'Modules' => Collejo\Foundation\Support\Facades\Modules::class,
 	    'Menus' => Collejo\Foundation\Support\Facades\Menus::class,
     ],
