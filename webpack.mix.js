@@ -1,8 +1,8 @@
 const mix = require('laravel-mix');
 const fs = require('fs');
 const path = require('path');
-const StringReplacePlugin = require("string-replace-webpack-plugin");
-
+const StringReplacePlugin = require('string-replace-webpack-plugin');
+const webpack = require('webpack');
 /**
  * Returns a list of directories from the given path
  *
@@ -102,7 +102,11 @@ const webpackConfig = {
         ]
     },
     plugins: [
-        new StringReplacePlugin()
+        new StringReplacePlugin(),
+        new webpack.optimize.CommonsChunkPlugin({
+            name: 'commons',
+            filename: 'public/assets/base/js/commons.js',
+        })
     ]
 };
 
