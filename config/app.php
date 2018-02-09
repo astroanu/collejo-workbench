@@ -229,6 +229,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
         'Active' => HieuLe\Active\Facades\Active::class,
+        'Carbon' => Carbon\Carbon::class,
 
 	    'Modules' => Collejo\Foundation\Support\Facades\Modules::class,
 	    'Menus' => Collejo\Foundation\Support\Facades\Menus::class,
