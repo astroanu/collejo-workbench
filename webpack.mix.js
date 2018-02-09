@@ -4,6 +4,21 @@ const path = require('path');
 const StringReplacePlugin = require("string-replace-webpack-plugin");
 
 /**
+ * Paths to module directories
+ *
+ * @type {[string,string]}
+ */
+const module_directories = [
+    'modules',
+    'workbench/Collejo/App/Modules',
+    'vendor/CodeBreez/collejo-app/modules'
+];
+
+const publicDir = 'public';
+const collejoStorageDir = 'storage/collejo';
+const resourcesDir = 'resources';
+
+/**
  * Returns a list of directories from the given path
  *
  * @param p
@@ -30,17 +45,6 @@ const files = (p) => {
 };
 
 /**
- * Paths to module directories
- *
- * @type {[string,string]}
- */
-const module_directories = [
-	'modules',
-	'workbench/Collejo/App/Modules',
-    'vendor/CodeBreez/collejo-app/modules'
-];
-
-/**
  * Filter and map the modules paths in to watchable objects
  *
  * @type {Array}
@@ -64,19 +68,36 @@ const fileMap = module_directories.map(directory => {
 				js: files(jsDir).map(file => {
 					return {
 						src: `${jsDir}/${file}`,
-						dest: `public/assets/${module.toLowerCase()}/js/${path.basename(file, '.js')}.js`
+						dest: `${publicDir}/assets/${module.toLowerCase()}/js/${path.basename(file, '.js')}.js`
 					}
 				}),
 				scss: files(sassDir).map(file => {
 					return {
 						src: `${sassDir}/${file}`,
-						dest: `public/assets/${module.toLowerCase()}/css/${path.basename(file, '.scss')}.css`
+						dest: `${publicDir}/assets/${module.toLowerCase()}/css/${path.basename(file, '.scss')}.css`
 					}
 				})
 			}
 		}
 	})
 });
+
+fileMap.push([
+    {
+        js: files(`${resourcesDir}/assets/js`).map(file => {
+            return {
+                src: `${resourcesDir}/assets/js/${file}`,
+                dest: `${publicDir}/js/${path.basename(file, '.js')}.js`
+            }
+        }),
+        scss: files(`${resourcesDir}/assets/sass`).map(file => {
+            return {
+                src: `${resourcesDir}/assets/sass/${file}`,
+                dest: `${publicDir}/css/${path.basename(file, '.scss')}.css`
+            }
+        })
+    }
+]);
 
 /**
  * Webpack configuration
@@ -93,7 +114,7 @@ const webpackConfig = {
                         {
                             pattern: /<<ROUTES_OBJECT>>/ig,
                             replacement: (match, p1, offset, string) => {
-                                return fs.readFileSync('storage/collejo/routes.json', 'utf8');
+                                return fs.readFileSync(`${collejoStorageDir}/routes.json`, 'utf8');
                             }
                         }
                     ]
@@ -109,7 +130,7 @@ const webpackConfig = {
 /**
  * Copy language files
  */
-mix.webpackConfig(webpackConfig).copy('storage/collejo/trans', 'public/js/trans').version();
+mix.webpackConfig(webpackConfig).copy(`${collejoStorageDir}/trans`, `${publicDir}/js/trans`).version();
 
 /**
  * Laravel Mix
