@@ -6,7 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/workbench/Collejo" isTestSource="false" packagePrefix="Collejo\" />
       <excludeFolder url="file://$MODULE_DIR$/bootstrap/cache" />
       <excludeFolder url="file://$MODULE_DIR$/public" />
-      <excludeFolder url="file://$MODULE_DIR$/storage" />
+      <excludeFolder url="file://$MODULE_DIR$/storage/framework" />
       <excludeFolder url="file://$MODULE_DIR$/storage/logs" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/dnoegel/php-xdg-base-dir" />
