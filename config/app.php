@@ -1,7 +1,5 @@
 <?php
 
-use Carbon\Carbon;
-
 return [
 
     /*
@@ -234,7 +232,7 @@ return [
          * Package aliases
          */
         'Active' => HieuLe\Active\Facades\Active::class,
-        'Carbon' => Carbon::class,
+        'Carbon' => Carbon\Carbon::class,
 
         /*
          * Collejo aliases
