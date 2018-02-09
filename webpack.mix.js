@@ -68,13 +68,13 @@ const fileMap = module_directories.map(directory => {
 				js: files(jsDir).map(file => {
 					return {
 						src: `${jsDir}/${file}`,
-						dest: `${publicDir}/assets/${module.toLowerCase()}/js/${path.basename(file, '.js')}.js`
+                        dest: `${publicDir}/assets/${module.toLowerCase()}/js/${path.basename(file, '.js')}.js`
 					}
 				}),
 				scss: files(sassDir).map(file => {
 					return {
 						src: `${sassDir}/${file}`,
-						dest: `${publicDir}/assets/${module.toLowerCase()}/css/${path.basename(file, '.scss')}.css`
+                        dest: `${publicDir}/assets/${module.toLowerCase()}/css/${path.basename(file, '.scss')}.css`
 					}
 				})
 			}
