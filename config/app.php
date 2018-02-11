@@ -237,8 +237,8 @@ return [
         /*
          * Collejo aliases
          */
-	    'Modules' => Collejo\Foundation\Support\Facades\Modules::class,
-	    'Menus' => Collejo\Foundation\Support\Facades\Menus::class,
+        'Module' => Collejo\Foundation\Support\Facades\Modules::class,
+        'Menu' => Collejo\Foundation\Support\Facades\Menus::class,
     ],
 
 ];

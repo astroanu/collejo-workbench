@@ -10,7 +10,7 @@ const webpack = require('webpack');
  */
 const module_directories = [
     'modules',
-    'workbench/Collejo/App/Modules',
+    'workbench/Collejo/App/Module',
     'vendor/CodeBreez/collejo-app/modules'
 ];
 
