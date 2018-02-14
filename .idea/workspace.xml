@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74277a6b-fafc-44b2-beb0-b8a994089371" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/workbench/Collejo/Foundation/Database/Migrations/Migration.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/migrations/0_0_0_000045_create_users_table.php" afterPath="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/migrations/0_0_0_000045_create_users_table.php" />
-      <change beforePath="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/migrations/0_0_0_000060_create_permissions_table.php" afterPath="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/migrations/0_0_0_000060_create_permissions_table.php" />
-      <change beforePath="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/migrations/0_0_0_000070_create_roles_table.php" afterPath="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/migrations/0_0_0_000070_create_roles_table.php" />
-      <change beforePath="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/migrations/0_0_0_000080_create_permission_role_table.php" afterPath="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/migrations/0_0_0_000080_create_permission_role_table.php" />
-      <change beforePath="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/migrations/0_0_0_000090_create_role_user_table.php" afterPath="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/migrations/0_0_0_000090_create_role_user_table.php" />
-      <change beforePath="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/migrations/0_0_0_000100_insert_main_roles.php" afterPath="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/migrations/0_0_0_000100_insert_main_roles.php" />
-      <change beforePath="$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/migrations/0_0_0_000010_create_jobs_table.php" afterPath="$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/migrations/0_0_0_000010_create_jobs_table.php" />
-      <change beforePath="$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/migrations/0_0_0_000020_create_failed_jobs_table.php" afterPath="$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/migrations/0_0_0_000020_create_failed_jobs_table.php" />
-      <change beforePath="$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/migrations/0_0_0_000030_create_sessions_table.php" afterPath="$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/migrations/0_0_0_000030_create_sessions_table.php" />
-      <change beforePath="$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/migrations/0_0_0_000040_create_cache_table.php" afterPath="$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/migrations/0_0_0_000040_create_cache_table.php" />
-      <change beforePath="$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/migrations/0_0_0_000050_create_media_table.php" afterPath="$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/migrations/0_0_0_000050_create_media_table.php" />
-      <change beforePath="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/migrations/0_0_0_000140_create_batches_table.php" afterPath="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/migrations/0_0_0_000140_create_batches_table.php" />
-      <change beforePath="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/migrations/0_0_0_000150_create_terms_table.php" afterPath="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/migrations/0_0_0_000150_create_terms_table.php" />
-      <change beforePath="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/migrations/0_0_0_000160_create_grades_table.php" afterPath="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/migrations/0_0_0_000160_create_grades_table.php" />
-      <change beforePath="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/migrations/0_0_0_000170_create_batch_grade_table.php" afterPath="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/migrations/0_0_0_000170_create_batch_grade_table.php" />
-      <change beforePath="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/migrations/0_0_0_000180_create_classes_table.php" afterPath="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/migrations/0_0_0_000180_create_classes_table.php" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" afterPath="$PROJECT_DIR$/config/database.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,26 +41,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CreatesApplication.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workbench/Collejo/Foundation/Testing/CreatesApplication.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestCase.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workbench/Collejo/Foundation/Testing/TestCase.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="phpunit.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/phpunit.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -86,17 +51,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="0_0_0_000045_create_users_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/migrations/0_0_0_000045_create_users_table.php">
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+            <state relative-caret-position="374">
+              <caret line="53" column="31" lean-forward="false" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="0_0_0_000060_create_permissions_table.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/app.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="242" column="0" lean-forward="false" selection-start-line="242" selection-start-column="0" selection-end-line="242" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="0_0_0_000045_create_users_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/migrations/0_0_0_000045_create_users_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="0_0_0_000060_create_permissions_table.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/migrations/0_0_0_000060_create_permissions_table.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -106,11 +101,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Seeder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workbench/Collejo/Foundation/Database/Seeder.php">
+      <file leaf-file-name="0_0_0_000030_create_sessions_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/migrations/0_0_0_000030_create_sessions_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -119,38 +124,8 @@
       <file leaf-file-name="Migration.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/workbench/Collejo/Foundation/Database/Migrations/Migration.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MenusTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workbench/Collejo/Foundation/Menus/Tests/MenusTest.php">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Connection.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Connection.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="660" column="36" lean-forward="false" selection-start-line="660" selection-start-column="36" selection-end-line="660" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/app.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="242" column="0" lean-forward="false" selection-start-line="242" selection-start-column="0" selection-end-line="242" selection-end-column="0" />
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -167,7 +142,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>route('login</find>
       <find>'login</find>
       <find>login</find>
       <find>auth.login</find>
@@ -197,6 +171,7 @@
       <find>listDir</find>
       <find>Collejo\Foundation\Database\Migrations</find>
       <find>Illuminate\Database\Migrations\</find>
+      <find>engine</find>
     </findStrings>
     <replaceStrings>
       <replace>entities.</replace>
@@ -212,7 +187,7 @@
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/workbench/Collejo" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -221,9 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/workbench/Collejo/Foundation/Testing/CreatesApplication.php" />
-        <option value="$PROJECT_DIR$/workbench/Collejo/Foundation/Repository/BaseRepository.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/Foundation/Repository/CriteriaInterface.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Http/Controller.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Http/JsValidator/JsValidatorFactory.php" />
@@ -272,6 +244,9 @@
         <option value="$PROJECT_DIR$/workbench/Collejo/Foundation/Menus/Tests/MenusTest.php" />
         <option value="$PROJECT_DIR$/phpunit.xml" />
         <option value="$PROJECT_DIR$/workbench/Collejo/Foundation/Database/Migrations/Migration.php" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/Foundation/Database/Schema/Blueprint.php" />
+        <option value="$PROJECT_DIR$/config/database.php" />
       </list>
     </option>
   </component>
@@ -438,7 +413,7 @@
               <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ACL" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Base" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
@@ -447,7 +422,7 @@
               <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ACL" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Base" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="migrations" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -513,7 +488,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="SearchEverywhereHistoryKey" value="helpers&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/Foundation/helpers.php&#10;batches_list&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Classes/resources/views/batches_list.blade.php" />
     <property name="last_opened_file_path" value="C:/Program Files/PHP7/phpunit.phar" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/resources/assets/sass/custom.scss" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/resources/assets/sass/custom.scss&#10;D:/www/collejo/collejo-workbench/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -608,7 +583,7 @@
       <workItem from="1517466355965" duration="2889000" />
       <workItem from="1517549985995" duration="1443000" />
       <workItem from="1518166582002" duration="12158000" />
-      <workItem from="1518588957260" duration="4413000" />
+      <workItem from="1518588957260" duration="7253000" />
     </task>
     <task id="LOCAL-00001" summary="Added classes module">
       <created>1517201944806</created>
@@ -757,7 +732,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518592078109</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Fix Laravel issue with migrations">
+      <created>1518595559153</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1518595559153</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -793,7 +775,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96104000" />
+    <option name="totallyTimeSpent" value="98944000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -809,7 +791,7 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28341585" sideWeight="0.5042511" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28341585" sideWeight="0.49574885" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28341585" sideWeight="0.49574885" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24816054" sideWeight="0.5276968" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4220297" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26291695" sideWeight="0.49712643" order="4" side_tool="false" content_ui="tabs" />
@@ -879,7 +861,8 @@
     <MESSAGE value="Pull workbench repo first" />
     <MESSAGE value="Include Helpers" />
     <MESSAGE value="Travis user for testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Travis user for testing" />
+    <MESSAGE value="Fix Laravel issue with migrations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Laravel issue with migrations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -888,12 +871,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/trans.js" />
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/bootstrap.js" />
-    <entry file="file://$PROJECT_DIR$/resources/images/collejo.svg" />
-    <entry file="file://$PROJECT_DIR$/resources/images/spinner-big.gif" />
-    <entry file="file://$PROJECT_DIR$/resources/images/user_avatar_medium.png" />
-    <entry file="file://$PROJECT_DIR$/resources/images/user_avatar_small.png" />
     <entry file="file://$PROJECT_DIR$/public/mix-manifest.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1125,14 +1102,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="242" column="0" lean-forward="false" selection-start-line="242" selection-start-column="0" selection-end-line="242" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/workbench/Collejo/Foundation/Menus/Tests/MenusTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1165,14 +1134,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phpunit.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/workbench/Collejo/Foundation/Database/Seeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1181,18 +1142,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/migrations/0_0_0_000045_create_users_table.php">
+    <entry file="file://$PROJECT_DIR$/phpunit.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+        <state relative-caret-position="89">
+          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/workbench/Collejo/Foundation/Database/Migrations/Migration.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1201,6 +1170,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/migrations/0_0_0_000030_create_sessions_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1768">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/Foundation/Database/Schema/Blueprint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/migrations/0_0_0_000045_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="242" column="0" lean-forward="false" selection-start-line="242" selection-start-column="0" selection-end-line="242" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="53" column="31" lean-forward="false" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
           <folding />
         </state>
       </provider>
