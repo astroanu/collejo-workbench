@@ -4,7 +4,7 @@
     <h1 align="center">Collejo</h1>
 </p>
 
-[![Travis](https://img.shields.io/travis/codebreez/collejo.svg?maxAge=600)](https://travis-ci.org/codebreez/collejo)
-[![Dependency Status](https://img.shields.io/versioneye/d/user/projects/57d94e151b70a700396255cd.svg?maxAge=600)](https://www.versioneye.com/user/projects/57d94e151b70a700396255cd?child=summary)
+[![Build Status](https://travis-ci.org/astroanu/collejo-workbench.svg?branch=L55)](https://travis-ci.org/astroanu/collejo-workbench)
+[![Dependency Status](https://dependencyci.com/github/astroanu/collejo-workbench/badge)](https://dependencyci.com/github/astroanu/collejo-workbench)
 [![StyleCI](https://styleci.io/repos/62229679/shield?branch=L55)](https://styleci.io/repos/62229679)
 [![Laravel Version](https://img.shields.io/badge/Laravel-5.5.*-brightgreen.svg?maxAge=600)]()

@@ -1,0 +1,37 @@
+language: php
+services:
+  - mysql
+branches:
+  only:
+  - L55
+php:
+  - '7.1'
+  - nightly
+addons:
+  apt:
+    sources:
+      - mysql-5.7-trusty
+    packages:
+      - mysql-server
+      - mysql-client
+before_install:
+  - sudo mysql -e "use mysql; update user set authentication_string=PASSWORD('') where User='root'; update user set plugin='mysql_native_password';FLUSH PRIVILEGES;"
+  - mysql -e 'set GLOBAL default_storage_engine=`InnoDb`;'
+  - mysql -e 'create database test;'
+  - sudo service mysql restart
+before_script:
+  - export BRANCH=$(if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo $TRAVIS_BRANCH; else echo $TRAVIS_PULL_REQUEST_BRANCH; fi)
+  - echo "TRAVIS_BRANCH=$TRAVIS_BRANCH, PR=$PR, BRANCH=$BRANCH"
+  - sudo echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+  - ssh-keyscan -H -t rsa,dsa github.com >> ~/.ssh/known_hosts
+  - sudo git clone -b $BRANCH https://github.com/CodeBreez/collejo-app.git workbench/Collejo
+  - cd workbench/Collejo
+  - sudo git fetch
+  - sudo git pull origin $BRANCH
+  - sudo git rev-parse HEAD
+  - cd ../../
+  - sudo git rev-parse HEAD
+  - composer install
+  - composer dump-autoload
+  - sudo chmod -R 755 storage bootstrap/cache
+  - composer dump-autoload -o
