@@ -15,6 +15,7 @@ before_script:
   - ssh-keyscan -H -t rsa,dsa github.com >> ~/.ssh/known_hosts
   - sudo git clone -b $BRANCH https://github.com/CodeBreez/collejo-app.git workbench/Collejo
   - cd workbench/Collejo
+  - sudo git fetch
   - sudo git pull origin $BRANCH
   - sudo git rev-parse HEAD
   - cd ../../
