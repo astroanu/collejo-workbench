@@ -15,7 +15,7 @@ before_script:
   - echo "TRAVIS_BRANCH=$TRAVIS_BRANCH, PR=$PR, BRANCH=$BRANCH"  
   - sudo echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config  
   - ssh-keyscan -H -t rsa,dsa github.com >> ~/.ssh/known_hosts
-  - sudo git clone -b BRANCH https://github.com/CodeBreez/collejo.git workbench\Collejo
+  - sudo git clone -b BRANCH https://github.com/CodeBreez/collejo-app.git workbench\Collejo
   - sudo git rev-parse HEAD
   - composer install
   - composer dump-autoload
