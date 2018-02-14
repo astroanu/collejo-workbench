@@ -1,0 +1,24 @@
+language: php
+services:
+  - mysql
+branches:  
+  only:
+  - L55
+php:
+  - '5.5'  
+  - '5.6'
+  - '7.0'
+  - hhvm
+  - nightly
+before_script:
+  - export BRANCH=$(if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo $TRAVIS_BRANCH; else echo $TRAVIS_PULL_REQUEST_BRANCH; fi)
+  - echo "TRAVIS_BRANCH=$TRAVIS_BRANCH, PR=$PR, BRANCH=$BRANCH"  
+  - sudo echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config  
+  - ssh-keyscan -H -t rsa,dsa github.com >> ~/.ssh/known_hosts
+  - sudo git clone -b BRANCH https://github.com/CodeBreez/collejo.git workbench\Collejo
+  - sudo git rev-parse HEAD
+  - composer install
+  - composer dump-autoload
+  - mysql -e 'create database test;'  
+  - sudo chmod -R 755 storage bootstrap/cache
+  - composer dump-autoload -o
