@@ -8,6 +8,18 @@ php:
   - '7.1'
   - hhvm
   - nightly
+addons:
+  apt:
+    sources:
+      - mysql-5.7-trusty
+    packages:
+      - mysql-server
+      - mysql-client
+before_install:
+  - sudo mysql -e "use mysql; update user set authentication_string=PASSWORD('root') where User='root'; update user set plugin='mysql_native_password';FLUSH PRIVILEGES;"
+  - mysql -e 'set GLOBAL default_storage_engine=`InnoDb`;'
+  - mysql -e 'create database test;'
+  - sudo service mysql restart
 before_script:
   - export BRANCH=$(if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo $TRAVIS_BRANCH; else echo $TRAVIS_PULL_REQUEST_BRANCH; fi)
   - echo "TRAVIS_BRANCH=$TRAVIS_BRANCH, PR=$PR, BRANCH=$BRANCH"
@@ -22,7 +34,5 @@ before_script:
   - sudo git rev-parse HEAD
   - composer install
   - composer dump-autoload
-  - mysql -e 'set GLOBAL default_storage_engine=`InnoDb`;'
-  - mysql -e 'create database test;'
   - sudo chmod -R 755 storage bootstrap/cache
   - composer dump-autoload -o
