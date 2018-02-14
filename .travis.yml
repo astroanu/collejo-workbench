@@ -6,7 +6,6 @@ branches:
   - L55
 php:
   - '7.1'
-  - hhvm
   - nightly
 addons:
   apt:

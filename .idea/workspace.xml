@@ -123,8 +123,8 @@
       <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+            <state relative-caret-position="119">
+              <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -716,7 +716,21 @@
       <option name="project" value="LOCAL" />
       <updated>1518601820623</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Install mysql on travis">
+      <created>1518603236933</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1518603236933</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Install mysql on travis">
+      <created>1518603453278</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1518603453278</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -752,7 +766,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100792000" />
+    <option name="totallyTimeSpent" value="101414000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -854,7 +868,8 @@
     <MESSAGE value="Travis user for testing" />
     <MESSAGE value="Fix Laravel issue with migrations" />
     <MESSAGE value="Set default engine for travis" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set default engine for travis" />
+    <MESSAGE value="Install mysql on travis" />
+    <option name="LAST_COMMIT_MESSAGE" value="Install mysql on travis" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1195,8 +1210,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        <state relative-caret-position="119">
+          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
           <folding />
         </state>
       </provider>
