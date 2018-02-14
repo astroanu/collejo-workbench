@@ -1,8 +1,8 @@
 const mix = require('laravel-mix');
 const fs = require('fs');
 const path = require('path');
-const StringReplacePlugin = require("string-replace-webpack-plugin");
-
+const StringReplacePlugin = require('string-replace-webpack-plugin');
+const webpack = require('webpack');
 /**
  * Paths to module directories
  *
@@ -68,13 +68,13 @@ const fileMap = module_directories.map(directory => {
 				js: files(jsDir).map(file => {
 					return {
 						src: `${jsDir}/${file}`,
-						dest: `${publicDir}/assets/${module.toLowerCase()}/js/${path.basename(file, '.js')}.js`
+                        dest: `${publicDir}/assets/${module.toLowerCase()}/js/${path.basename(file, '.js')}.js`
 					}
 				}),
 				scss: files(sassDir).map(file => {
 					return {
 						src: `${sassDir}/${file}`,
-						dest: `${publicDir}/assets/${module.toLowerCase()}/css/${path.basename(file, '.scss')}.css`
+                        dest: `${publicDir}/assets/${module.toLowerCase()}/css/${path.basename(file, '.scss')}.css`
 					}
 				})
 			}
@@ -123,7 +123,11 @@ const webpackConfig = {
         ]
     },
     plugins: [
-        new StringReplacePlugin()
+        new StringReplacePlugin(),
+        new webpack.optimize.CommonsChunkPlugin({
+            name: 'commons',
+            filename: 'public/assets/base/js/commons.js',
+        })
     ]
 };
 

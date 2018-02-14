@@ -228,11 +228,17 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        /*
+         * Package aliases
+         */
         'Active' => HieuLe\Active\Facades\Active::class,
         'Carbon' => Carbon\Carbon::class,
 
-	    'Modules' => Collejo\Foundation\Support\Facades\Modules::class,
-	    'Menus' => Collejo\Foundation\Support\Facades\Menus::class,
+        /*
+         * Collejo aliases
+         */
+        'Module' => Collejo\Foundation\Support\Facades\Modules::class,
+        'Menu' => Collejo\Foundation\Support\Facades\Menus::class,
     ],
 
 ];
