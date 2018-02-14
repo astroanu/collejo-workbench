@@ -13,21 +13,21 @@ return [
     */
 
     'module_paths' => [
-    	'modules'
+        'modules',
     ],
 
-	/*
-	|--------------------------------------------------------------------------
-	| Supported Languages
-	|--------------------------------------------------------------------------
-	|
-	| An array of supported languages
-	|
-	*/
+    /*
+    |--------------------------------------------------------------------------
+    | Supported Languages
+    |--------------------------------------------------------------------------
+    |
+    | An array of supported languages
+    |
+    */
 
-	'languages' => [
-		'en'
-	],
+    'languages' => [
+        'en',
+    ],
 
     /*
     |--------------------------------------------------------------------------
@@ -39,7 +39,7 @@ return [
     */
 
     'pagination' => [
-        'perpage' => 5
+        'perpage' => 5,
     ],
 
     /*
@@ -53,9 +53,9 @@ return [
     */
     'themes' => [
         'theme_paths' => [
-            'themes'
+            'themes',
         ],
-        'active_theme' => null
+        'active_theme' => null,
 
     ],
 
@@ -68,7 +68,7 @@ return [
     |
     */
     'tweaks' => [
-        /**
+        /*
          * Collejo can check if module permissions are initialized
          * properly by checking the database during module init.
          * Setting this to false will load Collejo faster,
@@ -77,17 +77,17 @@ return [
          */
         'check_module_permissions_on_module_init' => true,
 
-        /**
+        /*
          * Every time a search query for a list of items is run in the database
          * Collejo caches the search results.
          */
         'criteria_cache_ttl' => 1,
 
-        /**
+        /*
          * Collejo can cache permissions for each user, enabling this will
          * increase the performance by skipping the need to query the database on
          * each authorization check.
          */
-        'user_permissions_ttl' => 1
-    ]
+        'user_permissions_ttl' => 1,
+    ],
 ];
