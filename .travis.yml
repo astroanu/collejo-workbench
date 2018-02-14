@@ -22,6 +22,7 @@ before_script:
   - sudo git rev-parse HEAD
   - composer install
   - composer dump-autoload
+  - mysql -e 'set GLOBAL default_storage_engine=`InnoDb`;'
   - mysql -e 'create database test;'
   - sudo chmod -R 755 storage bootstrap/cache
   - composer dump-autoload -o
