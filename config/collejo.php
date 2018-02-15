@@ -81,13 +81,13 @@ return [
          * Every time a search query for a list of items is run in the database
          * Collejo caches the search results.
          */
-        'criteria_cache_ttl' => 1,
+        'criteria_cache_ttl' => env('COLLEJO_CRITERIA_CACHE_TTL', 1),
 
         /*
          * Collejo can cache permissions for each user, enabling this will
          * increase the performance by skipping the need to query the database on
          * each authorization check.
          */
-        'user_permissions_ttl' => 1,
+        'user_permissions_ttl' => env('COLLEJO_USER_PERMISSIONS_TTL', 1),
     ],
 ];
