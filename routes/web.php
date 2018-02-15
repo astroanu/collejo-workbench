@@ -12,6 +12,5 @@
 */
 
 Route::any('/', function () {
-
     return Redirect::to(route('login'));
 })->name('home');
