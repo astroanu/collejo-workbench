@@ -126,7 +126,7 @@ const webpackConfig = {
         new StringReplacePlugin(),
         new webpack.optimize.CommonsChunkPlugin({
             name: 'commons',
-            filename: 'public/assets/base/js/commons.js',
+            filename: 'js/commons.js',
         })
     ]
 };
@@ -134,7 +134,7 @@ const webpackConfig = {
 /**
  * Copy language files
  */
-mix.webpackConfig(webpackConfig).copy(`${collejoStorageDir}/trans`, `${publicDir}/js/trans`).version();
+mix.copy(`${collejoStorageDir}/trans`, `${publicDir}/js/trans`).version();
 
 /**
  * Laravel Mix
@@ -145,12 +145,14 @@ fileMap.forEach(dir => {
 
         module.js.forEach(file => {
 
-            mix.webpackConfig(webpackConfig).js(file.src, file.dest).version();
+            mix.js(file.src, file.dest).version();
         });
 
         module.scss.forEach(file => {
 
-            mix.webpackConfig(webpackConfig).sass(file.src, file.dest).version();
+            mix.sass(file.src, file.dest).version();
         })
     })
 });
+
+mix.webpackConfig(webpackConfig);
