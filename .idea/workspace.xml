@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74277a6b-fafc-44b2-beb0-b8a994089371" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/collejo-workbench.iml" afterPath="$PROJECT_DIR$/.idea/collejo-workbench.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" afterPath="$PROJECT_DIR$/webpack.mix.js" />
-      <change beforePath="$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/views/layouts/partials/footer.blade.php" afterPath="$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/views/layouts/partials/footer.blade.php" />
+      <change beforePath="$PROJECT_DIR$/workbench/Collejo/App/Http/JsValidator/JsValidator.php" afterPath="$PROJECT_DIR$/workbench/Collejo/App/Http/JsValidator/JsValidator.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,41 +42,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="webpack.mix.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.mix.js">
+      <file leaf-file-name="edit_grade_details.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/resources/views/edit_grade_details.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="118" column="25" lean-forward="false" selection-start-line="118" selection-start-column="25" selection-end-line="118" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/views/layouts/partials/footer.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            <state relative-caret-position="405">
+              <caret line="45" column="65" lean-forward="false" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="65" />
               <folding>
-                <marker date="1518678533721" expanded="true" signature="43:62" ph="..." />
-                <marker date="1518678533721" expanded="true" signature="68:156" ph="..." />
-                <marker date="1518678533721" expanded="true" signature="166:198" ph="..." />
-                <marker date="1518678533721" expanded="true" signature="215:311" ph="..." />
-                <marker date="1518678533721" expanded="true" signature="612:635" ph="..." />
-                <marker date="1518678533721" expanded="true" signature="687:724" ph="..." />
-                <marker date="1518678533721" expanded="true" signature="748:787" ph="..." />
-                <marker date="1518678533721" expanded="true" signature="835:844" ph="..." />
-                <marker date="1518678533721" expanded="true" signature="878:887" ph="..." />
+                <marker date="1518589091602" expanded="true" signature="9:38" ph="..." />
+                <marker date="1518589091602" expanded="true" signature="50:138" ph="..." />
+                <marker date="1518589091602" expanded="true" signature="150:158" ph="..." />
+                <marker date="1518589091602" expanded="true" signature="190:229" ph="..." />
+                <marker date="1518589091602" expanded="true" signature="289:298" ph="..." />
+                <marker date="1518589091602" expanded="true" signature="354:401" ph="..." />
+                <marker date="1518589091602" expanded="true" signature="437:450" ph="..." />
+                <marker date="1518589091602" expanded="true" signature="457:463" ph="..." />
+                <marker date="1518589091602" expanded="true" signature="542:564" ph="..." />
+                <marker date="1518589091602" expanded="true" signature="570:607" ph="..." />
+                <marker date="1518589091602" expanded="true" signature="676:717" ph="..." />
+                <marker date="1518589091602" expanded="true" signature="723:737" ph="..." />
+                <marker date="1518589091602" expanded="true" signature="795:831" ph="..." />
+                <marker date="1518589091602" expanded="true" signature="876:882" ph="..." />
+                <marker date="1518589091602" expanded="true" signature="898:933" ph="..." />
+                <marker date="1518589091602" expanded="true" signature="958:963" ph="..." />
+                <marker date="1518589091602" expanded="true" signature="1046:1052" ph="..." />
+                <marker date="1518589091602" expanded="true" signature="1080:1086" ph="..." />
+                <marker date="1518589091602" expanded="true" signature="1144:1180" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mix-manifest.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/mix-manifest.json">
+      <file leaf-file-name="JsValidator.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Http/JsValidator/JsValidator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="435">
+              <caret line="30" column="45" lean-forward="false" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -92,7 +93,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>batches_list</find>
       <find>collejo::</find>
       <find>DatabaseSeeder</find>
       <find>dash-</find>
@@ -107,7 +107,6 @@
       <find>new Vue({</find>
       <find>tab-content</find>
       <find>getgrade</find>
-      <find>renderRules</find>
       <find>defa</find>
       <find>carbon\ca</find>
       <find>getLangScriptFiles</find>
@@ -122,6 +121,8 @@
       <find>bcrypt</find>
       <find>syslog</find>
       <find>HEADER_X_FORWARDED_ALL</find>
+      <find>editGradeDetails</find>
+      <find>renderRules</find>
     </findStrings>
     <replaceStrings>
       <replace>entities.</replace>
@@ -158,7 +159,6 @@
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Http/Controllers/GradeController.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/resources/assets/js/components/EditGrade.vue" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/resources/views/edit_grade_details.blade.php" />
-        <option value="$PROJECT_DIR$/workbench/Collejo/App/Http/JsValidator/JsValidator.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Tests/UserRepositoryTest.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Tests/BatchRepositoryTest.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/188e1a91-34e9-41ee-b927-36b213b1a428/console.sql" />
@@ -199,6 +199,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/webpack.mix.js" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/views/layouts/partials/footer.blade.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Http/JsValidator/JsValidator.php" />
       </list>
     </option>
   </component>
@@ -326,38 +327,6 @@
             <path>
               <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
               <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="base" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="base" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -675,7 +644,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518676755660</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Update webpack task">
+      <created>1518678820719</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1518678820719</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -711,7 +687,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110854000" />
+    <option name="totallyTimeSpent" value="111505000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -729,12 +705,13 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28341585" sideWeight="0.5042511" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34385964" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27836257" sideWeight="0.49574885" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27836257" sideWeight="0.49574885" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24816054" sideWeight="0.5276968" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2716593" sideWeight="0.49712643" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2716593" sideWeight="0.49712643" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27900147" sideWeight="0.4723032" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24984765" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -753,7 +730,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20255864" sideWeight="0.4723032" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946696" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -820,7 +796,8 @@
     <MESSAGE value="Update to L5.6" />
     <MESSAGE value="Change env files" />
     <MESSAGE value="Don't ignore collejo storage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Don't ignore collejo storage" />
+    <MESSAGE value="Update webpack task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update webpack task" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -829,41 +806,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="64" column="23" lean-forward="false" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/Collejo/Foundation/Database/Eloquent/LoadFactories.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Tests/UserRepositoryTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/Collejo/Foundation/helpers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="63" column="1" lean-forward="false" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/workbench/Collejo/Foundation/Application.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1194,7 +1136,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/mix-manifest.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="544">
           <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding />
         </state>
@@ -1223,6 +1165,66 @@
             <marker date="1518678533721" expanded="true" signature="835:844" ph="..." />
             <marker date="1518678533721" expanded="true" signature="878:887" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Browser/Pages/HomePage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-230">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Browser/Pages/Page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/DuskTestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/resources/views/edit_grade_details.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="45" column="65" lean-forward="false" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="65" />
+          <folding>
+            <marker date="1518589091602" expanded="true" signature="9:38" ph="..." />
+            <marker date="1518589091602" expanded="true" signature="50:138" ph="..." />
+            <marker date="1518589091602" expanded="true" signature="150:158" ph="..." />
+            <marker date="1518589091602" expanded="true" signature="190:229" ph="..." />
+            <marker date="1518589091602" expanded="true" signature="289:298" ph="..." />
+            <marker date="1518589091602" expanded="true" signature="354:401" ph="..." />
+            <marker date="1518589091602" expanded="true" signature="437:450" ph="..." />
+            <marker date="1518589091602" expanded="true" signature="457:463" ph="..." />
+            <marker date="1518589091602" expanded="true" signature="542:564" ph="..." />
+            <marker date="1518589091602" expanded="true" signature="570:607" ph="..." />
+            <marker date="1518589091602" expanded="true" signature="676:717" ph="..." />
+            <marker date="1518589091602" expanded="true" signature="723:737" ph="..." />
+            <marker date="1518589091602" expanded="true" signature="795:831" ph="..." />
+            <marker date="1518589091602" expanded="true" signature="876:882" ph="..." />
+            <marker date="1518589091602" expanded="true" signature="898:933" ph="..." />
+            <marker date="1518589091602" expanded="true" signature="958:963" ph="..." />
+            <marker date="1518589091602" expanded="true" signature="1046:1052" ph="..." />
+            <marker date="1518589091602" expanded="true" signature="1080:1086" ph="..." />
+            <marker date="1518589091602" expanded="true" signature="1144:1180" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Http/JsValidator/JsValidator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="30" column="45" lean-forward="false" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
