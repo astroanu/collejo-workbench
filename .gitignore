@@ -1,6 +1,5 @@
 /node_modules
 /public/hot
-/storage/collejo/*
 /public/*
 /storage/*.key
 /vendor
