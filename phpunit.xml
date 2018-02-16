@@ -10,19 +10,19 @@
          stopOnFailure="false">
     <testsuites>
         <testsuite name="Foundation">
-            <directory suffix="Test.php">./workbench/Collejo/Foundation</directory>
+            <directory suffix="Test.php">workbench/Collejo/Foundation</directory>
         </testsuite>
 
         <testsuite name="App">
-            <directory suffix="Test.php">./workbench/Collejo/App</directory>
+            <directory suffix="Test.php">workbench/Collejo/App</directory>
         </testsuite>
     </testsuites>
     <filter>
         <whitelist>
-            <directory suffix=".php">./workbench/Collejo</directory>
+            <directory suffix=".php">workbench/Collejo</directory>
         </whitelist>
         <blacklist>
-            <directory>./workbench/Collejo/App/Modules/*/Models/factories</directory>
+            <directory>workbench/Collejo/App/Modules/*/Models/factories</directory>
         </blacklist>
     </filter>
     <php>
