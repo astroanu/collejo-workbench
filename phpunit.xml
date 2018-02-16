@@ -18,9 +18,12 @@
         </testsuite>
     </testsuites>
     <filter>
-        <whitelist processUncoveredFilesFromWhitelist="true">
+        <whitelist>
             <directory suffix=".php">./workbench/Collejo</directory>
         </whitelist>
+        <blacklist>
+            <directory>./workbench/Collejo/App/Modules/*/Models/factories</directory>
+        </blacklist>
     </filter>
     <php>
         <env name="APP_ENV" value="testing"/>

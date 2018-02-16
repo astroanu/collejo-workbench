@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoTestManager">
-    <enabled-run-configurations>
-      <run-configuration type="PHPUnitRunConfigurationType" name="UserRepositoryAdminTest.testGetAdminUsers" />
-    </enabled-run-configurations>
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="74277a6b-fafc-44b2-beb0-b8a994089371" name="Default" comment="Update unit tests">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/collejo-workbench.iml" afterPath="$PROJECT_DIR$/.idea/collejo-workbench.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/phpunit.xml" afterPath="$PROJECT_DIR$/phpunit.xml" />
-      <change beforePath="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Models/Role.php" afterPath="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Models/Role.php" />
-      <change beforePath="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Models/User.php" afterPath="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Models/User.php" />
-      <change beforePath="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Repositories/UserRepository.php" afterPath="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Repositories/UserRepository.php" />
-      <change beforePath="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Tests/UserRepositoryTest.php" afterPath="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Tests/UserRepositoryAdminTest.php" />
-      <change beforePath="$PROJECT_DIR$/workbench/Collejo/Foundation/Repository/BaseRepository.php" afterPath="$PROJECT_DIR$/workbench/Collejo/Foundation/Repository/BaseRepository.php" />
-      <change beforePath="$PROJECT_DIR$/workbench/Collejo/Foundation/Testing/TestCase.php" afterPath="$PROJECT_DIR$/workbench/Collejo/Foundation/Testing/TestCase.php" />
+      <change beforePath="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Contracts/UserRepository.php" afterPath="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Contracts/UserRepository.php" />
+      <change beforePath="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Tests/UserRepositoryACLTest.php" afterPath="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Tests/UserRepositoryACLTest.php" />
+      <change beforePath="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Tests/UserRepositoryAdminTest.php" afterPath="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Tests/UserRepositoryAdminTest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,6 +19,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <executablePath>composer</executablePath>
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/collejo$Unit.coverage" NAME="Unit Coverage Results" MODIFIED="1518792992019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -42,31 +37,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserRepositoryACLTest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserRepository.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Contracts/UserRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="515">
+              <caret line="32" column="49" lean-forward="true" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserRepository.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Repositories/UserRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2669">
+              <caret line="264" column="4" lean-forward="true" selection-start-line="264" selection-start-column="4" selection-end-line="264" selection-end-column="50" />
+              <caret line="239" column="4" lean-forward="false" selection-start-line="239" selection-start-column="4" selection-end-line="239" selection-end-column="36" />
+              <caret line="229" column="4" lean-forward="false" selection-start-line="229" selection-start-column="4" selection-end-line="229" selection-end-column="30" />
+              <caret line="203" column="4" lean-forward="false" selection-start-line="203" selection-start-column="4" selection-end-line="203" selection-end-column="49" />
+              <caret line="167" column="4" lean-forward="false" selection-start-line="167" selection-start-column="4" selection-end-line="167" selection-end-column="39" />
+              <caret line="157" column="4" lean-forward="false" selection-start-line="157" selection-start-column="4" selection-end-line="157" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserRepositoryACLTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Tests/UserRepositoryACLTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2477">
-              <caret line="62" column="7" lean-forward="true" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassRepository.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Repositories/ClassRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BatchTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Tests/BatchTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            <state relative-caret-position="612">
+              <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -83,8 +83,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>defa</find>
-      <find>carbon\ca</find>
       <find>getLangScriptFiles</find>
       <find>Collejo\Foundation\Tests</find>
       <find>UserRepositoryTest</find>
@@ -113,6 +111,8 @@
       <find>createAdminUser</find>
       <find>toArray</find>
       <find>findRole</find>
+      <find>findByEmail</find>
+      <find>findrole</find>
     </findStrings>
     <replaceStrings>
       <replace>entities.</replace>
@@ -134,14 +134,12 @@
     <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Auth/resources/assets/js/components/Login.vue" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Tests/UserRepositoryACLTest.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/workbench/Collejo/Foundation/Repository/BaseRepository.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Auth/resources/assets/js/components/Login.vue" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/resources/assets/js/components/EditGrade.vue" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/resources/views/edit_grade_details.blade.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Tests/UserRepositoryTest.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Tests/BatchRepositoryTest.php" />
@@ -181,17 +179,18 @@
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Models/User.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/Foundation/Repository/BaseRepository.php" />
         <option value="$PROJECT_DIR$/.travis.yml" />
-        <option value="$PROJECT_DIR$/phpunit.xml" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Models/factories/Role.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Models/factories/Permission.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Tests/TermTest.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Tests/GradeTest.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Tests/ClassTest.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Tests/BatchTest.php" />
-        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Tests/UserRepositoryAdminTest.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Repositories/UserRepository.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/Foundation/Testing/TestCase.php" />
+        <option value="$PROJECT_DIR$/phpunit.xml" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Tests/UserRepositoryAdminTest.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Tests/UserRepositoryACLTest.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Contracts/UserRepository.php" />
       </list>
     </option>
   </component>
@@ -287,13 +286,15 @@
       <path value="$PROJECT_DIR$/vendor/hieu-le/active" />
       <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/mtdowling/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1663" />
-    <option name="y" value="17" />
-    <option name="width" value="1517" />
-    <option name="height" value="1008" />
+    <option name="x" value="1627" />
+    <option name="y" value="-61" />
+    <option name="width" value="1585" />
+    <option name="height" value="1020" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -313,74 +314,61 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ACL" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="ACL" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Models" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="ACL" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Models" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="factories" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Contracts" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
@@ -389,48 +377,21 @@
               <item name="Repositories" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="ACL" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Classes" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Classes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Repositories" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Classes" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Tests" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -438,25 +399,25 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="UserRepositoryACLTest.php&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/ACL/Tests/UserRepositoryACLTest.php&#10;baserepo&#9;null&#9;null&#10;UserRepository&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/ACL/Repositories/UserRepository.php&#10;foo&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Base/resources/views/layouts/partials/footer.blade.php&#10;footer&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Base/resources/views/layouts/partials/footer.blade.php&#10;0_0_0_000010_create_jobs_table.php&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Base/migrations/0_0_0_000010_create_jobs_table.php&#10;helpers&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/Foundation/helpers.php&#10;batches_list&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Classes/resources/views/batches_list.blade.php" />
+    <property name="SearchEverywhereHistoryKey" value="factories\Permission.php&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/App/Modules/ACL/Models/factories/Permission.php&#10;UserRepositoryACLTest.php&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/ACL/Tests/UserRepositoryACLTest.php&#10;baserepo&#9;null&#9;null&#10;UserRepository&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/ACL/Repositories/UserRepository.php&#10;foo&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Base/resources/views/layouts/partials/footer.blade.php&#10;footer&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Base/resources/views/layouts/partials/footer.blade.php&#10;0_0_0_000010_create_jobs_table.php&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Base/migrations/0_0_0_000010_create_jobs_table.php&#10;helpers&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/Foundation/helpers.php&#10;batches_list&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Classes/resources/views/batches_list.blade.php" />
     <property name="last_opened_file_path" value="C:/Program Files/PHP7/phpunit.phar" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/resources/assets/sass/custom.scss&#10;D:/www/collejo/collejo-workbench/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php&#10;D:/www/collejo/collejo-workbench/.env" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\www\collejo\collejo-workbench\workbench\Collejo\App\Modules\ACL\Models\factories" />
-      <recent name="D:\www\collejo\collejo-workbench\workbench\Collejo\App\Modules\ACL\Tests" />
-      <recent name="D:\www\collejo\collejo-workbench\storage\collejo" />
-      <recent name="D:\www\collejo\collejo-workbench\resources\assets\js" />
-      <recent name="D:\www\collejo\collejo-workbench\resources\assets\sass" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\www\collejo\collejo-workbench\workbench\Collejo\App\Http" />
       <recent name="D:\www\collejo\collejo-workbench\workbench\Collejo\Foundation\Http" />
       <recent name="D:\www\collejo\collejo-workbench\workbench\Collejo\Foundation\Http\Requests" />
       <recent name="D:\www\collejo\collejo-workbench\workbench\Collejo\App\Modules\Base\resources\lang\en" />
       <recent name="D:\www\collejo\collejo-workbench\workbench\Collejo\App\Modules\Classes\resources\lang\en" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\www\collejo\collejo\themes" />
+      <recent name="D:\www\collejo\collejo\storage\tmp" />
+      <recent name="D:\www\collejo\collejo-workbench\workbench\Collejo\App\Modules\ACL\Models\factories" />
+      <recent name="D:\www\collejo\collejo-workbench\workbench\Collejo\App\Modules\ACL\Tests" />
+      <recent name="D:\www\collejo\collejo-workbench\storage\collejo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -741,39 +702,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unit - 2018.02.16 at 16h 48m 40s.xml">
+    <history-entry file="Unit - 2018.02.16 at 19h 30m 40s.xml">
       <configuration name="Unit" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unit - 2018.02.16 at 16h 53m 02s.xml">
+    <history-entry file="Unit - 2018.02.16 at 19h 59m 36s.xml">
       <configuration name="Unit" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unit - 2018.02.16 at 16h 53m 43s.xml">
+    <history-entry file="Unit - 2018.02.16 at 20h 01m 35s.xml">
       <configuration name="Unit" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unit - 2018.02.16 at 16h 56m 44s.xml">
+    <history-entry file="Unit - 2018.02.16 at 20h 08m 04s.xml">
       <configuration name="Unit" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unit - 2018.02.16 at 16h 58m 23s.xml">
+    <history-entry file="Unit - 2018.02.16 at 20h 08m 57s.xml">
       <configuration name="Unit" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unit - 2018.02.16 at 16h 58m 45s.xml">
+    <history-entry file="Unit - 2018.02.16 at 20h 09m 38s.xml">
       <configuration name="Unit" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unit - 2018.02.16 at 17h 01m 02s.xml">
+    <history-entry file="Unit - 2018.02.16 at 20h 18m 06s.xml">
       <configuration name="Unit" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unit - 2018.02.16 at 17h 01m 38s.xml">
+    <history-entry file="Unit - 2018.02.16 at 20h 19m 12s.xml">
       <configuration name="Unit" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unit - 2018.02.16 at 17h 02m 27s.xml">
+    <history-entry file="Unit - 2018.02.16 at 20h 24m 13s.xml">
       <configuration name="Unit" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unit - 2018.02.16 at 17h 05m 32s.xml">
+    <history-entry file="Unit - 2018.02.16 at 20h 28m 20s.xml">
       <configuration name="Unit" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131955000" />
+    <option name="totallyTimeSpent" value="135312000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -785,29 +746,43 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1358" y="-84" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28341585" sideWeight="0.5042511" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36940297" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2771739" sideWeight="0.49574885" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28341585" sideWeight="0.5042511" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3478261" sideWeight="0.49574885" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24816054" sideWeight="0.5276968" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51492536" sideWeight="0.49712643" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20575693" sideWeight="0.4723032" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33635396" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30597016" sideWeight="0.49712643" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17537314" sideWeight="0.4723032" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24909747" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946696" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28341585" sideWeight="0.5042511" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2771739" sideWeight="0.49574885" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36940297" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24816054" sideWeight="0.5276968" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51492536" sideWeight="0.49712643" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20575693" sideWeight="0.4723032" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24909747" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -882,37 +857,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env.example">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -941,38 +885,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/storage/framework/views/fd239f9e154311f50ea832d863b6a0546956d20c.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/framework/views/0cc2446fb3d8e3e2238d8fc449f012409149f94b.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/framework/views/4464044caec67802bcc64d3c9ab6f6868f6d5a1a.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/framework/views/b84828c5a6b383599f0e8b23ea6e73b0fcadfcdc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/framework/views/fd239f9e154311f50ea832d863b6a0546956d20c.php" />
+    <entry file="file://$PROJECT_DIR$/storage/framework/views/0cc2446fb3d8e3e2238d8fc449f012409149f94b.php" />
+    <entry file="file://$PROJECT_DIR$/storage/framework/views/4464044caec67802bcc64d3c9ab6f6868f6d5a1a.php" />
+    <entry file="file://$PROJECT_DIR$/storage/framework/views/b84828c5a6b383599f0e8b23ea6e73b0fcadfcdc.php" />
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1073,7 +989,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1091,14 +1006,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/393cb656-76fd-4557-b248-6d17625352db/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/393cb656-76fd-4557-b248-6d17625352db/console.sql" />
     <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Models/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -1115,30 +1023,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="41" column="48" lean-forward="false" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phpunit.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Models/factories/Role.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="70" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Models/factories/Role.php" />
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1151,7 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="53" lean-forward="true" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1159,7 +1043,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1167,7 +1050,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1183,23 +1065,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1805">
           <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Models/factories/Permission.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Tests/UserRepositoryAdminTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="52" column="46" lean-forward="false" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1211,19 +1076,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Repositories/UserRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="256" column="28" lean-forward="false" selection-start-line="256" selection-start-column="20" selection-end-line="256" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Repositories/ClassRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1231,14 +1087,90 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/logs/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/tmp/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="126" lean-forward="false" selection-start-line="17" selection-start-column="126" selection-end-line="17" selection-end-column="126" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Models/factories/Permission.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="10" lean-forward="true" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Tests/UserRepositoryAdminTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Tests/UserRepositoryACLTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2477">
-          <caret line="62" column="7" lean-forward="true" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+        <state relative-caret-position="612">
+          <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Repositories/UserRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2669">
+          <caret line="264" column="4" lean-forward="true" selection-start-line="264" selection-start-column="4" selection-end-line="264" selection-end-column="50" />
+          <caret line="239" column="4" lean-forward="false" selection-start-line="239" selection-start-column="4" selection-end-line="239" selection-end-column="36" />
+          <caret line="229" column="4" lean-forward="false" selection-start-line="229" selection-start-column="4" selection-end-line="229" selection-end-column="30" />
+          <caret line="203" column="4" lean-forward="false" selection-start-line="203" selection-start-column="4" selection-end-line="203" selection-end-column="49" />
+          <caret line="167" column="4" lean-forward="false" selection-start-line="167" selection-start-column="4" selection-end-line="167" selection-end-column="39" />
+          <caret line="157" column="4" lean-forward="false" selection-start-line="157" selection-start-column="4" selection-end-line="157" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Contracts/UserRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="32" column="49" lean-forward="true" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
           <folding />
         </state>
       </provider>
