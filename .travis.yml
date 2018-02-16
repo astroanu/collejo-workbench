@@ -31,7 +31,12 @@ before_script:
   - sudo git rev-parse HEAD
   - cd ../../
   - sudo git rev-parse HEAD
-  - composer install
+  - composer self-update
+  - composer install --no-interaction --prefer-source --dev
   - composer dump-autoload
   - sudo chmod -R 755 storage bootstrap/cache
   - composer dump-autoload -o
+script:
+  - vendor/bin/phpunit --coverage-clover=coverage.xml
+after_success:
+  - bash <(curl -s https://codecov.io/bash) -t "ebd4bae1-1ec6-4171-923b-dade7a78dc7b"
