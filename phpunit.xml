@@ -19,7 +19,7 @@
     </testsuites>
     <filter>
         <whitelist processUncoveredFilesFromWhitelist="true">
-            <directory suffix=".php">./workbench/Collejo/App</directory>
+            <directory suffix=".php">./workbench/Collejo</directory>
         </whitelist>
     </filter>
     <php>
