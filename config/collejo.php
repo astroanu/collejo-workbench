@@ -3,34 +3,34 @@
 return [
 
     /*
-	|--------------------------------------------------------------------------
-	| Authentication Settings
-	|--------------------------------------------------------------------------
-	|
-	| reauth_ttl : living time of a re-authentication grant
-	|
-	*/
-	'auth' => [
-		'reauth_ttl' => 3600
-	],
+    |--------------------------------------------------------------------------
+    | Authentication Settings
+    |--------------------------------------------------------------------------
+    |
+    | reauth_ttl : living time of a re-authentication grant
+    |
+    */
+    'auth' => [
+        'reauth_ttl' => 3600,
+    ],
 
     /*
-	|--------------------------------------------------------------------------
-	| Email Setting
-	|--------------------------------------------------------------------------
-	|
-	| new_user_password_create_request : sends an email to the given user asking
+    |--------------------------------------------------------------------------
+    | Email Setting
+    |--------------------------------------------------------------------------
+    |
+    | new_user_password_create_request : sends an email to the given user asking
     | to create a password
-	|
-	*/
-	'emails' => [
-		'new_user_password_create_request' => [
-			'student' => true,
-			'guardian' => true,
-			'admin' => true,
-			'employee' => true
-		]
-	],
+    |
+    */
+    'emails' => [
+        'new_user_password_create_request' => [
+            'student'  => true,
+            'guardian' => true,
+            'admin'    => true,
+            'employee' => true,
+        ],
+    ],
 
     /*
     |--------------------------------------------------------------------------
@@ -40,9 +40,9 @@ return [
     | perpage : the number of items shown per page
     |
     */
-	'pagination' => [
-		'perpage' => 10
-	],
+    'pagination' => [
+        'perpage' => 10,
+    ],
 
     /*
     |--------------------------------------------------------------------------
@@ -53,10 +53,10 @@ return [
     | search_criteria : TTL for caching search criteria
     |
     */
-	'caching' => [
-		'user_permissions' => 30,
-		'search_criteria' => 30
-	],
+    'caching' => [
+        'user_permissions' => 30,
+        'search_criteria'  => 30,
+    ],
 
     /*
     |--------------------------------------------------------------------------
@@ -67,9 +67,9 @@ return [
     | theme : define which theme to use for the application
     |
     */
-	'assets' => [
-		'minified' => true,
-		'theme' => null
-	],
+    'assets' => [
+        'minified' => true,
+        'theme'    => null,
+    ],
 
 ];
