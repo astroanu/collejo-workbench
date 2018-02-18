@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="10ff58ec-c953-4188-84f8-9b67e8da9ca4" name="vagrant" url="http://localhost">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="55ddb757-a9af-4f4f-93c7-0f9d71db209f" name="SFTP" url="http://192.168.10.10">
+        <fileTransfer host="192.168.10.10" port="22" privateKey="D:\Homestead\.vagrant\machines\homestead-7\virtualbox\private_key" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="3000000" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

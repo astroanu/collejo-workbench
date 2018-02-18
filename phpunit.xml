@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit backupGlobals="false"
          backupStaticAttributes="false"
-         bootstrap="bootstrap/autoload.php"
+         bootstrap="vendor/autoload.php"
          colors="true"
          convertErrorsToExceptions="true"
          convertNoticesToExceptions="true"
@@ -9,15 +9,33 @@
          processIsolation="false"
          stopOnFailure="false">
     <testsuites>
-        <testsuite name="Application Test Suite">
-            <directory suffix="Test.php">./tests</directory>
+        <testsuite name="Foundation">
+            <directory suffix="Test.php">workbench/Collejo/Foundation</directory>
+        </testsuite>
+
+        <testsuite name="App">
+            <directory suffix="Test.php">workbench/Collejo/App</directory>
         </testsuite>
     </testsuites>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">workbench/Collejo</directory>
+        </whitelist>
+        <blacklist>
+            <directory>workbench/Collejo/App/Modules/*/Models/factories</directory>
+        </blacklist>
+    </filter>
     <php>
         <env name="APP_ENV" value="testing"/>
         <env name="CACHE_DRIVER" value="array"/>
         <env name="SESSION_DRIVER" value="array"/>
         <env name="QUEUE_DRIVER" value="sync"/>
-        <env name="DB_DATABASE" value="test_collejo"/>
+        <env name="APP_URL" value="http://localhost:8000"/>
+        <env name="APP_DEBUG" value="true"/>
+        <env name="DB_HOST" value="127.0.0.1"/>
+        <env name="DB_PORT" value="3306"/>
+        <env name="DB_DATABASE" value="test"/>
+        <env name="DB_USERNAME" value="travis"/>
+        <env name="DB_PASSWORD" value=""/>
     </php>
 </phpunit>
