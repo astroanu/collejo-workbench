@@ -28,11 +28,11 @@
         ],
         "psr-4": {
             "Collejo\\Modules\\": "modules",
-            "Collejo\\App\\": "workbench/collejo/app/src",
+            "Collejo\\App\\": "workbench/Collejo/src",
             "Tests\\": "tests"
         },
         "files": [
-            "workbench/collejo/app/src/helpers/helpers.php"
+            "workbench/Collejo/src/helpers/helpers.php"
         ]
     },
     "scripts": {
