@@ -39,7 +39,7 @@ return [
     */
 
     'pagination' => [
-        'perpage' => 5,
+        'perpage' => 20,
     ],
 
     /*
