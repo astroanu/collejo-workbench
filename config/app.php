@@ -164,6 +164,15 @@ return [
 
     ],
 
+    /**
+     * An array of providers that needs to be loaded
+     * in a non production environment
+     */
+    'non_production_mode_providers' => [
+        Clockwork\Support\Laravel\ClockworkServiceProvider::class,
+        Laravel\Dusk\DuskServiceProvider::class,
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Class Aliases

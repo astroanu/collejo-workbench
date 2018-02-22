@@ -30,7 +30,10 @@
     },
     "extra": {
         "laravel": {
-            "dont-discover": []
+            "dont-discover": [
+                "laravel/dusk",
+                "itsgoingd/clockwork"
+            ]
         }
     },
     "scripts": {
