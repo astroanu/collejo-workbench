@@ -164,7 +164,7 @@ return [
 
     ],
 
-    /**
+    /*
      * An array of providers that needs to be loaded
      * in a non production environment
      */
