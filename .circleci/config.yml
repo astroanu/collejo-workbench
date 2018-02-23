@@ -7,8 +7,13 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: circleci/php:7.1.5-browsers
-
+      - image: circleci/php:7.1.14-fpm-node-browsers
+      - image: circleci/mysql:5.7.18
+        environment:
+          MYSQL_DATABASE: test
+          MYSQL_USER: travis
+          MYSQL_PASSWORD:
+          MYSQL_ROOT_PASSWORD:
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
       # documented at https://circleci.com/docs/2.0/circleci-images/
@@ -26,7 +31,16 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
 
+      - run: sudo git clone -b $BRANCH https://github.com/CodeBreez/collejo-app.git workbench/Collejo
+      - run: cd workbench/Collejo
+      - run: sudo git fetch
+      - run: sudo git pull origin $BRANCH
+      - run: cd ../../
+      - run: sudo chmod -R 755 storage bootstrap/cache
       - run: composer install -n --prefer-dist
+      - run: composer dump-autoload -o
+      - run: npm install
+      - run: php artisan serve &
 
       - save_cache:
           paths:

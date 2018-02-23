@@ -34,7 +34,6 @@ before_script:
   - sudo git rev-parse HEAD
   - composer self-update
   - composer install --no-interaction --prefer-source --dev
-  - composer dump-autoload
   - sudo chmod -R 755 storage bootstrap/cache
   - composer dump-autoload -o
   - php artisan serve &
