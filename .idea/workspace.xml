@@ -4,6 +4,8 @@
     <list default="true" id="74277a6b-fafc-44b2-beb0-b8a994089371" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.circleci/config.yml" afterPath="$PROJECT_DIR$/.circleci/config.yml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml" afterPath="$PROJECT_DIR$/phpunit.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,8 +39,38 @@
       <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+            <state relative-caret-position="400">
+              <caret line="26" column="91" lean-forward="false" selection-start-line="26" selection-start-column="91" selection-end-line="26" selection-end-column="91" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".env.example" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env.example">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phpunit.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phpunit.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="501">
+              <caret line="38" column="43" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -47,8 +79,8 @@
       <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="38" column="53" lean-forward="false" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
+            <state relative-caret-position="537">
+              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -157,7 +189,6 @@
         <option value="$PROJECT_DIR$/tests/Browser/ExampleTest.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Tests/ExampleTest.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Http/Kernel.php" />
-        <option value="$PROJECT_DIR$/phpunit.xml" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Tests/Unit/BatchTest.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Tests/Unit/ClassTest.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Tests/Unit/GradeTest.php" />
@@ -176,6 +207,7 @@
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Http/JsValidator/JsValidator.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Providers/BroadcastServiceProvider.php" />
         <option value="$PROJECT_DIR$/.gitmodules" />
+        <option value="$PROJECT_DIR$/phpunit.xml" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/.circleci/config.yml" />
       </list>
@@ -400,21 +432,7 @@
       <workItem from="1519363342011" duration="5382000" />
       <workItem from="1519368914028" duration="10283000" />
       <workItem from="1519405658316" duration="885000" />
-      <workItem from="1519406692564" duration="3333000" />
-    </task>
-    <task id="LOCAL-00025" summary="Install mysql on travis">
-      <created>1518603236933</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1518603236933</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Install mysql on travis">
-      <created>1518603453278</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1518603453278</updated>
+      <workItem from="1519406692564" duration="4534000" />
     </task>
     <task id="LOCAL-00027" summary="Change typo">
       <created>1518635837324</created>
@@ -745,7 +763,21 @@
       <option name="project" value="LOCAL" />
       <updated>1519411249601</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Circle ci mysql credentials">
+      <created>1519411707500</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1519411707500</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Circle ci mysql credentials">
+      <created>1519412077610</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1519412077610</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -781,7 +813,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180328000" />
+    <option name="totallyTimeSpent" value="181529000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -860,7 +892,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/workbench/Collejo" />
     </ignored-roots>
-    <MESSAGE value="Added CodeCoverage whitelist" />
     <MESSAGE value="Code coverage update" />
     <MESSAGE value="Remove unused cover attempt" />
     <MESSAGE value="Classes Repository php doc" />
@@ -885,7 +916,8 @@
     <MESSAGE value="Submodule on travis + pphpunit on circle ci" />
     <MESSAGE value="install php pdo in circle ci" />
     <MESSAGE value="No need to run server on travis" />
-    <option name="LAST_COMMIT_MESSAGE" value="No need to run server on travis" />
+    <MESSAGE value="Circle ci mysql credentials" />
+    <option name="LAST_COMMIT_MESSAGE" value="Circle ci mysql credentials" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -894,23 +926,9 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/workbench/Collejo/Foundation/Menus/Tests/MenusTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/dusk/src/Browser.php" />
     <entry file="file://$PROJECT_DIR$/tests/Browser/Pages/HomePage.php" />
     <entry file="file://$PROJECT_DIR$/tests/Browser/Pages/Page.php" />
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/dusk/src/Concerns/MakesAssertions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
@@ -1213,26 +1231,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phpunit.xml">
+    <entry file="file://$PROJECT_DIR$/.env.example">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="38" column="53" lean-forward="false" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
+        <state relative-caret-position="537">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="38" column="43" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        <state relative-caret-position="400">
+          <caret line="26" column="91" lean-forward="false" selection-start-line="26" selection-start-column="91" selection-end-line="26" selection-end-column="91" />
           <folding />
         </state>
       </provider>
