@@ -33,7 +33,7 @@ jobs:
 
       - run: sudo echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config+
       - run: mkdir -p "$HOME/.ssh"
-      - run: ssh-keyscan -t rsa github.com > ~/.ssh/known_hosts
+      - run: ssh-keygen -t rsa -f /etc/ssh/ssh_host_rsa_key
       - run: ssh-keyscan github.com >> ~/.ssh/known_hosts
       - run: sudo git clone -b $CIRCLE_BRANCH https://github.com/CodeBreez/collejo-app.git workbench/Collejo
       - run: cd workbench/Collejo
