@@ -31,7 +31,7 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
 
-      - run: sudo echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config+
+      - run: git config --global core.sshCommand ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no
       - run: sudo git clone -b $CIRCLE_BRANCH git@github.com:astroanu/collejo-workbench.git workbench/Collejo
       - run: cd workbench/Collejo
       - run: sudo git fetch
