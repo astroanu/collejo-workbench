@@ -39,6 +39,8 @@ jobs:
       - run: composer install -n --prefer-dist
       - run: composer dump-autoload -o
       - run: npm install
+      - run: php artisan asset:routes
+      - run: php artisan asset:trans
       - run: npm run prod
       - run: php artisan serve &
 
