@@ -10,10 +10,10 @@ jobs:
       - image: circleci/php:7.1.14-fpm-node-browsers
       - image: circleci/mysql:5.7.18
         environment:
-          MYSQL_DATABASE: test
-          MYSQL_USER: travis
-          MYSQL_ROOT_PASSWORD: ubuntu
-          MYSQL_ALLOW_EMPTY_PASSWORD: true
+        - MYSQL_DATABASE: test
+        - MYSQL_USER: travis
+        - MYSQL_ROOT_PASSWORD: ubuntu
+        - MYSQL_ALLOW_EMPTY_PASSWORD: true
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
       # documented at https://circleci.com/docs/2.0/circleci-images/
