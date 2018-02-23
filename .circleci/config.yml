@@ -32,10 +32,7 @@ jobs:
           - v1-dependencies-
 
       - run: sudo echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config+
-      - run: mkdir -p "$HOME/.ssh"
-      - run: sudo ssh-keygen -t rsa -f /etc/ssh/ssh_host_rsa_key -N ''
-      - run: ssh-keyscan github.com >> ~/.ssh/known_hosts
-      - run: sudo git clone -b $CIRCLE_BRANCH https://github.com/CodeBreez/collejo-app.git workbench/Collejo
+      - run: sudo git clone -b $CIRCLE_BRANCH git@github.com:astroanu/collejo-workbench.git workbench/Collejo
       - run: cd workbench/Collejo
       - run: sudo git fetch
       - run: sudo git pull origin $CIRCLE_BRANCH

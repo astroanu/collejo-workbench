@@ -47,8 +47,8 @@
       <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="35" column="65" lean-forward="false" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
+            <state relative-caret-position="362">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -408,21 +408,7 @@
       <workItem from="1518635514640" duration="2378000" />
       <workItem from="1518762250574" duration="16395000" />
       <workItem from="1519363342011" duration="5382000" />
-      <workItem from="1519368914028" duration="9569000" />
-    </task>
-    <task id="LOCAL-00013" summary="Added Carbon">
-      <created>1518168646785</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1518168646785</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Added custom overrides folder">
-      <created>1518173396587</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1518173396587</updated>
+      <workItem from="1519368914028" duration="9769000" />
     </task>
     <task id="LOCAL-00015" summary="Added custom overrides folder">
       <created>1518173949761</created>
@@ -753,7 +739,21 @@
       <option name="project" value="LOCAL" />
       <updated>1519379709850</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Circle ci setup">
+      <created>1519379881687</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1519379881687</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Circle ci setup">
+      <created>1519379985772</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1519379985772</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -789,7 +789,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175396000" />
+    <option name="totallyTimeSpent" value="175596000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1266,8 +1266,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="35" column="65" lean-forward="false" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
+        <state relative-caret-position="362">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
