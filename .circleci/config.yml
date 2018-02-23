@@ -4,13 +4,6 @@
 #
 version: 2
 jobs:
-  environment:
-    MYSQL_HOST: 127.0.0.1
-    MYSQL_ALLOW_EMPTY_PASSWORD: true
-    MYSQL_DATABASE: test
-    MYSQL_USER: travis
-    MYSQL_ROOT_PASSWORD: ubuntu
-
   build:
     docker:
       # specify the version you desire here
@@ -20,6 +13,12 @@ jobs:
       # CircleCI maintains a library of pre-built images
       # documented at https://circleci.com/docs/2.0/circleci-images/
       # - image: circleci/mysql:9.4
+    environment:
+      MYSQL_HOST: 127.0.0.1
+      MYSQL_ALLOW_EMPTY_PASSWORD: true
+      MYSQL_DATABASE: test
+      MYSQL_USER: travis
+      MYSQL_ROOT_PASSWORD: ubuntu
 
     working_directory: ~/repo
 
@@ -28,7 +27,7 @@ jobs:
       - run: sudo docker-php-ext-install zip
       - run: sudo docker-php-ext-install pdo_mysql
       - checkout
-      - run: sudo apt install -y mysql-client
+      - run: sudo apt-get install -y mysql-client
 
       # Download and cache dependencies
       - restore_cache:
