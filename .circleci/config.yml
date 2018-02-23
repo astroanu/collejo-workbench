@@ -47,3 +47,5 @@ jobs:
 
       # run tests!
       - run: vendor/bin/phpunit
+      - store_artifacts:
+          path: tests/Browser

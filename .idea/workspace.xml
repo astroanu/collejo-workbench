@@ -4,7 +4,8 @@
     <list default="true" id="74277a6b-fafc-44b2-beb0-b8a994089371" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.circleci/config.yml" afterPath="$PROJECT_DIR$/.circleci/config.yml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change beforePath="$PROJECT_DIR$/tests/Browser/Pages/HomePage.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tests/Browser/Pages/Page.php" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,9 +39,22 @@
       <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+            <state relative-caret-position="435">
+              <caret line="45" column="59" lean-forward="false" selection-start-line="45" selection-start-column="59" selection-end-line="45" selection-end-column="59" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="391">
+                <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -138,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Tests/UserRepositoryACLTest.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Models/factories/Permission.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Models/factories/Role.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Models/factories/User.php" />
@@ -188,6 +201,7 @@
         <option value="$PROJECT_DIR$/.gitmodules" />
         <option value="$PROJECT_DIR$/phpunit.xml" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/.circleci/config.yml" />
       </list>
     </option>
@@ -315,6 +329,24 @@
               <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
               <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Browser" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Browser" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="screenshots" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -334,19 +366,19 @@
     <property name="auto.test.manager.delay" value="1000" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\www\collejo\collejo-workbench\workbench\Collejo\App\Modules\Classes\Tests\Unit" />
-      <recent name="D:\www\collejo\collejo-workbench\workbench\Collejo\App\Modules\ACL\Tests\E2E" />
-      <recent name="D:\www\collejo\collejo-workbench\workbench\Collejo\App\Modules\ACL\Tests\Unit" />
-      <recent name="D:\www\collejo\collejo\workbench\Collejo\App\Modules\ACL\Tests" />
-      <recent name="D:\www\collejo\collejo\workbench\Collejo\Foundation\Testing" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\www\collejo\collejo\workbench\Collejo\App\Modules\Classes\Seeder" />
       <recent name="D:\www\collejo\collejo\workbench\Collejo\App\Modules\Base\Commands" />
       <recent name="D:\www\collejo\collejo\themes" />
       <recent name="D:\www\collejo\collejo\storage\tmp" />
       <recent name="D:\www\collejo\collejo-workbench\workbench\Collejo\App\Modules\ACL\Models\factories" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\www\collejo\collejo-workbench\workbench\Collejo\App\Modules\Classes\Tests\Unit" />
+      <recent name="D:\www\collejo\collejo-workbench\workbench\Collejo\App\Modules\ACL\Tests\E2E" />
+      <recent name="D:\www\collejo\collejo-workbench\workbench\Collejo\App\Modules\ACL\Tests\Unit" />
+      <recent name="D:\www\collejo\collejo\workbench\Collejo\App\Modules\ACL\Tests" />
+      <recent name="D:\www\collejo\collejo\workbench\Collejo\Foundation\Testing" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -411,21 +443,7 @@
       <workItem from="1519363342011" duration="5382000" />
       <workItem from="1519368914028" duration="10283000" />
       <workItem from="1519405658316" duration="885000" />
-      <workItem from="1519406692564" duration="7780000" />
-    </task>
-    <task id="LOCAL-00033" summary="Added CodeCoverage">
-      <created>1518772663192</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1518772663192</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Added CodeCoverage whitelist">
-      <created>1518773110364</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1518773110364</updated>
+      <workItem from="1519406692564" duration="8365000" />
     </task>
     <task id="LOCAL-00035" summary="Code coverage update">
       <created>1518793128795</created>
@@ -756,7 +774,21 @@
       <option name="project" value="LOCAL" />
       <updated>1519415815338</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Artisan run">
+      <created>1519416159808</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1519416159808</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Update readme with badges">
+      <created>1519416478970</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1519416478970</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -792,7 +824,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184775000" />
+    <option name="totallyTimeSpent" value="185360000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -871,8 +903,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/workbench/Collejo" />
     </ignored-roots>
-    <MESSAGE value="Code coverage update" />
-    <MESSAGE value="Remove unused cover attempt" />
     <MESSAGE value="Classes Repository php doc" />
     <MESSAGE value="Factory change params" />
     <MESSAGE value="Added codecov.yml" />
@@ -896,7 +926,9 @@
     <MESSAGE value="install php pdo in circle ci" />
     <MESSAGE value="No need to run server on travis" />
     <MESSAGE value="Circle ci mysql credentials" />
-    <option name="LAST_COMMIT_MESSAGE" value="Circle ci mysql credentials" />
+    <MESSAGE value="Artisan run" />
+    <MESSAGE value="Update readme with badges" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update readme with badges" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -905,8 +937,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/dusk/src/Browser.php" />
-    <entry file="file://$PROJECT_DIR$/tests/Browser/Pages/HomePage.php" />
     <entry file="file://$PROJECT_DIR$/tests/Browser/Pages/Page.php" />
     <entry file="file://$PROJECT_DIR$/vendor/laravel/dusk/src/Concerns/MakesAssertions.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -990,11 +1020,6 @@
         <state relative-caret-position="-8">
           <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Browser/screenshots/failure-testBasicExample-0.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Tests/Unit/UserRepositoryACLTest.php">
@@ -1242,10 +1267,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="391">
+            <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Browser/screenshots/failure-testBasicExample-0.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Browser/screenshots/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        <state relative-caret-position="435">
+          <caret line="45" column="59" lean-forward="false" selection-start-line="45" selection-start-column="59" selection-end-line="45" selection-end-column="59" />
           <folding />
         </state>
       </provider>
