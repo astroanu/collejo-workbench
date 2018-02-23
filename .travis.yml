@@ -19,6 +19,13 @@ before_install:
   - mysql -e 'set GLOBAL default_storage_engine=`InnoDb`;'
   - mysql -e 'create database test;'
   - sudo service mysql restart
+  - wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+  - sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+  - sudo apt-get update
+  - sudo apt-get install -y google-chrome-stable
+  - sudo apt-get install -y xvfb
+  - sudo apt-get install -y libnss3-dev libxi6 libgconf-2-4
+  - Xvfb :0 -screen 0 1280x960x24 &
 before_script:
   - export BRANCH=$(if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo $TRAVIS_BRANCH; else echo $TRAVIS_PULL_REQUEST_BRANCH; fi)
   - echo "TRAVIS_BRANCH=$TRAVIS_BRANCH, PR=$PR, BRANCH=$BRANCH"
@@ -36,6 +43,7 @@ before_script:
   - composer dump-autoload
   - sudo chmod -R 755 storage bootstrap/cache
   - composer dump-autoload -o
+  - php artisan serve &
 script:
   - vendor/bin/phpunit --coverage-clover=coverage.xml
 after_success:
