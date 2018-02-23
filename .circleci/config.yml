@@ -31,16 +31,13 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
 
-      - run: git config --global core.sshCommand "ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no"
-      - run: sudo git clone -b $CIRCLE_BRANCH git@github.com:astroanu/collejo-workbench.git workbench/Collejo
-      - run: cd workbench/Collejo
-      - run: sudo git fetch
-      - run: sudo git pull origin $CIRCLE_BRANCH
-      - run: cd ../../
+      - run: git submodule sync
+      - run: git submodule update --init
       - run: sudo chmod -R 755 storage bootstrap/cache
       - run: composer install -n --prefer-dist
       - run: composer dump-autoload -o
       - run: npm install
+      - run: npm run prod
       - run: php artisan serve &
 
       - save_cache:
