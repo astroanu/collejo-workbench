@@ -35,8 +35,5 @@ before_script:
   - composer install --no-interaction --prefer-source --dev
   - sudo chmod -R 755 storage bootstrap/cache
   - composer dump-autoload -o
-  - php artisan serve &
 script:
   - vendor/bin/phpunit --testsuite Foundation,AppUnit
-after_success:
-  - bash <(curl -s https://codecov.io/bash)
