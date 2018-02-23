@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74277a6b-fafc-44b2-beb0-b8a994089371" name="Default" comment="Submodules">
-      <change beforePath="$PROJECT_DIR$/.gitmodules" afterPath="$PROJECT_DIR$/.gitmodules" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="74277a6b-fafc-44b2-beb0-b8a994089371" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" afterPath="$PROJECT_DIR$/.circleci/config.yml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,11 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitmodules" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitmodules">
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="95">
+              <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -167,8 +166,8 @@
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Http/JsValidator/JsValidator.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Providers/BroadcastServiceProvider.php" />
         <option value="$PROJECT_DIR$/.travis.yml" />
-        <option value="$PROJECT_DIR$/.circleci/config.yml" />
         <option value="$PROJECT_DIR$/.gitmodules" />
+        <option value="$PROJECT_DIR$/.circleci/config.yml" />
       </list>
     </option>
   </component>
@@ -295,6 +294,11 @@
               <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
               <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name=".circleci" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -391,21 +395,7 @@
       <workItem from="1519363342011" duration="5382000" />
       <workItem from="1519368914028" duration="10283000" />
       <workItem from="1519405658316" duration="885000" />
-      <workItem from="1519406692564" duration="607000" />
-    </task>
-    <task id="LOCAL-00017" summary="Pull workbench repo first">
-      <created>1518589433644</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1518589433644</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Pull workbench repo first">
-      <created>1518589646553</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1518589646553</updated>
+      <workItem from="1519406692564" duration="1808000" />
     </task>
     <task id="LOCAL-00019" summary="Pull workbench repo first">
       <created>1518590176778</created>
@@ -736,16 +726,24 @@
       <option name="project" value="LOCAL" />
       <updated>1519380449349</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="'Submodules'">
+      <created>1519407322504</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1519407322505</updated>
+    </task>
+    <task id="LOCAL-00067" summary="submodule init">
+      <created>1519409920807</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1519409920807</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Coverage - 2018.02.23 at 12h 35m 09s.xml">
-      <configuration name="Coverage" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Coverage - 2018.02.23 at 12h 43m 01s.xml">
-      <configuration name="Coverage" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="E2E - 2018.02.23 at 11h 38m 11s.xml">
       <configuration name="E2E" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -770,9 +768,15 @@
     <history-entry file="Unit - 2018.02.23 at 11h 30m 33s.xml">
       <configuration name="Unit" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="Unit - 2018.02.23 at 23h 46m 13s.xml">
+      <configuration name="Unit" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Unit - 2018.02.23 at 23h 48m 29s.xml">
+      <configuration name="Unit" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177602000" />
+    <option name="totallyTimeSpent" value="178803000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -786,15 +790,15 @@
   <component name="ToolWindowManager">
     <frame x="1358" y="-84" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20842217" sideWeight="0.4723032" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20842217" sideWeight="0.4723032" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28341585" sideWeight="0.5042511" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27173913" sideWeight="0.49574885" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30810234" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30810234" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24909747" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24200426" sideWeight="0.49712643" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24200426" sideWeight="0.49712643" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -851,8 +855,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/workbench/Collejo" />
     </ignored-roots>
-    <MESSAGE value="Change typo" />
-    <MESSAGE value="Update to L5.6" />
     <MESSAGE value="Change env files" />
     <MESSAGE value="Don't ignore collejo storage" />
     <MESSAGE value="Update webpack task" />
@@ -876,7 +878,9 @@
     <MESSAGE value="Do Unit tests only on travis" />
     <MESSAGE value="Circle ci setup" />
     <MESSAGE value="Submodules" />
-    <option name="LAST_COMMIT_MESSAGE" value="Submodules" />
+    <MESSAGE value="'Submodules'" />
+    <MESSAGE value="submodule init" />
+    <option name="LAST_COMMIT_MESSAGE" value="submodule init" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -885,7 +889,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/dusk/src/Console/DuskCommand.php" />
     <entry file="file://$PROJECT_DIR$/workbench/Collejo/Foundation/Menus/Tests/MenusTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -1182,25 +1185,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
           <caret line="26" column="62" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="62" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1215,6 +1204,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
           <folding />
         </state>
       </provider>
