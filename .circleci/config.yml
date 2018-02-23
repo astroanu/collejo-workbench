@@ -35,7 +35,10 @@ jobs:
       - run: php artisan asset:routes
       - run: php artisan asset:trans
       - run: npm run prod
-      - run: php artisan serve &
+      - run:
+         name: Run Laravel Server
+         command: php artisan serve
+         background: true
 
       - save_cache:
           paths:
