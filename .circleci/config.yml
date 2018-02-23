@@ -9,16 +9,6 @@ jobs:
       # specify the version you desire here
       - image: circleci/php:7.1.14-fpm-node-browsers
       - image: circleci/mysql:latest
-      # Specify service dependencies here if necessary
-      # CircleCI maintains a library of pre-built images
-      # documented at https://circleci.com/docs/2.0/circleci-images/
-      # - image: circleci/mysql:9.4
-    environment:
-      MYSQL_HOST: 127.0.0.1
-      MYSQL_ALLOW_EMPTY_PASSWORD: true
-      MYSQL_DATABASE: test
-      MYSQL_USER: travis
-      MYSQL_ROOT_PASSWORD: ubuntu
 
     working_directory: ~/repo
 
