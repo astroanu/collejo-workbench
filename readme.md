@@ -4,6 +4,7 @@
     <h1 align="center">Collejo</h1>
 </p>
 
+[![CircleCI](https://circleci.com/gh/astroanu/collejo-workbench/tree/L55.svg?style=svg)](https://circleci.com/gh/astroanu/collejo-workbench/tree/L55)
 [![Build Status](https://travis-ci.org/astroanu/collejo-workbench.svg?branch=L55)](https://travis-ci.org/astroanu/collejo-workbench)
 [![Dependency Status](https://dependencyci.com/github/astroanu/collejo-workbench/badge)](https://dependencyci.com/github/astroanu/collejo-workbench)
 [![StyleCI](https://styleci.io/repos/62229679/shield?branch=L55)](https://styleci.io/repos/62229679)
