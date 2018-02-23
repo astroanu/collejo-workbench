@@ -11,20 +11,15 @@ jobs:
       - image: circleci/mysql:5.7.18
         environment:
           MYSQL_DATABASE: test
-          MYSQL_USER: ubuntu
+          MYSQL_USER: travis
           MYSQL_ROOT_PASSWORD: ubuntu
+          MYSQL_ALLOW_EMPTY_PASSWORD: true
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
       # documented at https://circleci.com/docs/2.0/circleci-images/
       # - image: circleci/mysql:9.4
 
     working_directory: ~/repo
-
-    database:
-      override:
-        - mysql -u ubuntu -e "CREATE DATABASE IF NOT EXISTS test"
-        - mysql -u ubuntu -e "CREATE USER IF NOT EXISTS 'travis'@'localhost'"
-        - mysql -u ubuntu -e "GRANT ALL ON test.* TO 'travis'@'localhost';FLUSH PRIVILEGES;"
 
     steps:
       - run: sudo apt-get install -y libzip-dev
