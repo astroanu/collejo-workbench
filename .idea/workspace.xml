@@ -47,8 +47,8 @@
       <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="42" column="38" lean-forward="true" selection-start-line="41" selection-start-column="46" selection-end-line="42" selection-end-column="38" />
+            <state relative-caret-position="396">
+              <caret line="36" column="57" lean-forward="false" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -58,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="282">
-              <caret line="26" column="62" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="62" />
+              <caret line="26" column="62" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -282,10 +282,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1623" />
-    <option name="y" value="-13" />
-    <option name="width" value="1627" />
-    <option name="height" value="960" />
+    <option name="x" value="1653" />
+    <option name="y" value="19" />
+    <option name="width" value="1490" />
+    <option name="height" value="977" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -408,21 +408,7 @@
       <workItem from="1518635514640" duration="2378000" />
       <workItem from="1518762250574" duration="16395000" />
       <workItem from="1519363342011" duration="5382000" />
-      <workItem from="1519368914028" duration="5967000" />
-    </task>
-    <task id="LOCAL-00009" summary="Added component based validation + style dashboard">
-      <created>1517228384278</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1517228384278</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Fix unit tests for classes module">
-      <created>1518167889677</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1518167889677</updated>
+      <workItem from="1519368914028" duration="8980000" />
     </task>
     <task id="LOCAL-00011" summary="Fix unit tests for classes module">
       <created>1518167907122</created>
@@ -753,7 +739,21 @@
       <option name="project" value="LOCAL" />
       <updated>1519374284204</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Circle ci setup">
+      <created>1519375688987</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1519375688987</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Circle ci setup">
+      <created>1519378344579</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1519378344580</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -789,7 +789,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171794000" />
+    <option name="totallyTimeSpent" value="174807000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -808,7 +808,7 @@
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28341585" sideWeight="0.5042511" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27173913" sideWeight="0.49574885" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27173913" sideWeight="0.49574885" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30810234" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24909747" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49520257" sideWeight="0.49712643" order="8" side_tool="false" content_ui="tabs" />
@@ -1259,15 +1259,15 @@
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
-          <caret line="26" column="62" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="62" />
+          <caret line="26" column="62" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="42" column="38" lean-forward="true" selection-start-line="41" selection-start-column="46" selection-end-line="42" selection-end-column="38" />
+        <state relative-caret-position="396">
+          <caret line="36" column="57" lean-forward="false" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
           <folding />
         </state>
       </provider>
