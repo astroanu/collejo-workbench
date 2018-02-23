@@ -1,0 +1,3 @@
+[submodule "workbench/Collejo"]
+	path = workbench/Collejo
+	url = git@github.com:CodeBreez/collejo-app.git
