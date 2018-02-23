@@ -16,7 +16,6 @@ addons:
     packages:
       - mysql-server
       - mysql-client
-      - google-chrome-stable
 before_install:
   - sudo mysql -e "use mysql; update user set authentication_string=PASSWORD('') where User='root'; update user set plugin='mysql_native_password';FLUSH PRIVILEGES;"
   - mysql -e 'set GLOBAL default_storage_engine=`InnoDb`;'
