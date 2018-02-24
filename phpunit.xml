@@ -32,6 +32,7 @@
     </filter>
     <php>
         <env name="APP_ENV" value="testing"/>
+        <env name="APP_KEY" value="base64:r9CrgofS5UeYvUr8Ns22br4bgFcdBUOD8oh+9TA/C6k="/>
         <env name="CACHE_DRIVER" value="file"/>
         <env name="SESSION_DRIVER" value="file"/>
         <env name="QUEUE_DRIVER" value="sync"/>
