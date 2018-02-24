@@ -15,8 +15,11 @@
         <testsuite name="AppUnit">
             <directory suffix="Test.php">workbench/Collejo/App/Modules/*/Tests/Unit</directory>
         </testsuite>
-        <testsuite name="AppE2E">
-            <directory suffix="Test.php">workbench/Collejo/App/Modules/*/Tests/E2E</directory>
+        <testsuite name="AppBrowser">
+            <directory suffix="Test.php">workbench/Collejo/App/Modules/*/Tests/Browser</directory>
+        </testsuite>
+        <testsuite name="AppHTTP">
+            <directory suffix="Test.php">workbench/Collejo/App/Modules/*/Tests/Http</directory>
         </testsuite>
     </testsuites>
     <filter>
@@ -36,8 +39,8 @@
         <env name="APP_DEBUG" value="true"/>
         <env name="DB_HOST" value="127.0.0.1"/>
         <env name="DB_PORT" value="3306"/>
-        <env name="DB_DATABASE" value="circle_test"/>
+        <env name="DB_DATABASE" value="test"/>
         <env name="DB_USERNAME" value="root"/>
-        <env name="DB_PASSWORD" value=""/>
+        <env name="DB_PASSWORD" value="root"/>
     </php>
 </phpunit>

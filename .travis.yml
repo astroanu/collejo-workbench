@@ -35,4 +35,4 @@ before_script:
   - sudo chmod -R 755 storage bootstrap/cache
   - composer dump-autoload -o
 script:
-  - vendor/bin/phpunit --testsuite Foundation,AppUnit
+  - vendor/bin/phpunit --testsuite Foundation,AppUnit,AppHTTP
