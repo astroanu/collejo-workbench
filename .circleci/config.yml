@@ -29,6 +29,7 @@ jobs:
       - run: git submodule sync
       - run: git submodule update --init
       - run: sudo chmod -R 755 storage bootstrap/cache
+      - run: cp tests/test.env .env
       - run: composer install -n --prefer-dist
       - run: composer dump-autoload -o
       - run: npm install
