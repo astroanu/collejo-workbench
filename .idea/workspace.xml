@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74277a6b-fafc-44b2-beb0-b8a994089371" name="Default" comment="Dusk artifacts scafolding">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="74277a6b-fafc-44b2-beb0-b8a994089371" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/workbench/Collejo/Foundation/Testing/DuskTestCase.php" afterPath="$PROJECT_DIR$/workbench/Collejo/Foundation/Testing/DuskTestCase.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,14 +56,24 @@
       <file leaf-file-name="DatabaseMigrations.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="41" />
+            <state relative-caret-position="289">
+              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="phpunit.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DuskTestCase.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/workbench/Collejo/Foundation/Testing/DuskTestCase.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phpunit.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/phpunit.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="169">
@@ -221,7 +231,6 @@
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Tests/E2E/AuthModuleTest.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/Foundation/Database/Eloquent/LoadFactories.php" />
-        <option value="$PROJECT_DIR$/workbench/Collejo/Foundation/Testing/DuskTestCase.php" />
         <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Http/Kernel.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Auth/Tests/E2E/AuthModuleTest.php" />
@@ -237,6 +246,7 @@
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Auth/Tests/Http/LoginControllerTest.php" />
         <option value="$PROJECT_DIR$/.circleci/config.yml" />
         <option value="$PROJECT_DIR$/phpunit.xml" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/Foundation/Testing/DuskTestCase.php" />
       </list>
     </option>
   </component>
@@ -385,7 +395,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="duskcomm&#9;FILE&#9;file://D:/www/collejo/collejo/vendor/laravel/dusk/src/Console/DuskCommand.php&#10;CreatesApplication&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/Foundation/Testing/CreatesApplication.php&#10;DuskServiceProvider&#9;null&#9;null&#10;basemodule&#9;null&#9;null&#10;LoadFactories.php&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/Foundation/Database/Eloquent/LoadFactories.php&#10;seederc&#9;null&#9;null&#10;seeder&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/App/Modules/ACL/Seeder/AdminUserSeeder.php&#10;menute&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/Foundation/Menus/Tests/MenusTest.php&#10;fac&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/App/Modules/Classes/Models/factories&#10;factories\Permission.php&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/App/Modules/ACL/Models/factories/Permission.php&#10;UserRepositoryACLTest.php&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/ACL/Tests/UserRepositoryACLTest.php&#10;baserepo&#9;null&#9;null&#10;UserRepository&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/ACL/Repositories/UserRepository.php&#10;foo&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Base/resources/views/layouts/partials/footer.blade.php&#10;footer&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Base/resources/views/layouts/partials/footer.blade.php&#10;0_0_0_000010_create_jobs_table.php&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Base/migrations/0_0_0_000010_create_jobs_table.php&#10;helpers&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/Foundation/helpers.php&#10;batches_list&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Classes/resources/views/batches_list.blade.php" />
+    <property name="SearchEverywhereHistoryKey" value="dusk&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/Foundation/Testing/DuskTestCase.php&#10;duskcomm&#9;FILE&#9;file://D:/www/collejo/collejo/vendor/laravel/dusk/src/Console/DuskCommand.php&#10;CreatesApplication&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/Foundation/Testing/CreatesApplication.php&#10;DuskServiceProvider&#9;null&#9;null&#10;basemodule&#9;null&#9;null&#10;LoadFactories.php&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/Foundation/Database/Eloquent/LoadFactories.php&#10;seederc&#9;null&#9;null&#10;seeder&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/App/Modules/ACL/Seeder/AdminUserSeeder.php&#10;menute&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/Foundation/Menus/Tests/MenusTest.php&#10;fac&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/App/Modules/Classes/Models/factories&#10;factories\Permission.php&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/App/Modules/ACL/Models/factories/Permission.php&#10;UserRepositoryACLTest.php&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/ACL/Tests/UserRepositoryACLTest.php&#10;baserepo&#9;null&#9;null&#10;UserRepository&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/ACL/Repositories/UserRepository.php&#10;foo&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Base/resources/views/layouts/partials/footer.blade.php&#10;footer&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Base/resources/views/layouts/partials/footer.blade.php&#10;0_0_0_000010_create_jobs_table.php&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Base/migrations/0_0_0_000010_create_jobs_table.php&#10;helpers&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/Foundation/helpers.php&#10;batches_list&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Classes/resources/views/batches_list.blade.php" />
     <property name="last_opened_file_path" value="$USER_HOME$/.ssh/id_rsa" />
     <property name="add_unversioned_files" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -489,14 +499,7 @@
       <workItem from="1519368914028" duration="10283000" />
       <workItem from="1519405658316" duration="885000" />
       <workItem from="1519406692564" duration="14934000" />
-      <workItem from="1519460125707" duration="8979000" />
-    </task>
-    <task id="LOCAL-00039" summary="Classes Repository php doc">
-      <created>1518796139837</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1518796139837</updated>
+      <workItem from="1519460125707" duration="9814000" />
     </task>
     <task id="LOCAL-00040" summary="Classes Repository php doc">
       <created>1518798458860</created>
@@ -834,7 +837,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519467951833</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="Dusk artifacts scaffolding">
+      <created>1519492689476</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1519492689476</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -870,7 +880,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200908000" />
+    <option name="totallyTimeSpent" value="201743000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -883,16 +893,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1830" y="-66" width="1401" height="1014" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30275914" sideWeight="0.4723032" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17747949" sideWeight="0.4723032" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28341585" sideWeight="0.5042511" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28473803" sideWeight="0.49574885" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43102163" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28473803" sideWeight="0.49574885" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3124534" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24909747" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29679343" sideWeight="0.49712643" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29679343" sideWeight="0.49712643" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -950,7 +961,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/workbench/Collejo" />
     </ignored-roots>
-    <MESSAGE value="Composer update" />
     <MESSAGE value="Install clockwork and dusk" />
     <MESSAGE value="Setup E2E with travis" />
     <MESSAGE value="Run chrome headless" />
@@ -975,7 +985,8 @@
     <MESSAGE value="Http tests for login controller" />
     <MESSAGE value="Revert testing env settings" />
     <MESSAGE value="App key" />
-    <option name="LAST_COMMIT_MESSAGE" value="App key" />
+    <MESSAGE value="Dusk artifacts scaffolding" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dusk artifacts scaffolding" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1064,14 +1075,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/Collejo/Foundation/Testing/DuskTestCase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -1348,14 +1351,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/workbench/Collejo/Foundation/Testing/TestCase.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1392,6 +1387,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/Foundation/Testing/DuskTestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
           <folding />
         </state>
       </provider>
