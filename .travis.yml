@@ -34,7 +34,5 @@ before_script:
   - composer install --no-interaction --prefer-source --dev
   - sudo chmod -R 755 storage bootstrap/cache
   - composer dump-autoload -o
-  - cp tests/test.env .env
-  - php artisan serve &
 script:
-  - vendor/bin/phpunit --testsuite Foundation,AppUnit,AppHTTP
+  - vendor/bin/phpunit --testsuite Foundation,AppUnit
