@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="74277a6b-fafc-44b2-beb0-b8a994089371" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/tests/test.env" afterPath="$PROJECT_DIR$/tests/test.env" />
+      <change beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,7 +44,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginControllerTest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginControllerTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Auth/Tests/Http/LoginControllerTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="201">
@@ -54,10 +54,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="119">
+                <caret line="6" column="93" lean-forward="false" selection-start-line="6" selection-start-column="93" selection-end-line="6" selection-end-column="93" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dependencyci.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dependencyci.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
+            <state relative-caret-position="527">
               <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="35" />
               <folding />
             </state>
@@ -77,8 +100,8 @@
       <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="19" column="165" lean-forward="true" selection-start-line="19" selection-start-column="165" selection-end-line="19" selection-end-column="165" />
+            <state relative-caret-position="444">
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -167,7 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/workbench/Collejo/Foundation/Database/Seeder.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Seeder/BatchesAndGradesSeeder.php" />
         <option value="$PROJECT_DIR$/config/collejo.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/Foundation/Modules/BaseModuleServiceProvider.php" />
@@ -196,7 +218,6 @@
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Http/JsValidator/JsValidator.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Providers/BroadcastServiceProvider.php" />
         <option value="$PROJECT_DIR$/.gitmodules" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Tests/E2E/AuthModuleTest.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/Foundation/Database/Eloquent/LoadFactories.php" />
         <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php" />
@@ -216,8 +237,10 @@
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Auth/Tests/Http/LoginControllerTest.php" />
         <option value="$PROJECT_DIR$/.circleci/test.env" />
         <option value="$PROJECT_DIR$/.circleci/config.yml" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/tests/test.env" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/dependencyci.yml" />
       </list>
     </option>
   </component>
@@ -343,104 +366,6 @@
             <path>
               <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
               <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Browser" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Auth" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Auth" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Auth" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Browser" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Auth" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Foundation" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Foundation" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Testing" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -568,20 +493,6 @@
       <workItem from="1519405658316" duration="885000" />
       <workItem from="1519406692564" duration="14934000" />
       <workItem from="1519460125707" duration="12086000" />
-    </task>
-    <task id="LOCAL-00041" summary="Factory change params">
-      <created>1518801599330</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1518801599330</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Added codecov.yml">
-      <created>1518802938178</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1518802938178</updated>
     </task>
     <task id="LOCAL-00043" summary="Composer update">
       <created>1519242882333</created>
@@ -912,7 +823,21 @@
       <option name="project" value="LOCAL" />
       <updated>1519497817259</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="Test env">
+      <created>1519498252936</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1519498252936</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Test env">
+      <created>1519498977123</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1519498977124</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -948,7 +873,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206072000" />
+    <option name="totallyTimeSpent" value="208121000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -962,13 +887,13 @@
   <component name="ToolWindowManager">
     <frame x="1531" y="-66" width="1700" height="1014" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26463413" sideWeight="0.4723032" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26341462" sideWeight="0.4723032" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28341585" sideWeight="0.5042511" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28473803" sideWeight="0.49574885" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28473803" sideWeight="0.49574885" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40792683" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24909747" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2957317" sideWeight="0.49712643" order="8" side_tool="false" content_ui="tabs" />
@@ -1040,7 +965,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/workbench/Collejo" />
     </ignored-roots>
-    <MESSAGE value="Setup E2E with travis" />
     <MESSAGE value="Run chrome headless" />
     <MESSAGE value="Remove clover" />
     <MESSAGE value="Change gitignore" />
@@ -1065,7 +989,8 @@
     <MESSAGE value="App key" />
     <MESSAGE value="Dusk artifacts scaffolding" />
     <MESSAGE value="Test env" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test env" />
+    <MESSAGE value="Skip dependency ci check" />
+    <option name="LAST_COMMIT_MESSAGE" value="Skip dependency ci check" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1074,14 +999,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/Browser/screenshots/failure-testBasicExample-0.png" />
-    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="58" lean-forward="false" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/workbench/Collejo/Foundation/Testing/CreatesApplication.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1401,22 +1318,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="19" column="165" lean-forward="true" selection-start-line="19" selection-start-column="165" selection-end-line="19" selection-end-column="165" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/session.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1437,6 +1338,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="119">
+            <caret line="6" column="93" lean-forward="false" selection-start-line="6" selection-start-column="93" selection-end-line="6" selection-end-column="93" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencyci.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
           <folding />
         </state>
       </provider>

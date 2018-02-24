@@ -4,7 +4,7 @@
     <h1 align="center">Collejo</h1>
 </p>
 
-[![CircleCI branch](https://img.shields.io/circleci/project/github/RedSparr0w/node-csgo-parser/master.svg)]()
+[![CircleCI branch](https://img.shields.io/circleci/project/github/astroanu/collejo-workbench/L55.svg)]()
 [![Build Status](https://travis-ci.org/astroanu/collejo-workbench.svg?branch=L55)](https://travis-ci.org/astroanu/collejo-workbench)
 [![Dependency Status](https://dependencyci.com/github/astroanu/collejo-workbench/badge)](https://dependencyci.com/github/astroanu/collejo-workbench)
 [![StyleCI](https://styleci.io/repos/62229679/shield?branch=L55)](https://styleci.io/repos/62229679)

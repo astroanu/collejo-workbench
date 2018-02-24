@@ -1,0 +1,8 @@
+platform:
+  npm:
+    base:
+      tests:
+        unlicensed: skip
+    concatenate:
+      tests:
+        unlicensed: skip
