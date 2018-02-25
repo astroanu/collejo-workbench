@@ -14,6 +14,7 @@
         </testsuite>
         <testsuite name="AppUnit">
             <directory suffix="Test.php">workbench/Collejo/App/Modules/*/Tests/Unit</directory>
+            <directory suffix="Test.php">workbench/Collejo/App/Http/Tests/Unit</directory>
         </testsuite>
         <testsuite name="AppBrowser">
             <directory suffix="Test.php">workbench/Collejo/App/Modules/*/Tests/Browser</directory>
