@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74277a6b-fafc-44b2-beb0-b8a994089371" name="Default" comment="Added logo image">
+      <change beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
       <change beforePath="$PROJECT_DIR$/workbench/Collejo" afterPath="$PROJECT_DIR$/workbench/Collejo" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,12 +34,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="485">
               <caret line="64" column="40" lean-forward="false" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="340">
+                <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -172,12 +186,12 @@
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Tests/Unit/TermTest.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/Foundation/Menus/Tests/MenusTest.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/Foundation/Repository/Tests/RepositoryTest.php" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/Tests/Http/DashboardControllerTest.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/Tests/Browser/DashboardModuleTest.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Auth/Tests/Browser/AuthModuleTest.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Auth/resources/assets/js/components/Login.vue" />
         <option value="$PROJECT_DIR$/.circleci/config.yml" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -317,17 +331,6 @@
               <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
               <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name=".circleci" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bin" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
@@ -840,7 +843,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="219950000" />
+    <option name="totallyTimeSpent" value="220567000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1226,17 +1229,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="323">
-            <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/workbench/Collejo/Foundation/Repository/Tests/RepositoryTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
@@ -1378,6 +1370,17 @@
         <state relative-caret-position="485">
           <caret line="64" column="40" lean-forward="false" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="340">
+            <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
