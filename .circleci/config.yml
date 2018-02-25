@@ -46,7 +46,6 @@ jobs:
       - run: composer install --dev --no-interaction
       - run: composer dump-autoload -o
       - run: mkdir -p build/logs
-      - run: sed -i 's/^;//' ~/.phpenv/versions/$(phpenv global)/etc/conf.d/xdebug.ini
       - run: npm install
       - run: php artisan asset:routes
       - run: php artisan asset:trans
