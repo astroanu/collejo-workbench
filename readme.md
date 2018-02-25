@@ -1,6 +1,6 @@
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/codebreez/collejo-app/master/src/resources/assets/images/collejo_mid.png?raw=true" alt="Collejo"/>
+    <img src="https://raw.githubusercontent.com/astroanu/collejo-workbench/L55/graphics/collejo_mid.png?raw=true" alt="Collejo"/>
     <h1 align="center">Collejo</h1>
 </p>
 
