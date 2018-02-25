@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="74277a6b-fafc-44b2-beb0-b8a994089371" name="Default" comment="Added logo image">
       <change beforePath="$PROJECT_DIR$/.circleci/config.yml" afterPath="$PROJECT_DIR$/.circleci/config.yml" />
+      <change beforePath="$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/Tests/Browser/DashboardModuleTest.php" afterPath="$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/Tests/Browser/DashboardModuleTest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,11 +44,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="281">
+              <caret line="52" column="12" lean-forward="true" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DashboardModuleTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/Tests/Browser/DashboardModuleTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DashboardControllerTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/Tests/Http/DashboardControllerTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -94,7 +115,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>testGetPermissionsByModule</find>
       <find>@covers \Collejo\</find>
       <find>db:seed</find>
       <find>app</find>
@@ -124,6 +144,7 @@
       <find>static function generate</find>
       <find>generate(</find>
       <find>validate</find>
+      <find>dashboard::dash.dashboard</find>
     </findStrings>
     <replaceStrings>
       <replace>entities.</replace>
@@ -193,7 +214,6 @@
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/dependencyci.yml" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/resources/lang/en/dashboard.php" />
-        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/Tests/Browser/DashboardModuleTest.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/resources/views/dash.blade.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/Http/Controllers/DashController.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Auth/Tests/Http/LoginControllerTest.php" />
@@ -203,11 +223,12 @@
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Tests/Unit/ClassTest.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Tests/Unit/GradeTest.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Tests/Unit/TermTest.php" />
-        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/Tests/Http/DashboardControllerTest.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/Foundation/Menus/Tests/MenusTest.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/Foundation/Repository/Tests/RepositoryTest.php" />
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/.circleci/config.yml" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/Tests/Http/DashboardControllerTest.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/Tests/Browser/DashboardModuleTest.php" />
       </list>
     </option>
   </component>
@@ -343,6 +364,83 @@
               <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
               <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Dashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Dashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Dashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Dashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Browser" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Dashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -354,7 +452,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="Uuid&#9;null&#9;null&#10;dusk&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/Foundation/Testing/DuskTestCase.php&#10;duskcomm&#9;FILE&#9;file://D:/www/collejo/collejo/vendor/laravel/dusk/src/Console/DuskCommand.php&#10;CreatesApplication&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/Foundation/Testing/CreatesApplication.php&#10;DuskServiceProvider&#9;null&#9;null&#10;basemodule&#9;null&#9;null&#10;LoadFactories.php&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/Foundation/Database/Eloquent/LoadFactories.php&#10;seederc&#9;null&#9;null&#10;seeder&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/App/Modules/ACL/Seeder/AdminUserSeeder.php&#10;menute&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/Foundation/Menus/Tests/MenusTest.php&#10;fac&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/App/Modules/Classes/Models/factories&#10;factories\Permission.php&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/App/Modules/ACL/Models/factories/Permission.php&#10;UserRepositoryACLTest.php&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/ACL/Tests/UserRepositoryACLTest.php&#10;baserepo&#9;null&#9;null&#10;UserRepository&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/ACL/Repositories/UserRepository.php&#10;foo&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Base/resources/views/layouts/partials/footer.blade.php&#10;footer&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Base/resources/views/layouts/partials/footer.blade.php&#10;0_0_0_000010_create_jobs_table.php&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Base/migrations/0_0_0_000010_create_jobs_table.php&#10;helpers&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/Foundation/helpers.php&#10;batches_list&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Classes/resources/views/batches_list.blade.php" />
+    <property name="SearchEverywhereHistoryKey" value="DashboardModuleTest&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/App/Modules/Dashboard/Tests/Browser/DashboardModuleTest.php&#10;Uuid&#9;null&#9;null&#10;dusk&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/Foundation/Testing/DuskTestCase.php&#10;duskcomm&#9;FILE&#9;file://D:/www/collejo/collejo/vendor/laravel/dusk/src/Console/DuskCommand.php&#10;CreatesApplication&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/Foundation/Testing/CreatesApplication.php&#10;DuskServiceProvider&#9;null&#9;null&#10;basemodule&#9;null&#9;null&#10;LoadFactories.php&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/Foundation/Database/Eloquent/LoadFactories.php&#10;seederc&#9;null&#9;null&#10;seeder&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/App/Modules/ACL/Seeder/AdminUserSeeder.php&#10;menute&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/Foundation/Menus/Tests/MenusTest.php&#10;fac&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/App/Modules/Classes/Models/factories&#10;factories\Permission.php&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/App/Modules/ACL/Models/factories/Permission.php&#10;UserRepositoryACLTest.php&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/ACL/Tests/UserRepositoryACLTest.php&#10;baserepo&#9;null&#9;null&#10;UserRepository&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/ACL/Repositories/UserRepository.php&#10;foo&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Base/resources/views/layouts/partials/footer.blade.php&#10;footer&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Base/resources/views/layouts/partials/footer.blade.php&#10;0_0_0_000010_create_jobs_table.php&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Base/migrations/0_0_0_000010_create_jobs_table.php&#10;helpers&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/Foundation/helpers.php&#10;batches_list&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Classes/resources/views/batches_list.blade.php" />
     <property name="last_opened_file_path" value="$USER_HOME$/.ssh/id_rsa" />
     <property name="add_unversioned_files" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -849,7 +947,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215878000" />
+    <option name="totallyTimeSpent" value="216475000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1198,22 +1296,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/Tests/Browser/DashboardModuleTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/Tests/Http/DashboardControllerTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/workbench/Collejo/Foundation/Menus/Menu.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-492">
@@ -1384,8 +1466,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="281">
+          <caret line="52" column="12" lean-forward="true" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/Tests/Http/DashboardControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/Tests/Browser/DashboardModuleTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
           <folding />
         </state>
       </provider>
