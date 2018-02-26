@@ -29,6 +29,10 @@
         </whitelist>
         <blacklist>
             <directory>workbench/Collejo/App/Modules/*/Models/factories</directory>
+            <directory>workbench/Collejo/App/Modules/*/resources</directory>
+            <directory>workbench/Collejo/App/Console</directory>
+            <directory>workbench/Collejo/App/Http</directory>
+            <directory>workbench/Collejo/App/Providers</directory>
         </blacklist>
     </filter>
     <php>
