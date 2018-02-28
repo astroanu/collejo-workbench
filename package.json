@@ -20,13 +20,13 @@
     "laravel-mix": "^2.0",
     "lodash": "^4.17.5",
     "string-replace-webpack-plugin": "^0.1.3",
-    "vee-validate": "^2.0.3",
     "vue": "^2.5.13",
     "vuejs-datepicker": "^0.9.25",
     "webpack": "^3.11.0"
   },
   "dependencies": {
     "js-cookie": "^2.2.0",
-    "moment": "^2.20.1"
+    "moment": "^2.20.1",
+    "vuelidate": "^0.6.2"
   }
 }
