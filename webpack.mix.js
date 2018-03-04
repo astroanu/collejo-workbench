@@ -125,6 +125,7 @@ const webpackConfig = {
     plugins: [
         new StringReplacePlugin(),
         new webpack.optimize.CommonsChunkPlugin({
+            minChunks: 2,
             name: 'commons',
             filename: 'js/commons.js',
         })
