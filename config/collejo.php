@@ -88,6 +88,8 @@ return [
          * increase the performance by skipping the need to query the database on
          * each authorization check.
          */
-        'user_permissions_ttl' => env('COLLEJO_USER_PERMISSIONS_TTL', 0),
+        'user_permissions_cache_ttl' => env('COLLEJO_USER_PERMISSIONS_CACHE_TTL', 0),
+
+        'languages_cache_ttl' => env('COLLEJO_LANG_CACHE_TTL', 0),
     ],
 ];

@@ -133,11 +133,6 @@ const webpackConfig = {
 };
 
 /**
- * Copy language files
- */
-mix.copy(`${collejoStorageDir}/trans`, `${publicDir}/js/trans`).version();
-
-/**
  * Laravel Mix
  */
 fileMap.forEach(dir => {
