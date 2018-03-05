@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="74277a6b-fafc-44b2-beb0-b8a994089371" name="Default" comment="Added logo image">
+      <change beforePath="$PROJECT_DIR$/workbench/Collejo" afterPath="$PROJECT_DIR$/workbench/Collejo" />
+      <change beforePath="$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/assets/js/bootstrap.js" afterPath="$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/assets/js/bootstrap.js" />
+=======
     <list default="true" id="74277a6b-fafc-44b2-beb0-b8a994089371" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/assets/js/_trans.js" afterPath="$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/assets/js/_trans.js" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
+>>>>>>> 6986eee2278e959316c6a7921b5435af05f4d10f
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,23 +44,205 @@
     <select />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Login.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Auth/resources/assets/js/components/Login.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="12" column="58" lean-forward="true" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+=======
+<<<<<<< HEAD
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="module.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/resources/assets/sass/module.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="568">
+              <caret line="68" column="40" lean-forward="false" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
+=======
+    <leaf>
+      <file leaf-file-name="Login.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Auth/resources/assets/js/components/Login.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="Toolbar.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/resources/assets/js/components/Toolbar.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/assets/js/bootstrap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BatchesList.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/resources/assets/js/components/BatchesList.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dash.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/resources/lang/en/dash.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="18" />
+>>>>>>> 6986eee2278e959316c6a7921b5435af05f4d10f
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
       <file leaf-file-name="_trans.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/assets/js/_trans.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
               <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+=======
+      <file leaf-file-name="toolbar.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/resources/views/layouts/partials/toolbar.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding>
+                <marker date="1520021612305" expanded="true" signature="9:18" ph="..." />
+                <marker date="1520021612305" expanded="true" signature="74:114" ph="..." />
+                <marker date="1520021612305" expanded="true" signature="189:205" ph="..." />
+                <marker date="1520021612305" expanded="true" signature="231:250" ph="..." />
+                <marker date="1520021612305" expanded="true" signature="300:307" ph="..." />
+                <marker date="1520021612305" expanded="true" signature="368:375" ph="..." />
+                <marker date="1520021612305" expanded="true" signature="489:496" ph="..." />
+                <marker date="1520021612305" expanded="true" signature="526:533" ph="..." />
+                <marker date="1520021612305" expanded="true" signature="633:668" ph="..." />
+                <marker date="1520021612305" expanded="true" signature="768:775" ph="..." />
+              </folding>
+=======
+      <file leaf-file-name="module.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Auth/resources/assets/sass/module.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
               <folding />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="table_view.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/resources/views/layouts/table_view.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="55" />
+=======
+      <file leaf-file-name="_bs.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/assets/sass/_bs.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_common.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/assets/sass/_common.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="619">
+              <caret line="45" column="29" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trans.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/assets/js/trans.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_routes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/assets/js/_routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="27" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validation.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/lang/en/validation.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="503">
+              <caret line="65" column="97" lean-forward="false" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="97" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
+>>>>>>> 6986eee2278e959316c6a7921b5435af05f4d10f
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tab_view.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/resources/views/layouts/tab_view.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <marker date="1519852665415" expanded="true" signature="9:34" ph="..." />
+                <marker date="1519852665415" expanded="true" signature="46:55" ph="..." />
+                <marker date="1519852665415" expanded="true" signature="106:143" ph="..." />
+                <marker date="1519852665415" expanded="true" signature="166:179" ph="..." />
+                <marker date="1519852665415" expanded="true" signature="201:214" ph="..." />
+                <marker date="1519852665415" expanded="true" signature="334:340" ph="..." />
+                <marker date="1519852665415" expanded="true" signature="524:529" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dash.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/resources/views/layouts/dash.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="23" selection-end-column="19" />
+              <folding>
+                <marker date="1519407268719" expanded="true" signature="30:52" ph="..." />
+                <marker date="1519407268719" expanded="true" signature="71:79" ph="..." />
+                <marker date="1519407268719" expanded="true" signature="119:160" ph="..." />
+                <marker date="1519407268719" expanded="true" signature="228:257" ph="..." />
+                <marker date="1519407268719" expanded="true" signature="289:314" ph="..." />
+                <marker date="1519407268719" expanded="true" signature="388:397" ph="..." />
+                <marker date="1519407268719" expanded="true" signature="433:442" ph="..." />
+                <marker date="1519407268719" expanded="true" signature="514:553" ph="..." />
+                <marker date="1519407268719" expanded="true" signature="605:636" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,6 +258,12 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+      <find>duskc</find>
+>>>>>>> 6986eee2278e959316c6a7921b5435af05f4d10f
       <find>DuskCommand</find>
       <find>Tests\Browser</find>
       <find>Browser</find>
@@ -80,6 +280,7 @@
       <find>gener</find>
       <find>generate</find>
       <find>static function generate</find>
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
       <find>generate(</find>
       <find>validate</find>
       <find>dashboard::dash.dashboard</find>
@@ -89,11 +290,38 @@
       <find>login</find>
       <find>:8000</find>
       <find>formatErrors</find>
+<<<<<<< HEAD
+      <find>with</find>
+      <find>ac</find>
+      <find>toUserTz</find>
+      <find>batches_list</find>
+      <find>grades_list</find>
+      <find>CacheableResult</find>
+      <find>reg</find>
+      <find>{{$batches-&gt;toJson()}}</find>
+      <find>dateToUserTz</find>
+      <find>getBatches</find>
+      <find>formElements</find>
+      <find>select</find>
+      <find>extend</find>
+      <find>table-view-table</find>
+      <find>@extend .card;</find>
+      <find>getLangScriptFiles</find>
+      <find>&lt;b-table v-if</find>
+      <find>foot-clone</find>
+      <find>visible</find>
+      <find>press</find>
+      <find>visi</find>
+=======
       <find>req</find>
       <find>invalid-feedback</find>
       <find>invalid</find>
       <find>email</find>
+<<<<<<< HEAD
       <find>ex</find>
+=======
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
+>>>>>>> 6986eee2278e959316c6a7921b5435af05f4d10f
     </findStrings>
     <replaceStrings>
       <replace>entities.</replace>
@@ -127,6 +355,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Http/Controller.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Http/Requests/Request.php" />
+>>>>>>> 6986eee2278e959316c6a7921b5435af05f4d10f
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Http/JsValidator/JsValidatorFactory.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Providers/BroadcastServiceProvider.php" />
         <option value="$PROJECT_DIR$/.gitmodules" />
@@ -167,17 +402,70 @@
         <option value="$PROJECT_DIR$/workbench/Collejo/Foundation/Testing/DuskTestCase.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Http/Tests/Unit/JsValidatorTest.php" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Http/JsValidator/JsValidator.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Tests/Unit/CommandsTest.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Tests/Unit/ACLCommandsTest.php" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/Tests/Http/DashboardControllerTest.php" />
         <option value="$PROJECT_DIR$/phpunit.xml" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Tests/Unit/BatchTest.php" />
+        <option value="$PROJECT_DIR$/config/collejo.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/resources/lang/en/batch.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/resources/lang/en/grade.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/resources/views/grades_list.blade.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/migrations/0_0_0_000141_modify_batches_table.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/Providers/BaseModuleServiceProvider.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Auth/Providers/AuthModuleServiceProvider.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Providers/ACLModuleServiceProvider.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Models/Term.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/migrations/0_0_0_000141_modify_batches_table_add_term_dates.php.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/migrations/0_0_0_000151_alter_terms_table_start_end_date.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/Foundation/Database/Eloquent/Model.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Models/Batch.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/resources/views/batches_list.blade.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/Foundation/Repository/CacheableResult.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/assets/js/_dateTimeHelpers.js" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/Foundation/Criteria/CriteriaInterface.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Providers/ClassesModuleServiceProvider.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Contracts/ClassRepository.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/Foundation/Repository/BaseRepository.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Http/Controllers/BatchController.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Repositories/ClassRepository.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Criteria/BatchListCriteria.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/Foundation/Criteria/BaseCriteria.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/resources/assets/js/components/CriteriaFilter.vue" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/resources/assets/js/criteriaFilter.js" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/resources/assets/js/Toolbar.js" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/resources/views/layouts/partials/criteria.blade.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/resources/views/layouts/table_view.blade.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/resources/views/layouts/tab_view.blade.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/lang/en/common.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/assets/sass/_auth.scss" />
+        <option value="$PROJECT_DIR$/webpack.mix.js" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Auth/resources/assets/sass/module.scss" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/assets/sass/_bs.scss" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/assets/sass/_variables.scss" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/Foundation/Modules/Module.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/resources/assets/sass/module.scss" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/resources/lang/en/dash.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/resources/views/layouts/partials/toolbar.blade.php" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/resources/assets/js/components/BatchesList.vue" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/resources/assets/js/components/Toolbar.vue" />
+        <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/assets/js/bootstrap.js" />
+=======
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/assets/js/bootstrap.js" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/assets/sass/_common.scss" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/assets/js/trans.js" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/assets/js/_routes.js" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Auth/resources/assets/js/components/Login.vue" />
         <option value="$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/assets/js/_trans.js" />
+=======
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
+>>>>>>> 6986eee2278e959316c6a7921b5435af05f4d10f
       </list>
     </option>
   </component>
@@ -278,13 +566,32 @@
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
       <path value="$PROJECT_DIR$/vendor/php-coveralls/php-coveralls" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="1714" />
     <option name="y" value="49" />
     <option name="width" value="1493" />
     <option name="height" value="960" />
+=======
+<<<<<<< HEAD
+    <option name="x" value="1692" />
+    <option name="y" value="-35" />
+    <option name="width" value="1573" />
+    <option name="height" value="966" />
+=======
+    <option name="x" value="1719" />
+    <option name="y" value="56" />
+    <option name="width" value="1493" />
+    <option name="height" value="922" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
+>>>>>>> 6986eee2278e959316c6a7921b5435af05f4d10f
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -304,8 +611,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="Scratches" />
+=======
+<<<<<<< HEAD
+      <pane id="Scratches" />
+=======
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
+>>>>>>> 6986eee2278e959316c6a7921b5435af05f4d10f
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -314,13 +628,29 @@
               <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+<<<<<<< HEAD
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
               <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
               <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
               <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
@@ -340,22 +670,22 @@
               <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Auth" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Base" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Auth" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Base" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -365,39 +695,438 @@
               <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Auth" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Base" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Auth" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Base" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Auth" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Base" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sass" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Base" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lang" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Base" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lang" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="en" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Criteria" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Models" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Providers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Repositories" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Classes" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sass" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Auth" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+<<<<<<< HEAD
+              <item name="Auth" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+<<<<<<< HEAD
+              <item name="Dashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+              <item name="Base" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
+>>>>>>> 6986eee2278e959316c6a7921b5435af05f4d10f
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+<<<<<<< HEAD
+              <item name="Auth" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+<<<<<<< HEAD
+              <item name="Dashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+              <item name="Base" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
+>>>>>>> 6986eee2278e959316c6a7921b5435af05f4d10f
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+<<<<<<< HEAD
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+              <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+<<<<<<< HEAD
+              <item name="Auth" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+<<<<<<< HEAD
+              <item name="Dashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+              <item name="Base" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
+>>>>>>> 6986eee2278e959316c6a7921b5435af05f4d10f
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+<<<<<<< HEAD
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+              <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+<<<<<<< HEAD
+              <item name="Dashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+<<<<<<< HEAD
+              <item name="Auth" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+              <item name="Dashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+              <item name="Base" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sass" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+<<<<<<< HEAD
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+              <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+<<<<<<< HEAD
+              <item name="Dashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+              <item name="Base" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lang" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+<<<<<<< HEAD
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+              <item name="collejo-workbench" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo-workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+<<<<<<< HEAD
+              <item name="Dashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lang" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="en" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Dashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Dashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Dashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="partials" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Providers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Foundation" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Foundation" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Criteria" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Foundation" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Repository" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Foundation" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Support" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="collejo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="workbench" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collejo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Foundation" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Support" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Facade" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+              <item name="Base" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lang" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="en" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
+>>>>>>> 6986eee2278e959316c6a7921b5435af05f4d10f
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+<<<<<<< HEAD
+=======
+      <pane id="Scratches" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
+>>>>>>> 6986eee2278e959316c6a7921b5435af05f4d10f
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -405,7 +1134,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+<<<<<<< HEAD
+    <property name="SearchEverywhereHistoryKey" value="foo&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/App/Modules/Base/resources/views/layouts/partials/footer.blade.php&#10;BaseCriteria&#9;null&#9;null&#10;BatchesList&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/App/Modules/Classes/resources/assets/js/components/BatchesList.vue&#10;cac&#9;null&#9;null&#10;DashboardModuleTest&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/App/Modules/Dashboard/Tests/Browser/DashboardModuleTest.php&#10;Uuid&#9;null&#9;null&#10;dusk&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/Foundation/Testing/DuskTestCase.php&#10;duskcomm&#9;FILE&#9;file://D:/www/collejo/collejo/vendor/laravel/dusk/src/Console/DuskCommand.php&#10;CreatesApplication&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/Foundation/Testing/CreatesApplication.php&#10;DuskServiceProvider&#9;null&#9;null&#10;basemodule&#9;null&#9;null&#10;LoadFactories.php&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/Foundation/Database/Eloquent/LoadFactories.php&#10;seederc&#9;null&#9;null&#10;seeder&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/App/Modules/ACL/Seeder/AdminUserSeeder.php&#10;menute&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/Foundation/Menus/Tests/MenusTest.php&#10;fac&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/App/Modules/Classes/Models/factories&#10;factories\Permission.php&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/App/Modules/ACL/Models/factories/Permission.php&#10;UserRepositoryACLTest.php&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/ACL/Tests/UserRepositoryACLTest.php&#10;baserepo&#9;null&#9;null&#10;UserRepository&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/ACL/Repositories/UserRepository.php&#10;footer&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Base/resources/views/layouts/partials/footer.blade.php&#10;0_0_0_000010_create_jobs_table.php&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Base/migrations/0_0_0_000010_create_jobs_table.php&#10;helpers&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/Foundation/helpers.php&#10;batches_list&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Classes/resources/views/batches_list.blade.php" />
+=======
     <property name="SearchEverywhereHistoryKey" value="module.&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Auth/resources/assets/sass/module.scss&#10;DashboardModuleTest&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/App/Modules/Dashboard/Tests/Browser/DashboardModuleTest.php&#10;Uuid&#9;null&#9;null&#10;dusk&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/Foundation/Testing/DuskTestCase.php&#10;duskcomm&#9;FILE&#9;file://D:/www/collejo/collejo/vendor/laravel/dusk/src/Console/DuskCommand.php&#10;CreatesApplication&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/Foundation/Testing/CreatesApplication.php&#10;DuskServiceProvider&#9;null&#9;null&#10;basemodule&#9;null&#9;null&#10;LoadFactories.php&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/Foundation/Database/Eloquent/LoadFactories.php&#10;seederc&#9;null&#9;null&#10;seeder&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/App/Modules/ACL/Seeder/AdminUserSeeder.php&#10;menute&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/Foundation/Menus/Tests/MenusTest.php&#10;fac&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/App/Modules/Classes/Models/factories&#10;factories\Permission.php&#9;FILE&#9;file://D:/www/collejo/collejo/workbench/Collejo/App/Modules/ACL/Models/factories/Permission.php&#10;UserRepositoryACLTest.php&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/ACL/Tests/UserRepositoryACLTest.php&#10;baserepo&#9;null&#9;null&#10;UserRepository&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/ACL/Repositories/UserRepository.php&#10;foo&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Base/resources/views/layouts/partials/footer.blade.php&#10;footer&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Base/resources/views/layouts/partials/footer.blade.php&#10;0_0_0_000010_create_jobs_table.php&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Base/migrations/0_0_0_000010_create_jobs_table.php&#10;helpers&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/Foundation/helpers.php&#10;batches_list&#9;FILE&#9;file://D:/www/collejo/collejo-workbench/workbench/Collejo/App/Modules/Classes/resources/views/batches_list.blade.php" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
     <property name="last_opened_file_path" value="$USER_HOME$/.ssh/id_rsa" />
     <property name="add_unversioned_files" value="true&#10;D:/www/collejo/collejo-workbench/.env" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -413,12 +1146,22 @@
     <property name="auto.test.manager.delay" value="1000" />
   </component>
   <component name="RecentsManager">
+<<<<<<< HEAD
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\www\collejo\collejo\workbench\Collejo\App\Modules\Dashboard\resources\assets\js" />
+      <recent name="D:\www\collejo\collejo\workbench\Collejo\App\Modules\Dashboard\resources\assets\js\components" />
+      <recent name="D:\www\collejo\collejo\workbench\Collejo\Foundation\Criteria" />
+      <recent name="D:\www\collejo\collejo\workbench\Collejo\App\Modules\Classes\Criteria" />
+      <recent name="D:\www\collejo\collejo\workbench\Collejo\App\Modules\Classes\migrations" />
+    </key>
+=======
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\www\collejo\collejo\workbench\Collejo\Foundation\Criteria" />
       <recent name="D:\www\collejo\collejo\tests" />
       <recent name="D:\www\collejo\collejo\workbench\Collejo\App\Modules\Auth\Tests" />
       <recent name="D:\www\collejo\collejo\workbench\Collejo\App\Modules\ACL\Tests" />
       <recent name="D:\www\collejo\collejo-workbench\workbench\Collejo\App\Modules\Classes\Tests\Unit" />
-      <recent name="D:\www\collejo\collejo-workbench\workbench\Collejo\App\Modules\ACL\Tests\E2E" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\www\collejo\collejo\workbench\Collejo\App\Modules\ACL\Tests\Unit" />
@@ -520,8 +1263,19 @@
       <workItem from="1519405658316" duration="885000" />
       <workItem from="1519406692564" duration="14934000" />
       <workItem from="1519460125707" duration="12086000" />
+<<<<<<< HEAD
+      <workItem from="1520003514395" duration="10250000" />
+    </task>
+    <task id="LOCAL-00045" summary="Seeder framework">
+      <created>1519245476953</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1519245476953</updated>
+=======
       <workItem from="1519797073278" duration="2224000" />
       <workItem from="1519800646095" duration="4468000" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
     </task>
     <task id="LOCAL-00046" summary="Composer update">
       <created>1519245642008</created>
@@ -902,7 +1656,15 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="237957000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="268498000" />
+=======
+    <option name="totallyTimeSpent" value="234689000" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
+>>>>>>> 6986eee2278e959316c6a7921b5435af05f4d10f
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -914,8 +1676,35 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="1714" y="49" width="1493" height="960" extended-state="0" />
     <editor active="true" />
+=======
+<<<<<<< HEAD
+    <frame x="1692" y="-35" width="1573" height="966" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26173165" sideWeight="0.4723032" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28341585" sideWeight="0.5042511" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28433734" sideWeight="0.49574885" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2554878" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24909747" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2894911" sideWeight="0.49712643" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24816054" sideWeight="0.5276968" order="3" side_tool="true" content_ui="tabs" />
+=======
+    <frame x="1719" y="56" width="1493" height="922" extended-state="0" />
+>>>>>>> 6986eee2278e959316c6a7921b5435af05f4d10f
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22679693" sideWeight="0.4723032" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -936,6 +1725,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28341585" sideWeight="0.5042511" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24816054" sideWeight="0.5276968" order="7" side_tool="true" content_ui="tabs" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3491471" sideWeight="0.5092437" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22330774" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25699747" sideWeight="0.49574885" order="14" side_tool="false" content_ui="tabs" />
@@ -1028,36 +1818,207 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Http/Middleware/JsonRequest.php">
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/Foundation/Database/Eloquent/Model.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="1457" column="20" lean-forward="false" selection-start-line="1457" selection-start-column="20" selection-end-line="1457" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Models/Batch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/Foundation/Support/Facade/Modules.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../collejo-dist/vendor/codebreez/collejo-app/src/resources/views/layouts/dash.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Providers/ClassesModuleServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/Foundation/Criteria/CriteriaInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Contracts/ClassRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="727">
+          <caret line="44" column="20" lean-forward="false" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Repositories/ClassRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="710">
+          <caret line="254" column="62" lean-forward="false" selection-start-line="254" selection-start-column="39" selection-end-line="254" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Http/Controllers/BatchController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="213" column="35" lean-forward="false" selection-start-line="213" selection-start-column="35" selection-end-line="213" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php">
+=======
+    <entry file="file://$PROJECT_DIR$/vendor/php-coveralls/php-coveralls/build/config/apigen.neon" />
+    <entry file="file://$PROJECT_DIR$/vendor/php-coveralls/php-coveralls/build/config/phpmd.xml" />
+    <entry file="file://$PROJECT_DIR$/vendor/bin/php-coveralls" />
+    <entry file="file://$PROJECT_DIR$/vendor/bin/php-coveralls.bat" />
+    <entry file="file://$PROJECT_DIR$/vendor/php-coveralls/php-coveralls/bin/php-coveralls" />
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="1175" column="20" lean-forward="false" selection-start-line="1175" selection-start-column="20" selection-end-line="1175" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/collejo.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="784">
+          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+=======
+        <state relative-caret-position="119">
+          <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="47" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/Foundation/Repository/CacheableResult.php">
+>>>>>>> 6986eee2278e959316c6a7921b5435af05f4d10f
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="563">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+=======
         <state relative-caret-position="510">
           <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php">
+    <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+=======
         <state relative-caret-position="114">
           <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/assets/js/_formHelper.js">
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/Foundation/Repository/BaseRepository.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="493">
+          <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+=======
         <state relative-caret-position="204">
           <caret line="12" column="45" lean-forward="false" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/dusk/src/Concerns/WaitsForElements.php">
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Criteria/BatchListCriteria.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="476">
+          <caret line="28" column="35" lean-forward="false" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+=======
         <state relative-caret-position="292">
           <caret line="147" column="20" lean-forward="false" selection-start-line="147" selection-start-column="20" selection-end-line="147" selection-end-column="20" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Browser/console/testModuleLoaded-0.log">
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/Foundation/Criteria/BaseCriteria.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="733">
+          <caret line="107" column="20" lean-forward="false" selection-start-line="107" selection-start-column="20" selection-end-line="107" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/resources/assets/js/navbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/resources/views/layouts/partials/criteria.blade.php" />
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/resources/assets/js/toolbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/resources/assets/js/components/Navbar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/resources/assets/js/components/GradesList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-208">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+=======
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
@@ -1080,11 +2041,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Contracts/UserRepository.php">
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/resources/assets/js/components/EditBatchTerms.vue">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="-1213">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/resources/assets/js/batchesList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/resources/views/batches_list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="48" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="48" />
+          <folding>
+            <marker date="1519756503601" expanded="true" signature="9:40" ph="..." />
+            <marker date="1519756503601" expanded="true" signature="52:92" ph="..." />
+            <marker date="1519756503601" expanded="true" signature="104:130" ph="..." />
+            <marker date="1519756503601" expanded="true" signature="142:150" ph="..." />
+            <marker date="1519756503601" expanded="true" signature="182:221" ph="..." />
+            <marker date="1519756503601" expanded="true" signature="281:290" ph="..." />
+            <marker date="1519756503601" expanded="true" signature="346:388" ph="..." />
+            <marker date="1519756503601" expanded="true" signature="424:431" ph="..." />
+            <marker date="1519756503601" expanded="true" signature="443:459" ph="..." />
+            <marker date="1519756503601" expanded="true" signature="481:501" ph="..." />
+            <marker date="1519756503601" expanded="true" signature="584:619" ph="..." />
+            <marker date="1519756503601" expanded="true" signature="662:669" ph="..." />
+            <marker date="1519756503601" expanded="true" signature="741:758" ph="..." />
+            <marker date="1519756503601" expanded="true" signature="788:806" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/lang/en/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+=======
         <state relative-caret-position="170">
           <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="35" />
         </state>
@@ -1095,37 +2100,74 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Http/Middleware/CheckInstallation.php">
+    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="494">
+          <caret line="120" column="18" lean-forward="false" selection-start-line="120" selection-start-column="18" selection-end-line="120" selection-end-column="18" />
+=======
         <state relative-caret-position="340">
           <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/Collejo/Foundation/Testing/DuskTestCase.php">
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/resources/assets/sass/module.scss">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
         <state relative-caret-position="697">
           <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="34" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env.example">
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Auth/resources/assets/sass/module.scss">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="0">
+          <caret line="0" column="52" lean-forward="false" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/assets/sass/_auth.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+=======
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="20" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/assets/sass/_checkbox.scss">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="187">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+>>>>>>> 6986eee2278e959316c6a7921b5435af05f4d10f
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/assets/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="12" />
+=======
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1133,46 +2175,107 @@
             <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
           </first_editor>
           <second_editor />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Exceptions/Handler.php">
+    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/scss/_card.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Http/Requests/CreateBatchRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/Assert.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="1594" column="69" lean-forward="false" selection-start-line="1594" selection-start-column="62" selection-end-line="1594" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Http/JsValidator/JsValidatorFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/Tests/Unit/BatchTest.php">
-      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+=======
+        <state relative-caret-position="463">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Http/JsValidator/JsValidator.php">
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/assets/sass/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+=======
+        <state relative-caret-position="374">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/assets/sass/_common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="170">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
+=======
+        <state relative-caret-position="292">
+          <caret line="1594" column="69" lean-forward="false" selection-start-line="1594" selection-start-column="62" selection-end-line="1594" selection-end-column="69" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/assets/sass/_bs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="33" />
+          <folding />
+=======
+        <state relative-caret-position="102">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="24" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/trans/dashboard/en.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="17">
+          <caret line="0" column="102" lean-forward="false" selection-start-line="0" selection-start-column="102" selection-end-line="0" selection-end-column="102" />
+          <folding />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/assets/js/_dateTimeHelpers.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="782">
+          <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/views/layouts/partials/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="36" />
+          <folding>
+            <marker date="1519407268545" expanded="true" signature="68:156" ph="..." />
+            <marker date="1519407268545" expanded="true" signature="166:198" ph="..." />
+            <marker date="1519407268545" expanded="true" signature="215:311" ph="..." />
+            <marker date="1519407268545" expanded="true" signature="612:635" ph="..." />
+            <marker date="1519407268545" expanded="true" signature="687:724" ph="..." />
+            <marker date="1519407268545" expanded="true" signature="748:787" ph="..." />
+            <marker date="1519407268545" expanded="true" signature="835:844" ph="..." />
+            <marker date="1519407268545" expanded="true" signature="878:887" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/Foundation/Modules/Module.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="85" column="21" lean-forward="true" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
+          <folding />
+=======
         <state relative-caret-position="476">
           <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
         </state>
@@ -1183,39 +2286,86 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="739">
           <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Http/Controller.php">
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/resources/views/layouts/table_view.blade.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="102">
+          <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="55" />
+          <folding />
+=======
         <state relative-caret-position="174">
           <caret line="23" column="71" lean-forward="false" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Tests/Unit/UserRepositoryACLTest.php">
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/resources/views/layouts/tab_view.blade.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <marker date="1519852665415" expanded="true" signature="9:34" ph="..." />
+            <marker date="1519852665415" expanded="true" signature="46:55" ph="..." />
+            <marker date="1519852665415" expanded="true" signature="106:143" ph="..." />
+            <marker date="1519852665415" expanded="true" signature="166:179" ph="..." />
+            <marker date="1519852665415" expanded="true" signature="201:214" ph="..." />
+            <marker date="1519852665415" expanded="true" signature="334:340" ph="..." />
+            <marker date="1519852665415" expanded="true" signature="524:529" ph="..." />
+          </folding>
+=======
         <state relative-caret-position="493">
           <caret line="29" column="57" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="57" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/ACL/Tests/Unit/UserRepositoryAdminTest.php">
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/resources/views/layouts/dash.blade.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="23" selection-end-column="19" />
+          <folding>
+            <marker date="1519407268719" expanded="true" signature="30:52" ph="..." />
+            <marker date="1519407268719" expanded="true" signature="71:79" ph="..." />
+            <marker date="1519407268719" expanded="true" signature="119:160" ph="..." />
+            <marker date="1519407268719" expanded="true" signature="228:257" ph="..." />
+            <marker date="1519407268719" expanded="true" signature="289:314" ph="..." />
+            <marker date="1519407268719" expanded="true" signature="388:397" ph="..." />
+            <marker date="1519407268719" expanded="true" signature="433:442" ph="..." />
+            <marker date="1519407268719" expanded="true" signature="514:553" ph="..." />
+            <marker date="1519407268719" expanded="true" signature="605:636" ph="..." />
+          </folding>
+=======
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/Collejo/Foundation/Console/Kernel.php">
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/resources/lang/en/dash.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="68">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="18" />
+          <folding />
+=======
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/console/Application.php">
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/resources/assets/sass/module.scss">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="568">
+          <caret line="68" column="40" lean-forward="false" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
+=======
         <state relative-caret-position="292">
           <caret line="60" column="6" lean-forward="false" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
         </state>
@@ -1233,10 +2383,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/resources/views/layouts/partials/toolbar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <marker date="1520021612305" expanded="true" signature="9:18" ph="..." />
+            <marker date="1520021612305" expanded="true" signature="74:114" ph="..." />
+            <marker date="1520021612305" expanded="true" signature="189:205" ph="..." />
+            <marker date="1520021612305" expanded="true" signature="231:250" ph="..." />
+            <marker date="1520021612305" expanded="true" signature="300:307" ph="..." />
+            <marker date="1520021612305" expanded="true" signature="368:375" ph="..." />
+            <marker date="1520021612305" expanded="true" signature="489:496" ph="..." />
+            <marker date="1520021612305" expanded="true" signature="526:533" ph="..." />
+            <marker date="1520021612305" expanded="true" signature="633:668" ph="..." />
+            <marker date="1520021612305" expanded="true" signature="768:775" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Classes/resources/assets/js/components/BatchesList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+=======
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1253,21 +2429,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Auth/resources/assets/sass/module.scss">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="187">
           <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+=======
+        <state relative-caret-position="51">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
+>>>>>>> 6986eee2278e959316c6a7921b5435af05f4d10f
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/assets/sass/_bs.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Dashboard/resources/assets/js/components/Toolbar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Auth/resources/assets/sass/module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
+>>>>>>> 6986eee2278e959316c6a7921b5435af05f4d10f
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/config/collejo.php">
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/assets/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+=======
+    <entry file="file://$PROJECT_DIR$/workbench/Collejo/App/Modules/Base/resources/assets/sass/_bs.scss">
+>>>>>>> 6986eee2278e959316c6a7921b5435af05f4d10f
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1359,6 +2565,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1061">
           <caret line="65" column="97" lean-forward="false" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="97" />
+>>>>>>> 0e6363c0a80e701721440aa53a709fdf84c1f99a
           <folding />
         </state>
       </provider>
