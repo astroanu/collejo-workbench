@@ -77,9 +77,9 @@ const fileMap = moduleDirectories.map(directory => {
                         dest: `${publicDir}/assets/${module.toLowerCase()}/css/${path.basename(file, '.scss')}.css`
 					};
 				})
-			}
+			};
 		}
-	})
+	});
 });
 
 fileMap.push([
