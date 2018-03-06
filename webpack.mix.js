@@ -147,7 +147,7 @@ fileMap.forEach(dir => {
         module.scss.forEach(file => {
 
             mix.sass(file.src, file.dest).version();
-        })
+        });
     })
 });
 
