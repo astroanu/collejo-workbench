@@ -48,7 +48,6 @@ jobs:
       - run: mkdir -p build/logs
       - run: npm install
       - run: php artisan asset:routes
-      - run: php artisan asset:trans
       - run: npm run prod
       - run:
           name: Run Laravel Server
