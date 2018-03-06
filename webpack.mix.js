@@ -8,7 +8,7 @@ const webpack = require('webpack');
  *
  * @type {[string,string]}
  */
-const module_directories = [
+const moduleDirectories = [
     'modules',
     'workbench/Collejo/App/Modules',
     'vendor/CodeBreez/collejo-app/modules'
@@ -41,7 +41,7 @@ const files = (p) => {
     if(!fs.existsSync(p)){
         return [];
     }
-    return fs.readdirSync(p).filter(f => !fs.statSync(path.join(p, f)).isDirectory() && f.charAt(0) !== '_')
+    return fs.readdirSync(p).filter(f => !fs.statSync(path.join(p, f)).isDirectory() && f.charAt(0) !== '_');
 };
 
 /**
@@ -49,7 +49,7 @@ const files = (p) => {
  *
  * @type {Array}
  */
-const fileMap = module_directories.map(directory => {
+const fileMap = moduleDirectories.map(directory => {
 
     return dirs(directory).filter(module => {
 
@@ -69,13 +69,13 @@ const fileMap = module_directories.map(directory => {
 					return {
 						src: `${jsDir}/${file}`,
                         dest: `${publicDir}/assets/${module.toLowerCase()}/js/${path.basename(file, '.js')}.js`
-					}
+					};
 				}),
 				scss: files(sassDir).map(file => {
 					return {
 						src: `${sassDir}/${file}`,
                         dest: `${publicDir}/assets/${module.toLowerCase()}/css/${path.basename(file, '.scss')}.css`
-					}
+					};
 				})
 			}
 		}
@@ -88,13 +88,13 @@ fileMap.push([
             return {
                 src: `${resourcesDir}/assets/js/${file}`,
                 dest: `${publicDir}/js/${path.basename(file, '.js')}.js`
-            }
+            };
         }),
         scss: files(`${resourcesDir}/assets/sass`).map(file => {
             return {
                 src: `${resourcesDir}/assets/sass/${file}`,
                 dest: `${publicDir}/css/${path.basename(file, '.scss')}.css`
-            }
+            };
         })
     }
 ]);
