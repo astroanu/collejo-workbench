@@ -148,7 +148,7 @@ fileMap.forEach(dir => {
 
             mix.sass(file.src, file.dest).version();
         });
-    })
+    });
 });
 
 mix.webpackConfig(webpackConfig);
