@@ -1,7 +1,6 @@
 const mix = require('laravel-mix');
 const fs = require('fs');
 const path = require('path');
-const StringReplacePlugin = require('string-replace-webpack-plugin');
 const webpack = require('webpack');
 /**
  * Paths to module directories
@@ -15,7 +14,6 @@ const moduleDirectories = [
 ];
 
 const publicDir = 'public';
-const collejoStorageDir = 'storage/collejo';
 const resourcesDir = 'resources';
 
 /**
@@ -105,25 +103,7 @@ fileMap.push([
  * @type {{module: {rules: [null]}, plugins: [null,null]}}
  */
 const webpackConfig = {
-    module: {
-        rules: [
-            {
-                test: /\.js$/,
-                loader: StringReplacePlugin.replace({
-                    replacements: [
-                        {
-                            pattern: /<<ROUTES_OBJECT>>/ig,
-                            replacement: (match, p1, offset, string) => {
-                                return fs.readFileSync(`${collejoStorageDir}/routes.json`, 'utf8');
-                            }
-                        }
-                    ]
-                })
-            }
-        ]
-    },
     plugins: [
-        new StringReplacePlugin(),
         new webpack.optimize.CommonsChunkPlugin({
             minChunks: 2,
             name: 'commons',
