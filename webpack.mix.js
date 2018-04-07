@@ -1,7 +1,6 @@
 const mix = require('laravel-mix');
 const fs = require('fs');
 const path = require('path');
-const StringReplacePlugin = require('string-replace-webpack-plugin');
 const webpack = require('webpack');
 /**
  * Paths to module directories
@@ -15,7 +14,6 @@ const moduleDirectories = [
 ];
 
 const publicDir = 'public';
-const collejoStorageDir = 'storage/collejo';
 const resourcesDir = 'resources';
 
 /**
@@ -44,6 +42,24 @@ const files = (p) => {
     return fs.readdirSync(p).filter(f => !fs.statSync(path.join(p, f)).isDirectory() && f.charAt(0) !== '_');
 };
 
+const createDirMap = (module, jsDir, sassDir) => {
+
+    return {
+        js: files(jsDir).map(file => {
+            return {
+                src: `${jsDir}/${file}`,
+                dest: `${publicDir}/assets/${module.toLowerCase()}/js/${path.basename(file, '.js')}.js`
+            };
+        }),
+        scss: files(sassDir).map(file => {
+            return {
+                src: `${sassDir}/${file}`,
+                dest: `${publicDir}/assets/${module.toLowerCase()}/css/${path.basename(file, '.scss')}.css`
+            };
+        })
+    };
+};
+
 /**
  * Filter and map the modules paths in to watchable objects
  *
@@ -64,20 +80,7 @@ const fileMap = moduleDirectories.map(directory => {
 			const jsDir = `${modulePath}/resources/assets/js`;
 			const sassDir = `${modulePath}/resources/assets/sass`;
 
-			return {
-				js: files(jsDir).map(file => {
-					return {
-						src: `${jsDir}/${file}`,
-                        dest: `${publicDir}/assets/${module.toLowerCase()}/js/${path.basename(file, '.js')}.js`
-					};
-				}),
-				scss: files(sassDir).map(file => {
-					return {
-						src: `${sassDir}/${file}`,
-                        dest: `${publicDir}/assets/${module.toLowerCase()}/css/${path.basename(file, '.scss')}.css`
-					};
-				})
-			};
+			return createDirMap(module, jsDir, sassDir);
 		}
 	});
 });
@@ -105,25 +108,7 @@ fileMap.push([
  * @type {{module: {rules: [null]}, plugins: [null,null]}}
  */
 const webpackConfig = {
-    module: {
-        rules: [
-            {
-                test: /\.js$/,
-                loader: StringReplacePlugin.replace({
-                    replacements: [
-                        {
-                            pattern: /<<ROUTES_OBJECT>>/ig,
-                            replacement: (match, p1, offset, string) => {
-                                return fs.readFileSync(`${collejoStorageDir}/routes.json`, 'utf8');
-                            }
-                        }
-                    ]
-                })
-            }
-        ]
-    },
     plugins: [
-        new StringReplacePlugin(),
         new webpack.optimize.CommonsChunkPlugin({
             minChunks: 2,
             name: 'commons',

@@ -47,7 +47,6 @@ jobs:
       - run: composer dump-autoload -o
       - run: mkdir -p build/logs
       - run: npm install
-      - run: php artisan asset:routes
       - run: npm run prod
       - run:
           name: Run Laravel Server

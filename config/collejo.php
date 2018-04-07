@@ -75,7 +75,7 @@ return [
          * however permissions for newly installed modules must be
          * installed using the CLI or they will be ignored.
          */
-        'check_module_permissions_on_module_init' => true,
+        'check_module_permissions_on_module_init' => env('CHECK_MODULE_PERMISSION_ON_MODULE_INIT', true),
 
         /*
          * Every time a search query for a list of items is run in the database
@@ -91,5 +91,6 @@ return [
         'user_permissions_cache_ttl' => env('COLLEJO_USER_PERMISSIONS_CACHE_TTL', 0),
 
         'languages_cache_ttl' => env('COLLEJO_LANG_CACHE_TTL', 0),
+        'routes_cache_ttl'    => env('COLLEJO_ROUTE_CACHE_TTL', 0),
     ],
 ];
