@@ -90,7 +90,6 @@ return [
          */
         'user_permissions_cache_ttl' => env('COLLEJO_USER_PERMISSIONS_CACHE_TTL', 0),
 
-        'languages_cache_ttl' => env('COLLEJO_LANG_CACHE_TTL', 0),
-        'routes_cache_ttl'    => env('COLLEJO_ROUTE_CACHE_TTL', 0),
+        'fe_asset_cache_ttl' => env('COLLEJO_FE_ASSETS_CACHE_TTL', 0),
     ],
 ];
