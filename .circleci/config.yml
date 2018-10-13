@@ -60,9 +60,9 @@ jobs:
 
       # run tests!
       - run:
-        name: Clover
-        command: vendor/bin/phpunit --coverage-clover build/logs/clover.xml
-        no_output_timeout: 60m
+          name: Clover
+          command: vendor/bin/phpunit --coverage-clover build/logs/clover.xml
+          no_output_timeout: 60m
       - run: vendor/bin/php-coveralls -v
       - store_artifacts:
           path: tests/Browser
