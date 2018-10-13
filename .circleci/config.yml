@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: circleci/php:7.0-node-browsers-legacy
+      - image: circleci/php:7.2.10-fpm-node-browsers-legacy
       - image: circleci/mysql:latest
 
     working_directory: ~/repo
