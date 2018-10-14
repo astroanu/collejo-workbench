@@ -68,6 +68,8 @@ return [
     |
     */
     'tweaks' => [
+
+        'reauth_ttl' => env('REAUTH_TTL', 0),
         /*
          * Collejo can check if module permissions are initialized
          * properly by checking the database during module init.
