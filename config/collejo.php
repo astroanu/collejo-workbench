@@ -69,7 +69,7 @@ return [
     */
     'tweaks' => [
 
-        /**
+        /*
          * Certain pages require the user to enter the password again.
          * This action could be remembered for the specific time.
          */
