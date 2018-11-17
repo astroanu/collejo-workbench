@@ -42,7 +42,7 @@ const files = (p) => {
     return fs.readdirSync(p).filter(f => !fs.statSync(path.join(p, f)).isDirectory() && f.charAt(0) !== '_');
 };
 
-const createDirMap = (module, jsDir, sassDir) => {
+const createDirMap = (module, jsDir, sassDir, imagesDir) => {
 
     return {
         js: files(jsDir).map(file => {
@@ -55,6 +55,12 @@ const createDirMap = (module, jsDir, sassDir) => {
             return {
                 src: `${sassDir}/${file}`,
                 dest: `${publicDir}/assets/${module.toLowerCase()}/css/${path.basename(file, '.scss')}.css`
+            };
+        }),
+        images: files(imagesDir).map(file => {
+            return {
+                src: `${imagesDir}/${file}`,
+                dest: `${publicDir}/images/${module.toLowerCase()}-${path.basename(file)}`
             };
         })
     };
@@ -79,8 +85,9 @@ const fileMap = moduleDirectories.map(directory => {
 
 			const jsDir = `${modulePath}/resources/assets/js`;
 			const sassDir = `${modulePath}/resources/assets/sass`;
+            const imagesDir = `${modulePath}/resources/images`;
 
-			return createDirMap(module, jsDir, sassDir);
+			return createDirMap(module, jsDir, sassDir, imagesDir);
 		}
 	});
 });
@@ -133,6 +140,14 @@ fileMap.forEach(dir => {
 
             mix.sass(file.src, file.dest).version();
         });
+
+        if(module.images){
+
+            module.images.forEach(file => {
+
+                mix.copy(file.src, file.dest).version();
+            });
+        }
     });
 });
 
