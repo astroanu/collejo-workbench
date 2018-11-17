@@ -69,7 +69,11 @@ return [
     */
     'tweaks' => [
 
-        'reauth_ttl' => env('REAUTH_TTL', 0),
+        /**
+         * Certain pages require the user to enter the password again.
+         * This action could be remembered for the specific time.
+         */
+        'reauth_ttl' => env('REAUTH_TTL', 3600),
         /*
          * Collejo can check if module permissions are initialized
          * properly by checking the database during module init.
