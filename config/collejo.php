@@ -99,7 +99,6 @@ return [
         'fe_asset_cache_ttl' => env('COLLEJO_FE_ASSETS_CACHE_TTL', 0),
     ],
 
-
     /*
     |--------------------------------------------------------------------------
     | Image Uploader
@@ -119,38 +118,38 @@ return [
 
         'buckets' => [
             'student_pictures' => [
-                'disk' => 'local',
-                'path' => '/student_pictures',
+                'disk'        => 'local',
+                'path'        => '/student_pictures',
                 'permissions' => ['edit_student'],
-                'mime_types' => ['image/jpeg', 'image/png'],
-                'max_size' => 1000,
-                'resize' => [
-                    'small' => [200, 200],
-                    'medium' => [600, 600]
-                ]
+                'mime_types'  => ['image/jpeg', 'image/png'],
+                'max_size'    => 1000,
+                'resize'      => [
+                    'small'  => [200, 200],
+                    'medium' => [600, 600],
+                ],
             ],
             'employee_pictures' => [
-                'disk' => 'local',
-                'path' => '/employee_pictures',
+                'disk'        => 'local',
+                'path'        => '/employee_pictures',
                 'permissions' => ['edit_employee'],
-                'mime_types' => ['image/jpeg', 'image/png'],
-                'max_size' => 1000,
-                'resize' => [
-                    'small' => [200, 200],
-                    'medium' => [600, 600]
-                ]
+                'mime_types'  => ['image/jpeg', 'image/png'],
+                'max_size'    => 1000,
+                'resize'      => [
+                    'small'  => [200, 200],
+                    'medium' => [600, 600],
+                ],
             ],
             'employee_attachments' => [
-                'disk' => 'local',
-                'path' => '/employee_attachments',
+                'disk'        => 'local',
+                'path'        => '/employee_attachments',
                 'permissions' => ['edit_employee'],
-                'mime_types' => ['image/jpeg', 'image/png', 'application/pdf'],
-                'max_size' => 10000,
-                'resize' => [
-                    'small' => [200, 200],
-                    'medium' => [600, 600]
-                ]
+                'mime_types'  => ['image/jpeg', 'image/png', 'application/pdf'],
+                'max_size'    => 10000,
+                'resize'      => [
+                    'small'  => [200, 200],
+                    'medium' => [600, 600],
+                ],
             ],
-        ]
-    ]
+        ],
+    ],
 ];
