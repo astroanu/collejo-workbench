@@ -122,7 +122,7 @@ return [
                 'path'        => '/student_pictures',
                 'permissions' => ['edit_student'],
                 'mime_types'  => ['image/jpeg', 'image/png'],
-                'max_size'    => 1000,
+                'max_size'    => 1000000,
                 'resize'      => [
                     'small'  => [200, 200],
                     'medium' => [600, 600],
@@ -133,7 +133,7 @@ return [
                 'path'        => '/employee_pictures',
                 'permissions' => ['edit_employee'],
                 'mime_types'  => ['image/jpeg', 'image/png'],
-                'max_size'    => 1000,
+                'max_size'    => 1000000,
                 'resize'      => [
                     'small'  => [200, 200],
                     'medium' => [600, 600],
@@ -144,7 +144,7 @@ return [
                 'path'        => '/employee_attachments',
                 'permissions' => ['edit_employee'],
                 'mime_types'  => ['image/jpeg', 'image/png', 'application/pdf'],
-                'max_size'    => 10000,
+                'max_size'    => 1000000,
                 'resize'      => [
                     'small'  => [200, 200],
                     'medium' => [600, 600],
