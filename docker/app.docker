@@ -1,0 +1,14 @@
+FROM php:7.1.19-fpm
+
+RUN apt-get update && apt-get install -y libmcrypt-dev mysql-client zlib1g-dev libpng-dev procps
+RUN docker-php-ext-install pdo_mysql mcrypt bcmath zip gd
+
+#RUN pecl install mcrypt-1.0.1
+#RUN docker-php-ext-enable mcrypt
+
+RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
+RUN apt-get install -y nodejs
+
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+
+WORKDIR /var/www
