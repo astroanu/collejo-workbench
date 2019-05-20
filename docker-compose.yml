@@ -7,7 +7,7 @@ services:
       - "8080:80"
     volumes:
       - .:/var/www
-      - ./docker/vhost.conf:/etc/nginx/conf.d/default.conf
+      - ./Docker/vhost.conf:/etc/nginx/conf.d/default.conf
     networks:
       - internal
       - default
@@ -20,19 +20,24 @@ services:
       MYSQL_ROOT_PASSWORD: secret
       MYSQL_ROOT_HOST: '%'
     volumes:
-      - ./docker/dbdata:/var/lib/mysql/
-      - ./docker/my.cnf:/etc/mysql/my.cnf
+      - ./Docker/dbdata:/var/lib/mysql/
+      - ./Docker/my.cnf:/etc/mysql/my.cnf
     networks:
       - internal
   php:
     build:
       context: .
-      dockerfile: docker/app.docker
+      dockerfile: Docker/app.docker
     volumes:
       - .:/var/www
     networks:
       - internal
-
+  test:
+    build:
+      context: .
+      dockerfile: Docker/test.docker
+    volumes:
+      - .:/var/www
 networks:
   internal:
     driver: bridge

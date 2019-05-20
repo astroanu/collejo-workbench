@@ -1,0 +1,13 @@
+FROM php:7.1.19-fpm
+
+RUN apt-get update && apt-get install -y libmcrypt-dev mysql-client zlib1g-dev libpng-dev procps
+RUN docker-php-ext-install pdo_mysql mcrypt bcmath zip gd
+
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+
+RUN pecl install xdebug-2.6.0 \
+	&& docker-php-ext-enable xdebug
+
+WORKDIR /var/www
+
+CMD bash -c "./vendor/bin/phpunit --testdox"
